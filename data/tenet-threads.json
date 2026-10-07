@@ -1,0 +1,71 @@
+{
+  "note": "Each character's arrow through the film. direction is how they move relative to world time during the segment: forward or inverted. status is stated, inferred or contested per research/CHECKS.md. from and to are event ids in events.json, in watch order.",
+  "threads": [
+    {
+      "id": "protagonist",
+      "label": "The Protagonist",
+      "colour_note": "Red until the Tallinn turnstile, blue back to Oslo, red again from the Oslo turnstile, blue on the ship, red at Stalsk-12.",
+      "segments": [
+        { "from": "opera", "to": "tallinn-turnstile", "direction": "forward", "how": "His own life, start to the turnstile.", "status": "stated" },
+        { "from": "tallinn-turnstile", "to": "oslo-second-pass", "direction": "inverted", "how": "Through the Tallinn freeport turnstile to save Kat. Back through the chase, then about a week in a container to Oslo.", "status": "stated" },
+        { "from": "oslo-second-pass", "to": "ship", "direction": "forward", "how": "Through the Oslo freeport turnstile, past his own first pass. Neil chases this version of him out of the building.", "status": "stated" },
+        { "from": "ship", "to": "stalsk-pincer", "direction": "inverted", "how": "A Tenet ship carries them back to the 14th. Where he re-inverts to join the red team is not shown.", "status": "inferred" },
+        { "from": "stalsk-pincer", "to": "london-coda", "direction": "forward", "how": "Red team at Stalsk-12, the hill, then London on an unstated day.", "status": "stated" }
+      ]
+    },
+    {
+      "id": "neil",
+      "label": "Neil",
+      "colour_note": "Blue before the film starts, red beside the Protagonist, then blue again for the one job only he can do.",
+      "segments": [
+        { "from": "opera", "to": "opera", "direction": "forward", "how": "Already there, masked, with the orange trinket on his bag. Whether he is inverted at that moment is contested.", "status": "contested" },
+        { "from": "mumbai", "to": "tallinn-turnstile", "direction": "forward", "how": "Joins in Mumbai. He has known the Protagonist for years; the Protagonist has just met him.", "status": "stated" },
+        { "from": "tallinn-turnstile", "to": "oslo-second-pass", "direction": "inverted", "how": "Inverts with the Protagonist and Kat.", "status": "stated" },
+        { "from": "oslo-second-pass", "to": "ship", "direction": "forward", "how": "Follows the Protagonist through the Oslo turnstile.", "status": "stated" },
+        { "from": "ship", "to": "stalsk-pincer", "direction": "inverted", "how": "The ship back to the 14th.", "status": "inferred" },
+        { "from": "stalsk-pincer", "to": "the-hill", "direction": "forward", "how": "Red team with the Protagonist, then the hill.", "status": "stated" },
+        { "from": "the-hill", "to": "hypocentre", "direction": "inverted", "how": "Leaves the hill to invert and go back into the hypocentre, where an inverted soldier with the orange trinket unlocks the gate and takes the bullet. That soldier is Neil.", "status": "inferred" }
+      ]
+    },
+    {
+      "id": "kat",
+      "label": "Kat",
+      "colour_note": "Red, then blue to heal, red again, blue on the ship, and red on the yacht as her own double.",
+      "segments": [
+        { "from": "vietnam-original", "to": "tallinn-freeport", "direction": "forward", "how": "Her own life, including the day on the yacht when she saw a woman dive.", "status": "stated" },
+        { "from": "tallinn-turnstile", "to": "oslo-second-pass", "direction": "inverted", "how": "Wheeled through the turnstile with the inverted bullet in her. Days inverted to heal.", "status": "stated" },
+        { "from": "oslo-second-pass", "to": "ship", "direction": "forward", "how": "Through the Oslo turnstile with Neil.", "status": "stated" },
+        { "from": "ship", "to": "vietnam-return", "direction": "inverted", "how": "The ship back to the 14th.", "status": "inferred" },
+        { "from": "vietnam-return", "to": "london-coda", "direction": "forward", "how": "Back on the yacht as her past self's double. She shoots Sator and dives. Her past self sees the dive.", "status": "stated" }
+      ]
+    },
+    {
+      "id": "sator",
+      "label": "Andrei Sator",
+      "colour_note": "Red in Italy and at the heist; blue on the highway; red at the freeport; blue back to his happiest day.",
+      "segments": [
+        { "from": "amalfi", "to": "tallinn-highway", "direction": "forward", "how": "The yacht, the deal, the heist.", "status": "stated" },
+        { "from": "tallinn-highway", "to": "tallinn-freeport", "direction": "inverted", "how": "An inverted Sator ambushes the highway and holds Kat. When he inverted is contested.", "status": "contested" },
+        { "from": "tallinn-freeport", "to": "vietnam-return", "direction": "inverted", "how": "After shooting Kat he escapes into the turnstile and goes back to the 14th, to the yacht, to die on the day he was happiest.", "status": "inferred" }
+      ]
+    },
+    {
+      "id": "priya",
+      "label": "Priya Singh",
+      "colour_note": "Red the whole way. She never inverts.",
+      "segments": [
+        { "from": "mumbai", "to": "london-coda", "direction": "forward", "how": "Mumbai twice, Oslo, London.", "status": "stated" }
+      ]
+    },
+    {
+      "id": "ives",
+      "label": "Ives",
+      "colour_note": "Red at Tallinn, blue on the ship, red at the hypocentre.",
+      "segments": [
+        { "from": "tallinn-freeport", "to": "ship", "direction": "forward", "how": "Arrives with the Tenet troops.", "status": "stated" },
+        { "from": "ship", "to": "stalsk-pincer", "direction": "inverted", "how": "The ship back to the 14th.", "status": "inferred" },
+        { "from": "stalsk-pincer", "to": "the-hill", "direction": "forward", "how": "Red team, the hypocentre, the hill.", "status": "stated" }
+      ]
+    }
+  ]
+}

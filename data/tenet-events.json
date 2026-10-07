@@ -1,0 +1,907 @@
+{
+  "note": "Every event in Tenet, in watch order (the film as cut) with a world order (when it happens). world_time.day is set only where the film fixes it: the 14th is D0. Everything else is unstated and the page says so. Sources are codes from research/SOURCES.md; A1 numbers are Wikipedia's plot items as fetched on 7 Oct 2026. world_order is a unique rank; an event that spans time (the ship, the week in the container) is placed at its earliest world moment and says so in its note.",
+  "events": [
+    {
+      "id": "opera",
+      "title": "The siege at the opera",
+      "watch_order": 1,
+      "world_order": 1,
+      "world_time": {
+        "day": 0,
+        "anchor": "the 14th",
+        "status": "stated",
+        "note": "The one day the film names."
+      },
+      "location": "Kyiv opera house",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "neil",
+          "direction": "contested",
+          "instance": 1
+        }
+      ],
+      "what_happens": "A CIA team goes into a staged terrorist siege to pull out an asset. The Protagonist is compromised. A masked man with an orange trinket on his bag saves him, and a bullet in the seat beside him un-fires. His team is caught and tortured.",
+      "why_it_matters": "It is the first day of the film and, as it turns out, the last. The masked man is Neil. The bullet is the first inverted object we see.",
+      "certainty": "stated",
+      "image": "opera-siege",
+      "sources": [
+        "A1 plot 1-2",
+        "B1"
+      ],
+      "inverted_side": "A bullet in the seat beside him leaves the leather and returns to a gun. The man in the mask with the orange trinket moves through the siege as if he has already seen it."
+    },
+    {
+      "id": "the-test",
+      "title": "The pill",
+      "watch_order": 2,
+      "world_order": 9,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "Soon after the opera; the film gives no day."
+      },
+      "location": "Unknown",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "Under torture he takes the suicide pill. It is a fake. He wakes to be told he was the only one who passed.",
+      "why_it_matters": "Tenet recruits by seeing who would die for the mission. He did.",
+      "certainty": "stated",
+      "image": "pill",
+      "sources": [
+        "A1 plot 3"
+      ],
+      "inverted_side": "Nothing here is inverted. It is the last scene in the film where that is true."
+    },
+    {
+      "id": "briefing",
+      "title": "The word, and the bullet that goes backwards",
+      "watch_order": 3,
+      "world_order": 10,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": ""
+      },
+      "location": "A wind farm, then a laboratory",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "He is given one word, Tenet, and a hand gesture. A scientist, Barbara, shows him bullets whose entropy runs backwards: drop one and it jumps back to his hand. Something in the future is sending them.",
+      "why_it_matters": "The rules of the film are set here, in a single room, and nothing later breaks them.",
+      "certainty": "stated",
+      "image": "lab-barbara",
+      "sources": [
+        "A1 plot 4"
+      ],
+      "inverted_side": "Barbara drops the round and it jumps back to his hand. It was fired by someone who has not fired it yet."
+    },
+    {
+      "id": "mumbai",
+      "title": "Mumbai: Neil and Priya",
+      "watch_order": 4,
+      "world_order": 11,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": ""
+      },
+      "location": "Mumbai",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "neil",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "priya",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "He traces the inverted rounds to an arms dealer, Priya Singh, with a new partner, Neil. Priya says the rounds come through a Russian oligarch, Andrei Sator, who can talk to the future.",
+      "why_it_matters": "The Protagonist has just met Neil. Neil has known him for years.",
+      "certainty": "stated",
+      "image": "mumbai-neil-protagonist",
+      "sources": [
+        "A1 plot 5-6",
+        "B4"
+      ],
+      "inverted_side": "The rounds Priya has been trading were fired in a future that has not happened yet. Someone there is sending them back."
+    },
+    {
+      "id": "london",
+      "title": "London: Kat and the forged Goya",
+      "watch_order": 5,
+      "world_order": 12,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": ""
+      },
+      "location": "London",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "Sir Michael Crosby points him at Sator's estranged wife, Kat, an art appraiser. She once authenticated a Goya forged by a man called Arepo. Sator holds the forgery over her and keeps their son from her.",
+      "why_it_matters": "The forgery sits in a freeport in Oslo. Stealing it is the way in.",
+      "certainty": "stated",
+      "image": "london-crosby",
+      "sources": [
+        "A1 plot 7"
+      ],
+      "inverted_side": "The forgery sits in a vault in Oslo. So does a machine nobody in London has heard of."
+    },
+    {
+      "id": "vietnam-original",
+      "title": "Kat's story: the woman who dived",
+      "watch_order": 6,
+      "world_order": 2,
+      "world_time": {
+        "day": 0,
+        "anchor": "the 14th",
+        "status": "stated",
+        "note": "The same day as the opera. Kat is telling it later."
+      },
+      "location": "Sator's yacht, Vietnam",
+      "threads": [
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "sator",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "Kat tells him about a day on the yacht. Coming back with her son, she saw a woman dive from the deck and envied her freedom. Sator was happy that day.",
+      "why_it_matters": "The woman was Kat. We will watch her become her at the end.",
+      "certainty": "stated",
+      "image": "yacht",
+      "sources": [
+        "A1 plot sentence on Vietnam",
+        "A1 plot 21-22"
+      ],
+      "inverted_side": "The woman who dives from the deck has come back to this day from the end of the film. She is Kat, inverted and re-inverted, and this is the last thing she will do in the story."
+    },
+    {
+      "id": "oslo-freeport",
+      "title": "The Oslo freeport: a plane, and two masked men",
+      "watch_order": 7,
+      "world_order": 13,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "About a week before Tallinn, by Neil's later line."
+      },
+      "location": "Oslo airport freeport",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "neil",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "protagonist",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        }
+      ],
+      "what_happens": "They crash a cargo plane into the freeport to open its vault. Inside is a machine with two doors, and two masked men come out of it in opposite directions. The Protagonist fights one. Neil chases the other and lets him go.",
+      "why_it_matters": "Both men are the Protagonist, a week from now. He is fighting himself and does not know it.",
+      "certainty": "stated",
+      "image": "freeport-plane-fire",
+      "sources": [
+        "A1 plot 8-9",
+        "A1 plot 17"
+      ],
+      "inverted_side": "One of the two masked men is the Protagonist, inverted, a week from now, walking into the vault as the plane hits it from the other direction."
+    },
+    {
+      "id": "mumbai-turnstile",
+      "title": "What the machine was",
+      "watch_order": 8,
+      "world_order": 18,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": ""
+      },
+      "location": "Mumbai",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "priya",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "Priya names it: a turnstile, which inverts whatever passes through. The two men were one man. She also admits Sator set up the opera to catch the Protagonist's team, and that a piece of plutonium is about to move through Tallinn.",
+      "why_it_matters": "The film says out loud what it has just shown. From here the audience knows more than the hero.",
+      "certainty": "stated",
+      "image": "mumbai-skyline",
+      "sources": [
+        "A1 plot 9-10"
+      ],
+      "inverted_side": "What Priya says out loud: the second masked man was the first one, after the machine. The Protagonist has already fought his future self and lost."
+    },
+    {
+      "id": "amalfi",
+      "title": "The yacht",
+      "watch_order": 9,
+      "world_order": 19,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": ""
+      },
+      "location": "The Amalfi coast",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "sator",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "He gets close to Sator through Kat, on the yacht and in a catamaran race. He offers Sator the plutonium in exchange for Kat's freedom. Sator agrees to the heist and trusts no one.",
+      "why_it_matters": "The deal that puts them all on the Tallinn highway.",
+      "certainty": "stated",
+      "image": "amalfi-balcony",
+      "sources": [
+        "A1 plot 11"
+      ],
+      "inverted_side": "Sator talks to the future through dead drops. The future talks back. Everything he owns came that way."
+    },
+    {
+      "id": "tallinn-highway",
+      "title": "The highway heist, and a car driving backwards",
+      "watch_order": 10,
+      "world_order": 20,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "About a week after Oslo."
+      },
+      "location": "Tallinn",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "neil",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "sator",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "protagonist",
+          "direction": "inverted",
+          "instance": 2
+        }
+      ],
+      "what_happens": "They take the case from an armoured convoy at speed. A car joins the chase travelling backwards. An inverted Sator, with Kat as hostage, demands the case. The Protagonist hides it and the case that reaches Sator is empty.",
+      "why_it_matters": "The backwards car is the Protagonist too, from later tonight. The case holds the last piece of something, not plutonium.",
+      "certainty": "stated",
+      "image": "tallinn-highway-neil",
+      "sources": [
+        "A1 plot 11-13"
+      ],
+      "inverted_side": "The car driving backwards into the chase is the Protagonist, later tonight, trying to get the case back. He will not manage it."
+    },
+    {
+      "id": "tallinn-freeport",
+      "title": "Kat is shot with an inverted bullet",
+      "watch_order": 11,
+      "world_order": 22,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "Same day as the highway."
+      },
+      "location": "Tallinn freeport, the turnstile room",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "sator",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "ives",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "Caught, they are taken to a room split by glass, red on one side and blue on the other. Through the glass an inverted Sator shoots Kat with an inverted round. Tenet troops under Ives storm the building. Sator steps into the turnstile and is gone.",
+      "why_it_matters": "An inverted bullet in a forward body is fatal unless the body is inverted too.",
+      "certainty": "stated",
+      "image": "turnstile-glass",
+      "sources": [
+        "A1 plot 13-14"
+      ],
+      "inverted_side": "On the blue side of the glass, Sator is already inverted. He has come back to this room from later in the evening, and the bullet he fires runs the wrong way."
+    },
+    {
+      "id": "tallinn-turnstile",
+      "title": "Through the turnstile",
+      "watch_order": 12,
+      "world_order": 23,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "The pivot. From here the Protagonist moves backwards through everything you have seen."
+      },
+      "location": "Tallinn freeport, the turnstile",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "neil",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "kat",
+          "direction": "inverted",
+          "instance": 2
+        }
+      ],
+      "what_happens": "To save Kat they invert all three of them. On the far side the world runs backwards: birds fly in reverse, and the air has to be carried.",
+      "why_it_matters": "The centre of the palindrome. The film's second half is its first half, reversed.",
+      "certainty": "stated",
+      "image": "mask",
+      "sources": [
+        "A1 plot 15",
+        "B1",
+        "B2"
+      ],
+      "inverted_side": "From the far door the world runs backwards. Birds fly in reverse. The air has to be carried."
+    },
+    {
+      "id": "tallinn-reversed",
+      "title": "The chase, from the other side",
+      "watch_order": 13,
+      "world_order": 21,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "The same minutes as the highway heist, lived backwards."
+      },
+      "location": "Tallinn, the highway",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "sator",
+          "direction": "inverted",
+          "instance": 2
+        }
+      ],
+      "what_happens": "Inverted, he drives back into the chase to retrieve the hidden case. He is the backwards car. Sator overpowers him and takes it. Left in a car that explodes, he freezes instead of burning, and Neil pulls him out.",
+      "why_it_matters": "The heist is shown twice, once from each direction, and both are the same event.",
+      "certainty": "stated",
+      "image": "tallinn-cars",
+      "sources": [
+        "A1 plot 16",
+        "B3"
+      ],
+      "inverted_side": "He is the backwards car. He drives into a chase he has already lost, to lose it again."
+    },
+    {
+      "id": "the-week-back",
+      "title": "A week in a box",
+      "watch_order": 14,
+      "world_order": 17,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "Spans from Oslo day to Tallinn day, lived backwards. The dialogue says about a week; Kat needs days inverted to heal."
+      },
+      "location": "A shipping container, Tallinn to Oslo",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "neil",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "kat",
+          "direction": "inverted",
+          "instance": 2
+        }
+      ],
+      "what_happens": "The nearest turnstile that can put them forward again is the one at the Oslo freeport, about a week earlier. They ride back through the week in a container while Kat heals.",
+      "why_it_matters": "The only stretch of the film where nothing happens, and the only one with a stated length.",
+      "certainty": "stated",
+      "image": null,
+      "sources": [
+        "B2"
+      ],
+      "inverted_side": "A week lived in reverse in a steel box, towards a day they have already had."
+    },
+    {
+      "id": "oslo-second-pass",
+      "title": "Oslo again: he fights himself",
+      "watch_order": 15,
+      "world_order": 14,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "The day of the plane crash, seen for the second time."
+      },
+      "location": "Oslo airport freeport",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "neil",
+          "direction": "inverted",
+          "instance": 2
+        },
+        {
+          "who": "kat",
+          "direction": "inverted",
+          "instance": 2
+        }
+      ],
+      "what_happens": "Masked and inverted, he walks into the vault as the plane hits it, and the man who attacks him is his own earlier self. He gets through the turnstile. Forward again, he runs, and the man chasing him is Neil, who recognises him and lets him go.",
+      "why_it_matters": "The fight from the first visit, resolved. Both masked men were him.",
+      "certainty": "stated",
+      "image": "freeport-plane",
+      "sources": [
+        "A1 plot 17",
+        "A1 plot 8"
+      ],
+      "inverted_side": "This is the fight from the first visit, from inside the mask. The man attacking him is himself, a week younger."
+    },
+    {
+      "id": "oslo-priya",
+      "title": "Nine pieces",
+      "watch_order": 16,
+      "world_order": 15,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "Same day as the second pass, forward again."
+      },
+      "location": "Oslo",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "priya",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "Priya tells him what the pieces are: the Algorithm, a device from the future that can invert the entropy of the whole world, broken into nine parts and hidden in the past. Sator now has all nine.",
+      "why_it_matters": "The stakes stop being a Goya and become everything that has ever happened.",
+      "certainty": "stated",
+      "image": "oslo-opera-exterior",
+      "sources": [
+        "A1 plot 18"
+      ],
+      "inverted_side": "The Algorithm was built in the future and sent back in pieces so that nobody could use it. Its inventor then killed herself so nobody could build it again."
+    },
+    {
+      "id": "the-plan",
+      "title": "The 14th, Stalsk-12, and a dead man's switch",
+      "watch_order": 17,
+      "world_order": 16,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": ""
+      },
+      "location": "Oslo",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "neil",
+          "direction": "forward",
+          "instance": 3
+        }
+      ],
+      "what_happens": "The pieces are to be buried under a nuclear blast in Stalsk-12, Sator's closed home town, on the 14th: the day of the opera. Sator is dying, and his death will trigger it.",
+      "why_it_matters": "The film has told us when it ends. We were there at the start.",
+      "certainty": "stated",
+      "image": "sator-phone",
+      "sources": [
+        "A1 plot 19-21"
+      ],
+      "inverted_side": "Sator means to die on the day he was happiest, and to take the past with him. The future wants that too."
+    },
+    {
+      "id": "ship",
+      "title": "The ship back to the 14th",
+      "watch_order": 18,
+      "world_order": 8,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "Runs backwards from Oslo day to the 14th. Placed here because its earliest world moment is the 14th; its length is not stated."
+      },
+      "location": "A Tenet ship",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "inverted",
+          "instance": 3
+        },
+        {
+          "who": "neil",
+          "direction": "inverted",
+          "instance": 3
+        },
+        {
+          "who": "kat",
+          "direction": "inverted",
+          "instance": 3
+        },
+        {
+          "who": "ives",
+          "direction": "inverted",
+          "instance": 1
+        }
+      ],
+      "what_happens": "They invert again and sail back to the 14th. Kat tells them Sator has cancer and would rather end the world than leave it. The plan: Kat keeps him alive on the yacht in Vietnam while the troops take the Algorithm.",
+      "why_it_matters": "Everything in the first half happened after this. They are now earlier than the film's first scene.",
+      "certainty": "stated",
+      "image": "catamaran",
+      "sources": [
+        "A1 plot 20-22"
+      ],
+      "inverted_side": "Every day the ship sails is a day earlier. By the time it arrives, the film's first scene has not happened yet."
+    },
+    {
+      "id": "vietnam-return",
+      "title": "Kat on the yacht, as herself",
+      "watch_order": 19,
+      "world_order": 3,
+      "world_time": {
+        "day": 0,
+        "anchor": "the 14th",
+        "status": "stated",
+        "note": "The day of the opera."
+      },
+      "location": "Sator's yacht, Vietnam",
+      "threads": [
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "sator",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "Kat takes her own place on the yacht while her past self is ashore with Max. Sator, who has also come back to this day, tells her it is the last thing he wants to see.",
+      "why_it_matters": "Two Kats and two Sators on one boat, and only one of each knows it.",
+      "certainty": "stated",
+      "image": "sator-max",
+      "sources": [
+        "A1 plot 22",
+        "A1 plot 21"
+      ],
+      "inverted_side": "Sator has come back to this day inverted, to die on it. Kat has come back to it to stop him dying too soon."
+    },
+    {
+      "id": "stalsk-pincer",
+      "title": "Ten minutes: the temporal pincer",
+      "watch_order": 20,
+      "world_order": 4,
+      "world_time": {
+        "day": 0,
+        "anchor": "the 14th",
+        "status": "stated",
+        "note": "The same ten minutes, attacked from both ends."
+      },
+      "location": "Stalsk-12",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "ives",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "neil",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "neil",
+          "direction": "inverted",
+          "instance": 4
+        }
+      ],
+      "what_happens": "Red team goes in forward from minute zero. Blue team goes in inverted from minute ten. Each has the other's whole battle as intelligence. A building is blown at the halfway point, from both ends at once. Under cover of it, the Protagonist and Ives go for the hypocentre.",
+      "why_it_matters": "The film's set-piece and its thesis in one: a fight you can only win by knowing how it ended.",
+      "certainty": "stated",
+      "image": "watch",
+      "sources": [
+        "A1 plot 23",
+        "A1 ref 184",
+        "B3",
+        "B1"
+      ],
+      "inverted_side": "Blue team starts at minute ten and fights towards minute zero. They have already seen red team's whole battle. Red team will get blue's."
+    },
+    {
+      "id": "hypocentre",
+      "title": "The locked gate",
+      "watch_order": 21,
+      "world_order": 5,
+      "world_time": {
+        "day": 0,
+        "anchor": "the 14th",
+        "status": "stated",
+        "note": ""
+      },
+      "location": "The hypocentre, Stalsk-12",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "ives",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "neil",
+          "direction": "inverted",
+          "instance": 4
+        }
+      ],
+      "what_happens": "Volkov traps them behind a gate with the Algorithm in reach. On the phone from the yacht, Sator explains why the future wants the past dead. A soldier lying dead behind the gate, orange trinket on his bag, rises, takes the bullet meant for the Protagonist, and unlocks the gate. They get out with the Algorithm.",
+      "why_it_matters": "The dead man was Neil, inverted, doing the one thing only he could do. We have already seen his bag.",
+      "certainty": "stated",
+      "image": "neil-stalsk",
+      "sources": [
+        "A1 plot 24-25",
+        "B4"
+      ],
+      "inverted_side": "Behind the gate a dead soldier with an orange trinket on his bag gets up, takes the bullet, and unlocks it. He is Neil, inverted, and this is the last thing he does."
+    },
+    {
+      "id": "detonation",
+      "title": "The blast, and Kat's dive",
+      "watch_order": 22,
+      "world_order": 6,
+      "world_time": {
+        "day": 0,
+        "anchor": "the 14th",
+        "status": "stated",
+        "note": ""
+      },
+      "location": "Stalsk-12 and the yacht",
+      "threads": [
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "sator",
+          "direction": "forward",
+          "instance": 3
+        }
+      ],
+      "what_happens": "The hypocentre goes up with nothing in it. On the yacht Kat shoots Sator a few seconds early, and dives. Her past self, coming back with Max, sees a woman dive from the deck.",
+      "why_it_matters": "The film's first mystery answered by its last shot of her.",
+      "certainty": "stated",
+      "image": "kat-gun",
+      "sources": [
+        "A1 plot 26",
+        "A1 plot sentence on Vietnam"
+      ],
+      "inverted_side": "From Sator's side this is where he came to die. From Kat's side it is the dive her past self saw."
+    },
+    {
+      "id": "the-hill",
+      "title": "The string on the bag",
+      "watch_order": 23,
+      "world_order": 7,
+      "world_time": {
+        "day": 0,
+        "anchor": "the 14th",
+        "status": "stated",
+        "note": ""
+      },
+      "location": "A hill above Stalsk-12",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "neil",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "ives",
+          "direction": "forward",
+          "instance": 1
+        }
+      ],
+      "what_happens": "They split the Algorithm three ways. The Protagonist sees the orange trinket on Neil's bag. Neil says the Protagonist recruited him, years ago for Neil and years from now for the Protagonist, and that he has to go back in to open the gate.",
+      "why_it_matters": "The friendship ran backwards. Neil has known how it ends since before it began.",
+      "certainty": "stated",
+      "image": "neil-stalsk-b",
+      "sources": [
+        "A1 plot 27-29",
+        "B4"
+      ],
+      "inverted_side": "Neil walks away to invert again and go back into the hypocentre. He already knows he does not come out."
+    },
+    {
+      "id": "london-coda",
+      "title": "London: the founder",
+      "watch_order": 24,
+      "world_order": 24,
+      "world_time": {
+        "day": null,
+        "anchor": "the 14th",
+        "status": "unstated",
+        "note": "After the 14th. Priya must still be alive for Mumbai and Oslo, so it is after those in world time too; the film gives no day."
+      },
+      "location": "London",
+      "threads": [
+        {
+          "who": "protagonist",
+          "direction": "forward",
+          "instance": 3
+        },
+        {
+          "who": "priya",
+          "direction": "forward",
+          "instance": 1
+        },
+        {
+          "who": "kat",
+          "direction": "forward",
+          "instance": 3
+        }
+      ],
+      "what_happens": "Priya means to kill Kat to keep the secret. The Protagonist gets there first, and tells her he was always the one running this.",
+      "why_it_matters": "Tenet was founded by its own recruit. The word is a palindrome because the story is.",
+      "certainty": "stated",
+      "image": "london-street",
+      "sources": [
+        "A1 plot 30-31"
+      ],
+      "inverted_side": "The Protagonist who walks into this scene is the only one who knows the whole story, and he is about to spend years setting it up."
+    }
+  ]
+}
