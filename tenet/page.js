@@ -81,7 +81,7 @@
     }
 
     var state = (modeWorld ? 'world' : 'watch') + '|' + actName.toLowerCase().replace(/\s+/g, '-') + '|' + n + '|' + dividerPct + '|' + worldMin;
-    if (state !== lastState) { divider.setAttribute('data-sc-verify-state', state); lastState = state; }
+    if (state !== lastState && divider.hasAttribute('data-sc-verify-state')) { divider.setAttribute('data-sc-verify-state', state); lastState = state; }
   }
 
   var ticking = false;
