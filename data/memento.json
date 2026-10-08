@@ -1,0 +1,374 @@
+{
+  "slug": "memento",
+  "title": "Memento",
+  "year": 2000,
+  "one_line": "A man who cannot make new memories hunts his wife's killer, and the film makes you share his confusion by telling the hunt backwards.",
+  "facts": {
+    "release": {
+      "value": "2000-09-05 (Italy, Venice Film Festival premiere); 2001-03-16 (United States)",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    "runtime_min": {
+      "value": 113,
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan (screenplay)",
+        "Jonathan Nolan (short story \"Memento Mori\")"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    "dp": {
+      "value": "Wally Pfister",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    "editor": {
+      "value": "Dody Dorn",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    "composer": {
+      "value": "David Julyan",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    "budget_usd": {
+      "value": 9000000,
+      "note": "Box Office Mojo lists $9m. Wikipedia's infobox gives a range of $5-9m and its body mentions an earlier $4.5m figure from when Newmarket optioned the script. Sources disagree.",
+      "source": "https://www.boxofficemojo.com/title/tt0209144/"
+    },
+    "gross_usd": {
+      "value": 43262033,
+      "as_of": "2026-10-08",
+      "source": "https://www.boxofficemojo.com/title/tt0209144/"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Guy Pearce",
+          "role": "Leonard Shelby"
+        },
+        {
+          "name": "Carrie-Anne Moss",
+          "role": "Natalie"
+        },
+        {
+          "name": "Joe Pantoliano",
+          "role": "John Edward \"Teddy\" Gammell"
+        },
+        {
+          "name": "Mark Boone Junior",
+          "role": "Burt"
+        },
+        {
+          "name": "Russ Fega",
+          "role": "Waiter"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    }
+  },
+  "time_structure": {
+    "kind": "interleaved-strands",
+    "summary": "Two strands are cut together. The colour scenes run in reverse order, each overlapping briefly with the one before it in the film, so the audience meets effects before causes. The black-and-white scenes run forwards, and the two strands join at the very end when a Polaroid develops and the picture turns from black and white to colour.",
+    "sketch": {
+      "nesting": "interleaved",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Colour scenes (the hunt, told in reverse order)",
+          "direction": "backward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "unverified: roughly a couple of days, shown last scene first",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "Black-and-white scenes (Leonard in a motel room, told forwards)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "unverified: roughly one night",
+          "style": "mono"
+        }
+      ],
+      "joins": [
+        {
+          "from": "b",
+          "to": "a",
+          "kind": "converge",
+          "at": 1.0,
+          "label": "A Polaroid develops and black and white turns to colour"
+        }
+      ]
+    },
+    "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+  },
+  "themes": [
+    {
+      "id": "memory",
+      "name": "Memory",
+      "scene": "Leonard cannot hold onto anything new, so he relies on Polaroids, scribbled notes and tattoos as his memory. The film keeps showing that these records are only as trustworthy as whoever made them, and that he is the one who made them.",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+      "new": false
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "scene": "The opening plays a Polaroid un-developing, a gunshot undone and a body restored. From there the story moves away from its own ending, putting the audience in Leonard's position of arriving mid-scene with no idea how it got there.",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+      "new": false
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "Near the end Teddy tells Leonard what has really happened. Leonard chooses not to keep that knowledge and writes himself a note that sends his future self after Teddy. He deceives himself on purpose, so the hunt can go on.",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+      "new": false
+    },
+    {
+      "id": "grief",
+      "name": "Grief",
+      "scene": "Leonard's purpose is built on the death of his wife. Because he cannot move forward, his mourning has no end, and his revenge can be restarted again and again without the hunt ever concluding.",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+      "new": false
+    },
+    {
+      "id": "guilt",
+      "name": "Guilt",
+      "scene": "The film slowly suggests Leonard played a part in his wife's death. Choosing to forget that and keep hunting someone else is his way of avoiding it.",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan says the film grew out of a street fight he saw in Camden as a student, a moment he remembers emotionally. He and his brother Jonathan disagree about whether Jonathan was there, which Nolan ties to the film's subject of unreliable memory.",
+      "who": "Nolan",
+      "quote": "It was one of those moments that you really remember emotionally.",
+      "source": "https://faroutmagazine.co.uk/camden-street-brawl-that-inspired-memento/"
+    },
+    {
+      "claim": "Nolan credits Graham Swift's 1983 novel Waterland with sparking his interest in experimenting with narrative form.",
+      "who": "Nolan",
+      "quote": "",
+      "source": "https://www.mentalfloss.com/entertainment/movies/15-things-you-might-not-know-about-memento"
+    },
+    {
+      "claim": "Jonathan Nolan wrote the short story \"Memento Mori\" that the film is based on; the screenplay is Christopher's. The search result giving a cross-country road-trip origin came via Wikipedia and was not fetched tonight, so treat it as unverified.",
+      "who": "Jonathan Nolan",
+      "quote": "",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    {
+      "claim": "The Film Stage says the production drew on Double Indemnity, aiming for a realistic design, and that Nolan sketches the subjective and objective story threads on a chalkboard in a conversation about the film.",
+      "who": "Nolan",
+      "quote": "",
+      "source": "https://thefilmstage.com/spend-an-hour-exploring-memento-with-christopher-nolan"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Wally Pfister",
+      "role": "Cinematographer",
+      "also": [
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises"
+      ]
+    },
+    {
+      "name": "Dody Dorn",
+      "role": "Editor",
+      "also": [
+        "insomnia"
+      ]
+    },
+    {
+      "name": "David Julyan",
+      "role": "Composer",
+      "also": [
+        "following",
+        "insomnia",
+        "the-prestige"
+      ]
+    },
+    {
+      "name": "Jonathan Nolan",
+      "role": "Author of the source short story",
+      "also": [
+        "the-prestige",
+        "the-dark-knight",
+        "the-dark-knight-rises",
+        "interstellar"
+      ]
+    },
+    {
+      "name": "Mark Boone Junior",
+      "role": "Actor (Burt)",
+      "also": [
+        "batman-begins",
+        "the-dark-knight"
+      ]
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 83,
+        "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+      },
+      "rt": {
+        "value": 93,
+        "count": 184,
+        "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+      },
+      "summary": "Critics rated it very highly, with Metacritic reporting universal acclaim, and praised how the reversed structure mirrored the hero's condition. A small independent release, it grew into a wider hit. Wikipedia gives no as-of date for the aggregate scores."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-08",
+        "source": "https://letterboxd.com/film/memento/"
+      },
+      "summary": "Viewers still talk about it as a puzzle-box landmark; Letterboxd reviewers praise the structure and the feeling of being as confused as Leonard, and the page shows about 58,000 fans. The average rating was not returned in the fetch or by search (unverified)."
+    }
+  },
+  "missed": [
+    {
+      "point": "The colour scenes overlap slightly at their joins, so the audience can tell they are running in reverse. The black-and-white and colour strands then meet exactly once, when a developing Polaroid turns the picture to colour.",
+      "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+    },
+    {
+      "point": "The 2002 limited-edition DVD hid a chronological cut of the film behind an interactive puzzle of memory questions on its second disc.",
+      "source": "https://www.mentalfloss.com/entertainment/movies/15-things-you-might-not-know-about-memento"
+    },
+    {
+      "point": "The origin story is itself a memory dispute: Jonathan believes he was present at the Camden fight and Christopher doubts it, which fits the film's subject neatly.",
+      "source": "https://faroutmagazine.co.uk/camden-street-brawl-that-inspired-memento/"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/7Wev9JMo6R5XAfz2KDvXb7oPMmy.jpg",
+      "caption": "A still from Memento (backdrop, 1920x1080)",
+      "source": "https://www.themoviedb.org/movie/77-memento/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/8pwCb7amg8Tvr9FZZJGt7J4OwLV.jpg",
+      "caption": "A still from Memento (backdrop, 3840x2160)",
+      "source": "https://www.themoviedb.org/movie/77-memento/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/v4u9FnSOpLEjPIAhbKClM45LJoJ.jpg",
+      "caption": "A still from Memento (backdrop, 1920x1080)",
+      "source": "https://www.themoviedb.org/movie/77-memento/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/q2CtXYjp9IlnfBcPktNkBPsuAEO.jpg",
+      "caption": "A still from Memento (backdrop, 1715x965)",
+      "source": "https://www.themoviedb.org/movie/77-memento/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/epS46vDl8yeLDReM1LDFJJLj2yL.jpg",
+      "caption": "A still from Memento (backdrop, 1500x844)",
+      "source": "https://www.themoviedb.org/movie/77-memento/images/backdrops",
+      "local": "still-05"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Memento_(film)",
+      "title": "Memento (film), Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "time_structure",
+        "themes",
+        "inspirations",
+        "reception.at_release",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt0209144/",
+      "title": "Memento, Box Office Mojo",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/77-memento/images/backdrops",
+      "title": "Memento backdrops, TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/memento/",
+      "title": "Memento, Letterboxd",
+      "fetched": true,
+      "used_for": [
+        "reception.now"
+      ]
+    },
+    {
+      "url": "https://faroutmagazine.co.uk/camden-street-brawl-that-inspired-memento/",
+      "title": "The Camden street brawl that inspired Memento, Far Out",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://thefilmstage.com/spend-an-hour-exploring-memento-with-christopher-nolan",
+      "title": "Spend an hour exploring Memento with Christopher Nolan, The Film Stage",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://www.mentalfloss.com/entertainment/movies/15-things-you-might-not-know-about-memento",
+      "title": "15 things you might not know about Memento, Mental Floss",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://georgetownvoice.com/2002/02/07/i-memento-i-writer-visits-campus",
+      "title": "Memento writer visits campus, Georgetown Voice",
+      "fetched": false,
+      "used_for": []
+    }
+  ],
+  "researched_on": "2026-10-08",
+  "digest": "state/agents/nolan/2026-10-08-memento.json"
+}
