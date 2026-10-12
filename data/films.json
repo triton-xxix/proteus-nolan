@@ -127,14 +127,19 @@
       "title": "Interstellar",
       "year": 2014,
       "order": 4,
-      "status": "queued",
+      "status": "researched",
       "time_structure_kind": "dilation",
       "deep_page": null,
-      "tries": 0,
-      "assigned_on": null,
-      "researched_on": null,
-      "last_check": [],
-      "note": "An hour on the water planet is seven years on the ship."
+      "tries": 1,
+      "assigned_on": "2026-10-13",
+      "researched_on": "2026-10-13",
+      "last_check": [
+        "digest.inspirations[4]: source 'https://www.denofgeek.com/us/movies/hans-zimmer/241533/hans-zimmer-talks-about-scoring-interstellar-and-why-batman-needs-a-new-theme' was not fetched; treated as unverified",
+        "1 field(s) marked unverified at ingest"
+      ],
+      "note": "An hour on the water planet is seven years on the ship.",
+      "research_digest": "state/agents/nolan/2026-10-13-interstellar.json",
+      "page": "films/interstellar/"
     },
     {
       "slug": "dunkirk",
