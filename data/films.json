@@ -96,17 +96,17 @@
       "title": "Inception",
       "year": 2010,
       "order": 2,
-      "status": "parked",
+      "status": "researched",
       "time_structure_kind": "nested-levels",
       "deep_page": null,
       "tries": 2,
       "assigned_on": "2026-10-10",
-      "researched_on": null,
-      "last_check": [
-        "image reference outside images[]"
-      ],
+      "researched_on": "2026-10-12",
+      "last_check": [],
       "note": "Each level runs about twenty times slower than the one above.",
-      "last_digest": "state/agents/nolan/2026-10-10-inception.json"
+      "last_digest": "state/agents/nolan/2026-10-10-inception.json",
+      "research_digest": "state/agents/nolan/2026-10-10-inception.json",
+      "page": "films/inception/"
     },
     {
       "slug": "the-dark-knight-rises",
@@ -141,7 +141,7 @@
       "title": "Dunkirk",
       "year": 2017,
       "order": 3,
-      "status": "researched",
+      "status": "live",
       "time_structure_kind": "parallel-timescales",
       "deep_page": null,
       "tries": 1,
