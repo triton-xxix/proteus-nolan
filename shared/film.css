@@ -24,6 +24,7 @@
 .list--num { padding-left: 1.4rem; }
 .list--src { font-size: 0.9rem; }
 .who { color: var(--ink-soft); font-size: 0.86rem; }
+.k { color: var(--ink-soft); }
 q { quotes: "\201C" "\201D"; color: var(--ink-soft); }
 .stills { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1rem; }
 .still { margin: 0; }
