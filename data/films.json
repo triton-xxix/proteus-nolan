@@ -21,7 +21,7 @@
       "title": "Memento",
       "year": 2000,
       "order": 1,
-      "status": "researched",
+      "status": "live",
       "time_structure_kind": "interleaved-strands",
       "deep_page": null,
       "tries": 2,
@@ -96,14 +96,17 @@
       "title": "Inception",
       "year": 2010,
       "order": 2,
-      "status": "queued",
+      "status": "parked",
       "time_structure_kind": "nested-levels",
       "deep_page": null,
-      "tries": 0,
-      "assigned_on": null,
+      "tries": 2,
+      "assigned_on": "2026-10-10",
       "researched_on": null,
-      "last_check": [],
-      "note": "Each level runs about twenty times slower than the one above."
+      "last_check": [
+        "image reference outside images[]"
+      ],
+      "note": "Each level runs about twenty times slower than the one above.",
+      "last_digest": "state/agents/nolan/2026-10-10-inception.json"
     },
     {
       "slug": "the-dark-knight-rises",
@@ -138,14 +141,21 @@
       "title": "Dunkirk",
       "year": 2017,
       "order": 3,
-      "status": "queued",
+      "status": "researched",
       "time_structure_kind": "parallel-timescales",
       "deep_page": null,
-      "tries": 0,
-      "assigned_on": null,
-      "researched_on": null,
-      "last_check": [],
-      "note": "A week, a day and an hour, cut together."
+      "tries": 1,
+      "assigned_on": "2026-10-11",
+      "researched_on": "2026-10-12",
+      "last_check": [
+        "digest.themes[0]: source None was not fetched; treated as unverified",
+        "digest.themes[1]: source None was not fetched; treated as unverified",
+        "2 field(s) marked unverified at ingest"
+      ],
+      "note": "A week, a day and an hour, cut together.",
+      "last_digest": "state/agents/nolan/2026-10-11-dunkirk.json",
+      "research_digest": "state/agents/nolan/2026-10-11-dunkirk.json",
+      "page": "films/dunkirk/"
     },
     {
       "slug": "tenet",

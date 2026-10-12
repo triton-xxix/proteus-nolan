@@ -1,0 +1,429 @@
+{
+  "slug": "dunkirk",
+  "title": "Dunkirk",
+  "year": 2017,
+  "one_line": "The 1940 evacuation told as survival suspense, with land, sea and air stories running on different clocks until they collide.",
+  "facts": {
+    "release": {
+      "value": "2017-07-21 (UK and US; premiere 2017-07-13, London)",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    "runtime_min": {
+      "value": 106,
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    "dp": {
+      "value": "Hoyte van Hoytema",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    "editor": {
+      "value": "Lee Smith",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    "composer": {
+      "value": "Hans Zimmer",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    "budget_usd": {
+      "value": 100000000,
+      "note": "Box Office Mojo gives $100m; Wikipedia infobox gives a range of $100-150m citing several sources.",
+      "source": "https://www.boxofficemojo.com/title/tt5013056/"
+    },
+    "gross_usd": {
+      "value": 549982398,
+      "as_of": "2026-10-11",
+      "source": "https://www.boxofficemojo.com/title/tt5013056/"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Fionn Whitehead",
+          "role": "Tommy"
+        },
+        {
+          "name": "Tom Glynn-Carney",
+          "role": "Peter Dawson"
+        },
+        {
+          "name": "Jack Lowden",
+          "role": "Collins"
+        },
+        {
+          "name": "Harry Styles",
+          "role": "Alex"
+        },
+        {
+          "name": "Aneurin Barnard",
+          "role": "Gibson"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    }
+  },
+  "time_structure": {
+    "kind": "parallel-timescales",
+    "summary": "Three stories are cut together as if simultaneous but cover different spans: a week on the beach (the mole), a day on a civilian boat crossing the Channel, and an hour in the air with Spitfire pilots. The clocks only line up near the end, so early events on screen can be days apart in story time, and the stories snowball into one another.",
+    "sketch": {
+      "nesting": "parallel",
+      "threads": [
+        {
+          "id": "a",
+          "label": "The Mole (land)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "one week",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "The Sea (Moonstone)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 0.143,
+          "span": [
+            0.05,
+            1
+          ],
+          "duration_label": "one day",
+          "style": "colour"
+        },
+        {
+          "id": "c",
+          "label": "The Air (Spitfires)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 0.006,
+          "span": [
+            0.1,
+            1
+          ],
+          "duration_label": "one hour",
+          "style": "colour"
+        }
+      ],
+      "joins": [
+        {
+          "from": "b",
+          "to": "a",
+          "kind": "converge",
+          "at": 0.8,
+          "label": "The boats reach the beach"
+        },
+        {
+          "from": "c",
+          "to": "b",
+          "kind": "converge",
+          "at": 0.9,
+          "label": "The Spitfire pilot's fate meets the rescue at sea and the shore"
+        }
+      ]
+    },
+    "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+  },
+  "themes": [
+    {
+      "id": "duty",
+      "name": "Duty",
+      "scene": "A pilot keeps flying on with a failing fuel gauge, rationing what he has left so he can keep protecting the ships below. His job is the only thing he is thinking about, and he treats the cost as arithmetic.",
+      "source": null,
+      "new": false,
+      "unverified": true
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "scene": "Soldiers on the beach and a torpedoed ship crowd into a hold, and every sound outside becomes a threat. The film keeps the enemy off screen so the dread comes from waiting, not from seeing.",
+      "source": null,
+      "new": false,
+      "unverified": true
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "scene": "The hour in the air, the day at sea and the week on the beach are cut together as if they happen at once, with a ticking score pushing all three forward. The audience feels the clock without being told which one it is watching.",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)",
+      "new": false
+    },
+    {
+      "id": "sacrifice",
+      "name": "Sacrifice",
+      "scene": "A civilian skipper takes his small boat across the Channel to pick up strangers, knowing the crossing is dangerous. His small act is one of many that together change the outcome.",
+      "source": "https://www.denofgeek.com/movies/dunkirk-christopher-nolans-immersive-war-experience/",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan wanted to apply the snowballing momentum of the third act of his earlier films across the whole film, using a new rhythm and fewer conventional dramatic devices.",
+      "who": "Nolan",
+      "quote": "I wanted to experiment with a new rhythm.",
+      "source": "https://gulfnews.com/amp/story/entertainment%2Fhollywood%2Fdunkirk-is-an-experiment-in-a-new-rhythm-says-nolan-1.2064091"
+    },
+    {
+      "claim": "He treated the story as sustained suspense rather than horror, citing The Wages of Fear and Mad Max: Fury Road as models.",
+      "who": "Nolan",
+      "source": "https://gulfnews.com/amp/story/entertainment%2Fhollywood%2Fdunkirk-is-an-experiment-in-a-new-rhythm-says-nolan-1.2064091"
+    },
+    {
+      "claim": "The crew studied Hitchcock, David Lean's landscapes and the beach imagery of Ryan's Daughter, alongside Clouzot's suspense language.",
+      "who": "Nolan",
+      "source": "https://www.denofgeek.com/movies/dunkirk-christopher-nolans-immersive-war-experience/"
+    },
+    {
+      "claim": "He conceived the idea in the mid-1990s after sailing the Channel with Emma Thomas, and she persuaded him to write a script rather than improvise.",
+      "who": "Nolan and Emma Thomas",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Emma Thomas",
+      "role": "Producer",
+      "also": [
+        "following",
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "tenet",
+        "oppenheimer"
+      ]
+    },
+    {
+      "name": "Hoyte van Hoytema",
+      "role": "Cinematographer",
+      "also": [
+        "interstellar",
+        "tenet",
+        "oppenheimer"
+      ]
+    },
+    {
+      "name": "Lee Smith",
+      "role": "Editor",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "tenet",
+        "oppenheimer"
+      ]
+    },
+    {
+      "name": "Hans Zimmer",
+      "role": "Composer",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar"
+      ]
+    },
+    {
+      "name": "Cillian Murphy",
+      "role": "Actor (Shivering Soldier)",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "oppenheimer"
+      ]
+    },
+    {
+      "name": "Tom Hardy",
+      "role": "Actor (Farrier)",
+      "also": [
+        "inception",
+        "the-dark-knight-rises"
+      ]
+    },
+    {
+      "name": "Michael Caine",
+      "role": "Uncredited voice (Fortis Leader)",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "tenet"
+      ]
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 94,
+        "source": "https://www.metacritic.com/movie/dunkirk/"
+      },
+      "rt": {
+        "value": 92,
+        "count": 469,
+        "source": "https://www.rottentomatoes.com/m/dunkirk_2017"
+      },
+      "summary": "Critics hailed it as a technical triumph and one of the best war films, praising the immersion, sound and structure. A minority found it light on character and emotion."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-11",
+        "source": null,
+        "unverified": true
+      },
+      "summary": "It sits as a divisive favourite: audience reviews praise the score, sound and sense of dread, while others still call it cold or hard to follow because of the time-shifting structure. Metacritic users rate it 8.2 of 10."
+    }
+  },
+  "missed": [
+    {
+      "point": "The ticking sound in the score is built from a recording of Nolan's own pocket watch, and the music uses a Shepard tone, an illusion of endlessly rising pitch, which the script was written to fit. He had used the same device in The Prestige.",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    {
+      "point": "The Germans are never shown on screen and Churchill and the war rooms are left out on purpose, so viewers only know what the men on the ground could know.",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    },
+    {
+      "point": "Much of it was done practically: the mole was rebuilt from original blueprints, about twenty real Little Ships were used, French bans on pyrotechnics meant air cannons made the explosions, and Michael Caine's uncredited radio voice is a nod to Battle of Britain.",
+      "source": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/pTwF9hLkqAtuOqXMdOyPwz4AgnI.jpg",
+      "caption": "a still from Dunkirk",
+      "source": "https://www.themoviedb.org/movie/374720-dunkirk/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/ddIkmH3TpR6XSc47jj0BrGK5Rbz.jpg",
+      "caption": "a still from Dunkirk",
+      "source": "https://www.themoviedb.org/movie/374720-dunkirk/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/kdSsUC9DpREwFFPeqPgAaxzE3UT.jpg",
+      "caption": "a still from Dunkirk",
+      "source": "https://www.themoviedb.org/movie/374720-dunkirk/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/4yjJNAgXBmzxpS6sogj4ftwd270.jpg",
+      "caption": "a still from Dunkirk",
+      "source": "https://www.themoviedb.org/movie/374720-dunkirk/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/2bG3HXcUze0GyGAKnJSDF6gllzk.jpg",
+      "caption": "a still from Dunkirk",
+      "source": "https://www.themoviedb.org/movie/374720-dunkirk/images/backdrops",
+      "local": "still-05"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)",
+      "title": "Dunkirk (2017 film), Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "time_structure",
+        "inspirations",
+        "collaborators",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt5013056/",
+      "title": "Dunkirk, Box Office Mojo",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.metacritic.com/movie/dunkirk/",
+      "title": "Dunkirk, Metacritic",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.metacritic",
+        "reception.now.summary"
+      ]
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/dunkirk_2017",
+      "title": "Dunkirk, Rotten Tomatoes",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.rt",
+        "reception.now.summary"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/dunkirk-2017/",
+      "title": "Dunkirk, Letterboxd",
+      "fetched": true,
+      "used_for": []
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/374720-dunkirk/images/backdrops",
+      "title": "Dunkirk backdrops, TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    },
+    {
+      "url": "https://www.denofgeek.com/movies/dunkirk-christopher-nolans-immersive-war-experience/",
+      "title": "Dunkirk: Christopher Nolan's Immersive War Experience, Den of Geek",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "themes"
+      ]
+    },
+    {
+      "url": "https://gulfnews.com/amp/story/entertainment%2Fhollywood%2Fdunkirk-is-an-experiment-in-a-new-rhythm-says-nolan-1.2064091",
+      "title": "Dunkirk is an experiment in a new rhythm, says Nolan, Gulf News",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/dunkirk-2017/ratings/",
+      "title": "Dunkirk ratings, Letterboxd",
+      "fetched": false,
+      "used_for": []
+    }
+  ],
+  "researched_on": "2026-10-12",
+  "digest": "state/agents/nolan/2026-10-11-dunkirk.json"
+}
