@@ -1,0 +1,464 @@
+{
+  "slug": "the-prestige",
+  "title": "The Prestige",
+  "year": 2006,
+  "one_line": "Two Victorian stage magicians destroy each other over a single trick, told through diaries read inside diaries, with a twin-shaped secret hidden in plain sight.",
+  "facts": {
+    "release": {
+      "value": "2006-10-20 (United States)",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    "runtime_min": {
+      "value": 130,
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan",
+        "Jonathan Nolan"
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    "dp": {
+      "value": "Wally Pfister",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    "editor": {
+      "value": "Lee Smith",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    "composer": {
+      "value": "David Julyan",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    "budget_usd": {
+      "value": 40000000,
+      "note": "Wikipedia and Box Office Mojo both give $40 million; no dispute found in the pages fetched.",
+      "source": "https://www.boxofficemojo.com/title/tt0482571/"
+    },
+    "gross_usd": {
+      "value": 109676311,
+      "as_of": "2026-10-13",
+      "source": "https://www.boxofficemojo.com/title/tt0482571/"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Hugh Jackman",
+          "role": "Robert Angier"
+        },
+        {
+          "name": "Christian Bale",
+          "role": "Alfred Borden"
+        },
+        {
+          "name": "Michael Caine",
+          "role": "John Cutter"
+        },
+        {
+          "name": "Scarlett Johansson",
+          "role": "Olivia Wenscombe"
+        },
+        {
+          "name": "Rebecca Hall",
+          "role": "Sarah Borden"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    }
+  },
+  "time_structure": {
+    "kind": "nested-levels",
+    "summary": "The outer frame is Borden waiting to be hanged. Inside it he reads Angier's diary, and inside that diary Angier reads Borden's, so each account sends the viewer back to a different stretch of the feud. The order you learn things in is the trick: the twin secret sits in plain sight while the diaries direct your attention elsewhere.",
+    "sketch": {
+      "nesting": "nested",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Borden awaits the gallows, reading Angier's diary",
+          "direction": "static",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "days in prison",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "Angier's diary: Tesla, the machine, the duplicates",
+          "direction": "forward",
+          "level": 1,
+          "rate": 1,
+          "span": [
+            0.15,
+            0.95
+          ],
+          "duration_label": "years of feud",
+          "style": "colour"
+        },
+        {
+          "id": "c",
+          "label": "Borden's coded diary, read by Angier",
+          "direction": "forward",
+          "level": 2,
+          "rate": 1,
+          "span": [
+            0.05,
+            0.7
+          ],
+          "duration_label": "years of feud",
+          "style": "colour"
+        }
+      ],
+      "joins": [
+        {
+          "from": "a",
+          "to": "b",
+          "kind": "nest",
+          "at": 0.15,
+          "label": "Borden opens Angier's diary"
+        },
+        {
+          "from": "b",
+          "to": "c",
+          "kind": "nest",
+          "at": 0.4,
+          "label": "Angier reads Borden's diary"
+        },
+        {
+          "from": "c",
+          "to": "b",
+          "kind": "converge",
+          "at": 0.95,
+          "label": "the twin reveal and the burning theatre"
+        }
+      ]
+    },
+    "source": "https://strangehorizons.com/non-fiction/reviews/the-prestige-the-film-and-the-screenplay/"
+  },
+  "themes": [
+    {
+      "id": "obsession",
+      "name": "Obsession",
+      "scene": "Angier, determined to beat his rival's teleportation trick, takes a machine from Tesla and stakes his own life on it. Night after night he steps into the apparatus and lets the show continue, whatever it does to him. The wish to win has overtaken every other reason.",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)",
+      "new": false
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "The film closes on the revelation that 'Borden' was two identical men sharing one life. Looking back, the secret was in front of us the whole time while the story pointed our eyes at the hands, the diaries and the stage.",
+      "source": "https://www.salon.com/2006/10/20/nolan_2/",
+      "new": false
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "scene": "The two magicians are built as mirrors: one a hands-on working-class craftsman, the other a polished showman. Neither is allowed to be simply the hero or the villain, and the twin secret makes the doubling literal.",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)",
+      "new": false
+    },
+    {
+      "id": "sacrifice",
+      "name": "Sacrifice",
+      "scene": "Each trick demands something real in return. Angier's solution to the Transported Man leaves him drowning in a tank beneath his own stage while the audience applauds above, and the film asks what a person owes to art that they cannot get back.",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)",
+      "new": false
+    },
+    {
+      "id": "the-machine",
+      "name": "The machine",
+      "scene": "Angier travels to meet Nikola Tesla, who builds him a device that duplicates whatever stands in it. The invention works better than anyone wants, and the film sets it beside the real Tesla and Edison rivalry as a second war running behind the first.",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "The film adapts Christopher Priest's 1995 novel. Producer Valerie Dean brought the book to Nolan, who read it in London and passed it to Jonathan; the brothers then spent about five years on the script.",
+      "who": "Christopher Nolan, Jonathan Nolan",
+      "quote": "",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    {
+      "claim": "Nolan said the script borrows the three-act shape of a magic trick (the pledge, the turn, the prestige), and was built to steer the audience away from planted clues.",
+      "who": "Christopher Nolan",
+      "quote": "",
+      "source": "https://www.salon.com/2006/10/20/nolan_2/"
+    },
+    {
+      "claim": "Nolan argued that the audience cooperates in being deceived: viewers know it is an illusion and want to be taken somewhere surprising.",
+      "who": "Christopher Nolan",
+      "quote": "The trick that you play on the audience is played with the audience's collaboration.",
+      "source": "https://www.salon.com/2006/10/20/nolan_2/"
+    },
+    {
+      "claim": "Nolan told Variety the film depended on journals within journals and stories within stories, which echoed the novel's literary devices and were hard to carry into cinema (as reported by Wikipedia).",
+      "who": "Christopher Nolan",
+      "quote": "",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    {
+      "claim": "Tom Shone's book The Nolan Variations (2020) may discuss further influences on the film. Not fetched, so nothing is claimed from it.",
+      "who": "Tom Shone",
+      "quote": "",
+      "source": null,
+      "unverified": true
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Jonathan Nolan",
+      "role": "Co-writer",
+      "also": [
+        "memento",
+        "the-dark-knight",
+        "the-dark-knight-rises",
+        "interstellar"
+      ]
+    },
+    {
+      "name": "Emma Thomas",
+      "role": "Producer",
+      "also": [
+        "following",
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer",
+        "the-odyssey"
+      ]
+    },
+    {
+      "name": "Wally Pfister",
+      "role": "Cinematographer",
+      "also": [
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises"
+      ]
+    },
+    {
+      "name": "Lee Smith",
+      "role": "Editor",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "dunkirk"
+      ]
+    },
+    {
+      "name": "David Julyan",
+      "role": "Composer",
+      "also": [
+        "following",
+        "memento",
+        "insomnia"
+      ]
+    },
+    {
+      "name": "Nathan Crowley",
+      "role": "Production designer",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "interstellar",
+        "dunkirk",
+        "tenet"
+      ]
+    },
+    {
+      "name": "Michael Caine",
+      "role": "Actor, John Cutter",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "tenet"
+      ]
+    },
+    {
+      "name": "Christian Bale",
+      "role": "Actor, Alfred Borden",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "the-dark-knight-rises"
+      ]
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 66,
+        "source": "via Wikipedia: https://en.wikipedia.org/wiki/The_Prestige_(film)",
+        "unverified": true
+      },
+      "rt": {
+        "value": 77,
+        "count": 206,
+        "source": "via Wikipedia: https://en.wikipedia.org/wiki/The_Prestige_(film)",
+        "unverified": true
+      },
+      "summary": "Mostly positive. Critics praised the performances, the production design and the structure, and were split on the ending. Ebert gave three stars but called the final reveal a flaw, and Variety found it gimmicky. It earned two Oscar nominations, for art direction and cinematography."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-13",
+        "source": null,
+        "unverified": true
+      },
+      "summary": "Its standing has grown. The A.V. Club listed it among the best films of the 2000s, Empire placed it in its 21st-century top 100, and the WGA ranked the screenplay 82nd in its 2021 list of the century's best. A 20th anniversary re-release is announced for January 2027."
+    }
+  },
+  "missed": [
+    {
+      "point": "The film plays fair like a magic act. Clues such as the dead canary and the goldfish bowl carried by Ching Ling Soo are visible early, so the finale reads as confirmation of what the camera showed rather than a cheat.",
+      "source": "https://strangehorizons.com/non-fiction/reviews/the-prestige-the-film-and-the-screenplay/"
+    },
+    {
+      "point": "The deaths are mirrored. Angier drowns in a tank like his wife did, and Borden goes to the gallows as his own wife's death echoes, so the story keeps circling the same few wounds.",
+      "source": "https://strangehorizons.com/non-fiction/reviews/the-prestige-the-film-and-the-screenplay/"
+    },
+    {
+      "point": "The film is a heavy reworking of the novel. The Nolans cut the spiritualism subplot and swapped the modern-day frame for Borden awaiting the gallows, changes Priest approved of.",
+      "source": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/yaExZh6qE2cfyK3o4kAMEq0mkgy.jpg",
+      "caption": "a still from The Prestige",
+      "source": "https://www.themoviedb.org/movie/1124-the-prestige/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/z3br1ub7spqGMkxgjgJSdM4DC21.jpg",
+      "caption": "a still from The Prestige",
+      "source": "https://www.themoviedb.org/movie/1124-the-prestige/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/yCnJT53HMXAK87xzPAdjdYhZ3JE.jpg",
+      "caption": "a still from The Prestige",
+      "source": "https://www.themoviedb.org/movie/1124-the-prestige/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/eevtnX3syxLZj4pIber8KsJMDl8.jpg",
+      "caption": "a still from The Prestige",
+      "source": "https://www.themoviedb.org/movie/1124-the-prestige/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/xBDE2d6HM1aBKQRu4IT7SfPD9fs.jpg",
+      "caption": "a still from The Prestige",
+      "source": "https://www.themoviedb.org/movie/1124-the-prestige/images/backdrops",
+      "local": "still-05"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/mfJepkInUbiZ0mFXFhDNz8ko6Zr.jpg",
+      "caption": "a still from The Prestige",
+      "source": "https://www.themoviedb.org/movie/1124-the-prestige/images/backdrops",
+      "local": "still-06"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Prestige_(film)",
+      "title": "The Prestige (film), Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "themes",
+        "inspirations",
+        "reception",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt0482571/",
+      "title": "The Prestige, Box Office Mojo",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.salon.com/2006/10/20/nolan_2/",
+      "title": "Salon interview with Christopher Nolan",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "themes"
+      ]
+    },
+    {
+      "url": "https://strangehorizons.com/non-fiction/reviews/the-prestige-the-film-and-the-screenplay/",
+      "title": "Strange Horizons review of the film and screenplay",
+      "fetched": true,
+      "used_for": [
+        "time_structure",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://scriptshadow.net/the-prestige-nolan-theme-week/",
+      "title": "Scriptshadow, Prestige theme week",
+      "fetched": true,
+      "used_for": []
+    },
+    {
+      "url": "https://www.metacritic.com/movie/the-prestige/",
+      "title": "The Prestige, Metacritic",
+      "fetched": true,
+      "used_for": []
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/the_prestige",
+      "title": "The Prestige, Rotten Tomatoes",
+      "fetched": false,
+      "used_for": []
+    },
+    {
+      "url": "https://letterboxd.com/film/the-prestige/",
+      "title": "The Prestige, Letterboxd",
+      "fetched": true,
+      "used_for": []
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/1124-the-prestige/images/backdrops",
+      "title": "The Prestige backdrops, TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-13",
+  "digest": "state/agents/nolan/2026-10-13-the-prestige.json"
+}
