@@ -1,0 +1,403 @@
+{
+  "slug": "following",
+  "title": "Following",
+  "year": 1998,
+  "one_line": "A lonely would-be writer who trails strangers around London is taken up by a burglar, and learns too late who is really being followed.",
+  "facts": {
+    "release": {
+      "value": "1998-04-24 (San Francisco International Film Festival; UK release 1999-11-05)",
+      "source": "https://en.wikipedia.org/wiki/Following_(film)"
+    },
+    "runtime_min": {
+      "value": 70,
+      "source": "https://en.wikipedia.org/wiki/Following_(film)"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Following_(film)"
+    },
+    "dp": {
+      "value": "Christopher Nolan",
+      "source": "https://en.wikipedia.org/wiki/Following_(film)"
+    },
+    "editor": {
+      "value": "Gareth Heal and Christopher Nolan",
+      "source": "https://en.wikipedia.org/wiki/Following_(film)"
+    },
+    "composer": {
+      "value": "David Julyan",
+      "source": "https://en.wikipedia.org/wiki/Following_(film)"
+    },
+    "budget_usd": {
+      "value": 6000,
+      "note": "Nolan and Emma Thomas later estimated either GBP 3,000 to 3,500 or about $6,000; Box Office Mojo lists $6,000",
+      "source": "https://www.boxofficemojo.com/title/tt0154506/"
+    },
+    "gross_usd": {
+      "value": 128048,
+      "as_of": "2026-10-14",
+      "source": "https://www.boxofficemojo.com/title/tt0154506/"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Jeremy Theobald",
+          "role": "The Young Man (Bill / Daniel Lloyd)"
+        },
+        {
+          "name": "Alex Haw",
+          "role": "Cobb"
+        },
+        {
+          "name": "Lucy Russell",
+          "role": "The Blonde"
+        },
+        {
+          "name": "John Nolan",
+          "role": "The Policeman"
+        },
+        {
+          "name": "Dick Bradsell",
+          "role": "The Bald Guy"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Following_(film)"
+    }
+  },
+  "time_structure": {
+    "kind": "interleaved-strands",
+    "summary": "The story is told out of order, cut between a handful of strands that are told apart mostly by how the young man looks and acts in each. Around them sits a police interview in which he recounts events. Nolan wrote it chronologically first, then rearranged it on paper. Exact strand boundaries are not confirmed by a fetched source.",
+    "sketch": {
+      "nesting": "interleaved",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Strand 1: Bill starts following strangers",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.0,
+            0.4
+          ],
+          "duration_label": "start of the story",
+          "style": "mono"
+        },
+        {
+          "id": "b",
+          "label": "Strand 2: Cobb takes him on",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.1,
+            0.75
+          ],
+          "duration_label": "middle of the story",
+          "style": "mono"
+        },
+        {
+          "id": "c",
+          "label": "Strand 3: the Blonde and the safe",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.3,
+            1.0
+          ],
+          "duration_label": "end of the story",
+          "style": "mono"
+        },
+        {
+          "id": "d",
+          "label": "Frame: the police interview",
+          "direction": "static",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.0,
+            1.0
+          ],
+          "duration_label": "one sitting",
+          "style": "mono"
+        }
+      ],
+      "joins": [
+        {
+          "from": "a",
+          "to": "b",
+          "kind": "converge",
+          "at": 0.4,
+          "label": "strands meet as Cobb recruits him"
+        },
+        {
+          "from": "b",
+          "to": "c",
+          "kind": "converge",
+          "at": 0.75,
+          "label": "burglary of the Blonde's flat leads to the safe"
+        },
+        {
+          "from": "c",
+          "to": "d",
+          "kind": "converge",
+          "at": 1.0,
+          "label": "the story catches up with the interview"
+        }
+      ]
+    },
+    "source": "https://en.wikipedia.org/wiki/Following_(film)",
+    "unverified": true
+  },
+  "themes": [
+    {
+      "id": "obsession",
+      "name": "Obsession",
+      "scene": "The young man, bored and lonely, picks strangers in the street and trails them for the sake of it, first with a set of loose rules and then ignoring them. The habit that begins as a writer's research grows until it takes over his days.",
+      "source": "https://en.wikipedia.org/wiki/Following_(film)",
+      "new": false
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "scene": "Once he is in with Cobb the young man takes on a new name and a sharper look, copying the burglar's habits. By the end it is unclear which version of him the police are really describing.",
+      "source": null,
+      "unverified": true,
+      "new": false
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "The man he trusts has set him up from the start. After the break-in at the Bald Guy's safe, the burglar uses the young man's own tool and fingerprints to leave him looking guilty, so the interview he gives is built on a lie the audience also believed.",
+      "source": null,
+      "unverified": true,
+      "new": false
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "scene": "The film opens in a clean, controlled scene and then jumps between different points in the young man's story. The viewer assembles the order from clues, such as his changed appearance, rather than being told.",
+      "source": "https://filmcompanion.in/features/almost-famous-christopher-nolans-following",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan was drawn to the anonymous strangers in his crowded London neighbourhood and wondered about their lives.",
+      "who": "Nolan",
+      "source": "https://www.mentalfloss.com/entertainment/movies/director-christopher-nolan-discusses-making-his-first-film-following"
+    },
+    {
+      "claim": "A burglary at his own flat showed him how thin physical security is compared with social norms, which fed the film.",
+      "who": "Nolan",
+      "source": "https://www.mentalfloss.com/entertainment/movies/director-christopher-nolan-discusses-making-his-first-film-following"
+    },
+    {
+      "claim": "He wrote the script chronologically, then rearranged it, found it needed heavy rewriting, and wrote later non-linear scripts with the structure planned first.",
+      "who": "Nolan",
+      "source": "https://www.thewrap.com/christopher-nolan-writing-nonlinear-chronological-order-scripts/"
+    },
+    {
+      "claim": "Black and white and a short, heavily rehearsed schedule were choices that hid the lack of money and kept stock use low.",
+      "who": "Nolan",
+      "source": "https://www.mentalfloss.com/entertainment/movies/director-christopher-nolan-discusses-making-his-first-film-following"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Emma Thomas",
+      "role": "producer (worked with Nolan on the budget estimate; credited producer role unverified from fetched pages)",
+      "also": [
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer",
+        "the-odyssey"
+      ]
+    },
+    {
+      "name": "David Julyan",
+      "role": "composer",
+      "also": [
+        "memento",
+        "insomnia",
+        "the-prestige"
+      ]
+    },
+    {
+      "name": "Jeremy Theobald",
+      "role": "actor, The Young Man",
+      "also": []
+    },
+    {
+      "name": "Alex Haw",
+      "role": "actor, Cobb",
+      "also": []
+    },
+    {
+      "name": "John Nolan",
+      "role": "actor, The Policeman",
+      "also": []
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 60,
+        "source": "https://www.metacritic.com/movie/following/"
+      },
+      "rt": {
+        "value": 87,
+        "count": 89,
+        "source": "https://www.rottentomatoes.com/m/following"
+      },
+      "summary": "Festival and arthouse critics liked the tight plotting and noir feel for the money spent, while some found the inexperienced cast and the ending weaker. Metacritic's 60 is a mixed score; Rotten Tomatoes is warmer. Both are current figures, not release-week ones."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-14",
+        "source": "https://letterboxd.com/film/following/",
+        "unverified": true
+      },
+      "summary": "It is now mostly read as the first look at Nolan's interest in broken chronology and unreliable accounts. Letterboxd reviews are mixed to positive, though the average rating was not shown on the fetched page."
+    }
+  },
+  "missed": [
+    {
+      "point": "The young man's look, clothes and confidence change between strands, and these shifts are the main way to tell which timeline you are in.",
+      "source": "https://filmcompanion.in/features/almost-famous-christopher-nolans-following"
+    },
+    {
+      "point": "The opening scene is deliberately the cleanest, best lit and best recorded in the film, so viewers settle in before the rougher handheld footage begins.",
+      "source": "https://filmcompanion.in/features/almost-famous-christopher-nolans-following"
+    },
+    {
+      "point": "The scrambled order also helped the shoot: with only Saturdays to film, the non-linear structure helped hide continuity gaps across a year of irregular days.",
+      "source": "https://www.mentalfloss.com/entertainment/movies/director-christopher-nolan-discusses-making-his-first-film-following"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/yf5I5VHllK4h5VdbxHfQ40RBTe8.jpg",
+      "caption": "A backdrop image listed for Following on TMDB; the scene was not described on the page",
+      "source": "https://www.themoviedb.org/movie/11660-following/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/zrzy5XE9ALXQ2Y8bQ66gntC37JW.jpg",
+      "caption": "A backdrop image listed for Following on TMDB; the scene was not described on the page",
+      "source": "https://www.themoviedb.org/movie/11660-following/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/owgFkvnozNYdShynerDjot2hHK2.jpg",
+      "caption": "A backdrop image listed for Following on TMDB; the scene was not described on the page",
+      "source": "https://www.themoviedb.org/movie/11660-following/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/4kjQK9aanydnmMm6S6QOr1FLy6c.jpg",
+      "caption": "A backdrop image listed for Following on TMDB; the scene was not described on the page",
+      "source": "https://www.themoviedb.org/movie/11660-following/images/backdrops",
+      "local": "still-04"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Following_(film)",
+      "title": "Following (film), Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "time_structure",
+        "themes.obsession"
+      ]
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt0154506/",
+      "title": "Following, Box Office Mojo",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.metacritic.com/movie/following/",
+      "title": "Following, Metacritic",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.metacritic"
+      ]
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/following",
+      "title": "Following, Rotten Tomatoes",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.rt"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/following/",
+      "title": "Following, Letterboxd",
+      "fetched": true,
+      "used_for": [
+        "reception.now (no rating shown)"
+      ]
+    },
+    {
+      "url": "https://www.mentalfloss.com/entertainment/movies/director-christopher-nolan-discusses-making-his-first-film-following",
+      "title": "Nolan discusses making Following, Mental Floss",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.thewrap.com/christopher-nolan-writing-nonlinear-chronological-order-scripts/",
+      "title": "Nolan on non-linear scripts, TheWrap",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://filmcompanion.in/features/almost-famous-christopher-nolans-following",
+      "title": "Almost Famous: Christopher Nolan's Following, Film Companion",
+      "fetched": true,
+      "used_for": [
+        "themes.time",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/11660-following/images/backdrops",
+      "title": "Following backdrops, TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-14",
+  "digest": "state/agents/nolan/2026-10-14-following.json"
+}
