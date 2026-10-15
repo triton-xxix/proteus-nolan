@@ -42,14 +42,18 @@
       "title": "Insomnia",
       "year": 2002,
       "order": 7,
-      "status": "queued",
+      "status": "researched",
       "time_structure_kind": "linear",
       "deep_page": null,
-      "tries": 0,
-      "assigned_on": null,
-      "researched_on": null,
-      "last_check": [],
-      "note": ""
+      "tries": 1,
+      "assigned_on": "2026-10-15",
+      "researched_on": "2026-10-15",
+      "last_check": [
+        "9 of 23 sourced fields unverified (39%)"
+      ],
+      "note": "",
+      "research_digest": "state/agents/nolan/2026-10-15-insomnia.json",
+      "page": "films/insomnia/"
     },
     {
       "slug": "batman-begins",

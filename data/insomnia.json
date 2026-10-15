@@ -1,0 +1,345 @@
+{
+  "slug": "insomnia",
+  "title": "Insomnia",
+  "year": 2002,
+  "one_line": "A Los Angeles detective chasing a killer under Alaska's endless daylight hides a fatal mistake, and loses his sleep and his grip.",
+  "facts": {
+    "release": {
+      "value": "2002-05-24 (United States); premiered 2002-05-03 at Tribeca",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    "runtime_min": {
+      "value": 118,
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    "writers": {
+      "value": [
+        "Hillary Seitz (screenplay)",
+        "Nikolaj Frobenius and Erik Skjoldbjærg (1997 original film)"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    "dp": {
+      "value": "Wally Pfister",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    "editor": {
+      "value": "Dody Dorn",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    "composer": {
+      "value": "David Julyan",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    "budget_usd": {
+      "value": 46000000,
+      "note": "Wikipedia and The Numbers agree on $46 million; no dispute found.",
+      "source": "https://www.the-numbers.com/movie/Insomnia-%282002%29"
+    },
+    "gross_usd": {
+      "value": 113622499,
+      "as_of": "2026-10-15",
+      "source": "https://www.the-numbers.com/movie/Insomnia-%282002%29",
+      "note": "Worldwide per The Numbers; Wikipedia gives $113.8 million. Domestic $67,263,182 per The Numbers. Page date of the figures not stated, so as_of is the fetch date."
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Al Pacino",
+          "role": "Will Dormer"
+        },
+        {
+          "name": "Robin Williams",
+          "role": "Walter Finch"
+        },
+        {
+          "name": "Hilary Swank",
+          "role": "Ellie Burr"
+        },
+        {
+          "name": "Maura Tierney",
+          "role": "Rachel Clement"
+        },
+        {
+          "name": "Martin Donovan",
+          "role": "Hap Eckhart"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    }
+  },
+  "time_structure": {
+    "kind": "linear",
+    "summary": "The story runs forwards over a few days in a town where the sun never sets, so there are no night and day breaks to mark time passing. The only clock is Dormer's worsening exhaustion, which blurs the days together for him and for the viewer. Flashes of the shooting and the case intrude as fragments rather than as a separate timeline.",
+    "sketch": {
+      "nesting": "single",
+      "threads": [
+        {
+          "id": "a",
+          "label": "The investigation, in unbroken daylight",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "a few days without darkness",
+          "style": "colour"
+        }
+      ],
+      "joins": []
+    },
+    "source": null,
+    "unverified": true
+  },
+  "themes": [
+    {
+      "id": "guilt",
+      "name": "Guilt",
+      "scene": "Dormer shoots his partner in fog during a pursuit, and then lets the death pass as the suspect's work. From there the guilt follows him into a hotel room where light leaks round the blinds and he cannot lie still.",
+      "source": null,
+      "new": false,
+      "unverified": true
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "scene": "Dormer and the killer Finch talk by phone and then meet, and each recognises that both have done something they cannot take back. Finch uses this to pull the detective into a shared secret, so the hunter and the hunted start to resemble each other.",
+      "source": null,
+      "new": false,
+      "unverified": true
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "Dormer plants evidence and bends the account of the shooting to protect himself, while a young local officer starts to see that the official story does not fit the facts. The film asks whether a good cause excuses a lie.",
+      "source": null,
+      "new": false,
+      "unverified": true
+    },
+    {
+      "id": "duty",
+      "name": "Duty",
+      "scene": "Burr, the junior officer, has to choose between the rules she has been taught and the loyalty she feels towards a detective she admires. Her choice sets the moral shape of the ending.",
+      "source": null,
+      "new": false,
+      "unverified": true
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan had seen Erik Skjoldbjærg's 1997 Norwegian film and wanted to remake it after watching it twice, per Wikipedia's production section.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    {
+      "claim": "Nolan reportedly said the film was among his most personal and most underrated, as quoted from Tom Shone's The Nolan Variations (2020); the excerpt itself was not fetched.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)",
+      "unverified": true
+    },
+    {
+      "claim": "Nolan said he built the Alaska setting from a mix of locations so he could suggest the place without taking the cast there (Washington Times, 2002, seen only through a search summary; the page returned 403).",
+      "who": "Nolan",
+      "source": null,
+      "unverified": true
+    },
+    {
+      "claim": "Pfister described the plan as a dark, moody look with daylight as the constant, which he tied to Dormer's guilt creeping back in (Live Design, seen only through a search summary; the page returned 403).",
+      "who": "Wally Pfister",
+      "source": null,
+      "unverified": true
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Wally Pfister",
+      "role": "Cinematographer",
+      "also": [
+        "memento",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises"
+      ]
+    },
+    {
+      "name": "Dody Dorn",
+      "role": "Editor",
+      "also": [
+        "memento"
+      ]
+    },
+    {
+      "name": "David Julyan",
+      "role": "Composer",
+      "also": [
+        "following",
+        "memento",
+        "batman-begins",
+        "the-prestige"
+      ]
+    },
+    {
+      "name": "Nathan Crowley",
+      "role": "Production designer",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet"
+      ]
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 78,
+        "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+      },
+      "rt": {
+        "value": 92,
+        "count": 203,
+        "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+      },
+      "summary": "Critics were broadly positive, praising Pacino and a cast-against-type Robin Williams and treating the film as a fresh take on the Norwegian original rather than a thin remake. Audiences gave it a B CinemaScore. The Metacritic and Rotten Tomatoes figures are from Wikipedia and may be later than release."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-15",
+        "source": "https://letterboxd.com/film/insomnia-2002/",
+        "unverified": true
+      },
+      "summary": "Nolan has called it his most underrated film, and it is often treated as the quiet entry in his run between Memento and Batman Begins. The Letterboxd rating did not appear in the fetched page, so no current audience number is given."
+    }
+  },
+  "missed": [
+    {
+      "point": "Almost none of it was shot in Alaska. The shoot ran across British Columbia, with Squamish standing in for the town of Nightmute, plus Vancouver Island and Indian Arm locations.",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    {
+      "point": "The lake house and dock in the final scene were built from scratch for the shoot and removed afterwards, so the film's last location exists only on screen.",
+      "source": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)"
+    },
+    {
+      "point": "The light is a character: Pfister aimed for constant daylight in a moody look, so the brightness that keeps Dormer awake also works as a picture of his guilt. Seen only via a search summary of a Live Design article.",
+      "source": null,
+      "unverified": true
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/jU8MC5uSgBkZXyZYGtZgMsMsfeN.jpg",
+      "caption": "A still from Insomnia",
+      "source": "https://www.themoviedb.org/movie/320-insomnia/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/2tsmTWJsR81cwwZHLE85vPxSCoR.jpg",
+      "caption": "A still from Insomnia",
+      "source": "https://www.themoviedb.org/movie/320-insomnia/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/t6qPxvT71tWjYrsXljJnXYBKVCN.jpg",
+      "caption": "A still from Insomnia",
+      "source": "https://www.themoviedb.org/movie/320-insomnia/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/wPNwASc12zJ8Hv09XOdm6CMJ0ch.jpg",
+      "caption": "A still from Insomnia",
+      "source": "https://www.themoviedb.org/movie/320-insomnia/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/8aiRfdFVSE5LzYQ9feJXNO0dPka.jpg",
+      "caption": "A still from Insomnia",
+      "source": "https://www.themoviedb.org/movie/320-insomnia/images/backdrops",
+      "local": "still-05"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/yhrkKgbhNYqf99ASJJcgPyi7iQp.jpg",
+      "caption": "A still from Insomnia",
+      "source": "https://www.themoviedb.org/movie/320-insomnia/images/backdrops",
+      "local": "still-06"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Insomnia_(2002_film)",
+      "title": "Insomnia (2002 film), Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "reception.at_release",
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.the-numbers.com/movie/Insomnia-%282002%29",
+      "title": "Insomnia (2002), The Numbers",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/320-insomnia/images/backdrops",
+      "title": "Insomnia backdrops, TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/insomnia-2002/",
+      "title": "Insomnia (2002), Letterboxd",
+      "fetched": true,
+      "used_for": [
+        "reception.now.letterboxd"
+      ]
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2002/jun/1/20020601-030658-5405r/",
+      "title": "Washington Times, 1 June 2002",
+      "fetched": false,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://www.livedesignonline.com/midnight-sun",
+      "title": "Midnight Sun, Live Design",
+      "fetched": false,
+      "used_for": [
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.rogerebert.com/reviews/insomnia-2002",
+      "title": "Roger Ebert review",
+      "fetched": false,
+      "used_for": []
+    }
+  ],
+  "researched_on": "2026-10-15",
+  "digest": "state/agents/nolan/2026-10-15-insomnia.json"
+}
