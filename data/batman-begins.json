@@ -1,0 +1,404 @@
+{
+  "slug": "batman-begins",
+  "title": "Batman Begins",
+  "year": 2005,
+  "one_line": "Bruce Wayne trains abroad, returns to a rotten Gotham and builds the Batman out of his own fear, in a grounded, chronological origin story.",
+  "facts": {
+    "release": {
+      "value": "2005-06-15 (United States)",
+      "note": "Tokyo premiere 2005-05-31; UK 2005-06-17",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    "runtime_min": {
+      "value": 140,
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan (screenplay)",
+        "David S. Goyer (screenplay and story)"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    "dp": {
+      "value": "Wally Pfister",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    "editor": {
+      "value": "Lee Smith",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    "composer": {
+      "value": "Hans Zimmer and James Newton Howard",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    "budget_usd": {
+      "value": 150000000,
+      "note": "Wikipedia and The Numbers agree on $150 million",
+      "source": "https://www.the-numbers.com/movie/Batman-Begins"
+    },
+    "gross_usd": {
+      "value": 375600000,
+      "as_of": "2026-10-16",
+      "note": "Wikipedia infobox figure (cites Box Office Mojo, URL not seen). The Numbers shows $356,766,632 worldwide, so the sources disagree by about $19 million. Fetch date, not a source-stated as-of date.",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Christian Bale",
+          "role": "Bruce Wayne / Batman"
+        },
+        {
+          "name": "Michael Caine",
+          "role": "Alfred Pennyworth",
+          "unverified": true
+        },
+        {
+          "name": "Liam Neeson",
+          "role": "Ra's al Ghul"
+        },
+        {
+          "name": "Katie Holmes",
+          "role": "Rachel Dawes",
+          "unverified": true
+        },
+        {
+          "name": "Gary Oldman",
+          "role": "James Gordon",
+          "unverified": true
+        }
+      ],
+      "note": "Names and order from the Wikipedia infobox; roles for Caine, Holmes and Oldman were not stated on the fetched text and come from a search snippet (Caine as Alfred, Holmes as Rachel Dawes) or memory (Oldman).",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    }
+  },
+  "time_structure": {
+    "kind": "linear-with-flashbacks",
+    "summary": "The film runs mostly in order: Bruce's childhood and his parents' murder, a jump of about fourteen years, then roughly seven years abroad with the League of Shadows, then the Gotham story proper. Wikipedia's plot summary describes jumps rather than a flashback frame. Training-era memories of the childhood trauma and of his father break into the later scenes as short returns, which I have not confirmed from a source.",
+    "sketch": {
+      "nesting": "single",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Childhood to Gotham return and Batman",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "about twenty years across jumps, main story a few weeks",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "Short memory returns to childhood trauma",
+          "direction": "backward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.15,
+            0.6
+          ],
+          "duration_label": "brief flashes",
+          "style": "colour"
+        }
+      ],
+      "joins": [
+        {
+          "from": "b",
+          "to": "a",
+          "kind": "cross",
+          "at": 0.3,
+          "label": "memory breaks into the training and return"
+        }
+      ]
+    },
+    "unverified": true,
+    "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+  },
+  "themes": [
+    {
+      "id": "fear",
+      "name": "Fear",
+      "scene": "The Scarecrow's toxin is used on Gotham's victims and then on Batman himself, turning what each person dreads into a hallucination. It is the film's clearest picture of fear as a weapon, set against Bruce's own plan to take his fear and make it a tool against criminals.",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins",
+      "new": false
+    },
+    {
+      "id": "fathers-and-children",
+      "name": "Fathers and children",
+      "scene": "Bruce, orphaned young, is shaped by competing father figures: Alfred is the steady carer who keeps him grounded, while Ducard trains him hard and coldly. The film sets these two mentors, and the memory of Thomas Wayne, against each other as pulls on who Bruce becomes.",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins",
+      "new": false
+    },
+    {
+      "id": "guilt",
+      "name": "Guilt",
+      "scene": "Bruce's childhood fall into the well, and his parents' death after the night at the opera, leave him carrying blame. Later he arrives at the parole hearing for their killer with a gun, still driven by that moment, before he is shown that revenge is not the point.",
+      "source": null,
+      "unverified": true,
+      "new": false
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "scene": "Back in Gotham, Bruce tells himself he needs a symbol and settles on the bat. In public he plays a careless playboy, so the real person stays hidden behind two constructed faces.",
+      "source": null,
+      "unverified": true,
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan said the film was about someone who confronts his deepest fear and then tries to become it.",
+      "who": "Nolan",
+      "quote": "confront his innermost fear and then attempt to become it",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    {
+      "claim": "Nolan said he drew mainly on the comics and their mythology, wanted a realistic superhero story that does not wink at the genre, and blended New York, Chicago, Tokyo and Kowloon for Gotham.",
+      "who": "Nolan",
+      "source": "https://www.grouchoreviews.com/interviews/99"
+    },
+    {
+      "claim": "Wikipedia reports the opening well scene and the starting idea came from the comic 'The Man Who Falls', with Year One and The Long Halloween also feeding the script; Superman (1978) was named as a model for focus on the hero's growth.",
+      "who": "Nolan and Goyer (as reported on Wikipedia)",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    },
+    {
+      "claim": "Pfister said Nolan admired Superman (1978) for its strong story structure and wanted Batman to appear in a relatively ordinary city, in contrast to Tim Burton's stylised Gotham; the Batmobile chase was meant to feel like The French Connection and Bullitt.",
+      "who": "Wally Pfister and Nolan",
+      "source": "https://theasc.com/article/batman-begins-the-bat-takes-wing/"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Wally Pfister",
+      "role": "Cinematographer",
+      "also": [
+        "memento",
+        "insomnia",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises"
+      ],
+      "unverified": true,
+      "source": null
+    },
+    {
+      "name": "Lee Smith",
+      "role": "Editor",
+      "also": [
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "dunkirk"
+      ],
+      "unverified": true,
+      "source": null
+    },
+    {
+      "name": "Hans Zimmer",
+      "role": "Composer",
+      "also": [
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk"
+      ],
+      "unverified": true,
+      "source": null
+    },
+    {
+      "name": "Michael Caine",
+      "role": "Alfred Pennyworth",
+      "also": [
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet"
+      ],
+      "unverified": true,
+      "source": null
+    },
+    {
+      "name": "Emma Thomas",
+      "role": "Producer",
+      "also": [
+        "following",
+        "memento",
+        "insomnia",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer"
+      ],
+      "unverified": true,
+      "source": null
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 70,
+        "source": "https://www.metacritic.com/movie/batman-begins/"
+      },
+      "rt": {
+        "value": 85,
+        "count": 285,
+        "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+      },
+      "summary": "Mostly warm. Critics liked the darker, grounded take and Bale's performance, and several praised how seriously it treated Batman's motives. Complaints centred on Katie Holmes and the thin romance, and on a climax some found weaker than the setup. Roger Ebert gave it four stars."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-16",
+        "source": null,
+        "unverified": true
+      },
+      "summary": "Wikipedia frames it as one of the most influential films of the 2000s, credited with popularising the word reboot and the dark origin-story pattern in studio filmmaking. It earned an Oscar nomination for cinematography. The Letterboxd page was fetched but showed no average rating, so no current score is recorded."
+    }
+  },
+  "missed": [
+    {
+      "point": "Gotham is a composite of real places, and Nolan says the Narrows borrows from Hong Kong's Kowloon Walled City, with New York, Chicago and Tokyo's raised freeways filling out the rest.",
+      "source": "https://www.grouchoreviews.com/interviews/99"
+    },
+    {
+      "point": "Pfister coloured the city by real streetlights: orange sodium-vapour in some districts and blue-green mercury-vapour in others, and he and Nolan avoided a digital intermediate to keep the look photochemical.",
+      "source": "https://theasc.com/article/batman-begins-the-bat-takes-wing/"
+    },
+    {
+      "point": "The film plays down Bruce's split between identities compared with earlier Batman films, and Zimmer and Howard's score avoids a conventional heroic theme; the emphasis is on fear and on rival father figures.",
+      "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/9IIBboV7MCT0bTxzXHmWK1Hq558.jpg",
+      "caption": "a still from Batman Begins",
+      "source": "https://www.themoviedb.org/movie/272-batman-begins/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/ew5FcYiRhTYNJAkxoVPMNlCOdVn.jpg",
+      "caption": "a still from Batman Begins",
+      "source": "https://www.themoviedb.org/movie/272-batman-begins/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/lh5lbisD4oDbEKgUxoRaZU8HVrk.jpg",
+      "caption": "a still from Batman Begins",
+      "source": "https://www.themoviedb.org/movie/272-batman-begins/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/zYDjcLWhQWm0l3Cjdsc5jbepzHR.jpg",
+      "caption": "a still from Batman Begins",
+      "source": "https://www.themoviedb.org/movie/272-batman-begins/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/y9AuabF1SXnn3xZ0tAJLLhv33Uj.jpg",
+      "caption": "a still from Batman Begins",
+      "source": "https://www.themoviedb.org/movie/272-batman-begins/images/backdrops",
+      "local": "still-05"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Batman_Begins",
+      "title": "Batman Begins - Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.gross_usd",
+        "facts.cast_top5",
+        "time_structure",
+        "themes",
+        "inspirations",
+        "reception",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.the-numbers.com/movie/Batman-Begins",
+      "title": "Batman Begins - The Numbers",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd"
+      ]
+    },
+    {
+      "url": "https://www.metacritic.com/movie/batman-begins/",
+      "title": "Batman Begins - Metacritic",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.metacritic"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/batman-begins/",
+      "title": "Batman Begins - Letterboxd",
+      "fetched": true,
+      "used_for": [
+        "reception.now (no rating shown)"
+      ]
+    },
+    {
+      "url": "https://theasc.com/article/batman-begins-the-bat-takes-wing/",
+      "title": "Batman Begins: The Bat Takes Wing - ASC",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.grouchoreviews.com/interviews/99",
+      "title": "Batman Begins L.A. Junket Roundtable: Nolan and Emma Thomas",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/272-batman-begins/images/backdrops",
+      "title": "Batman Begins backdrops - TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/search?query=Batman+Begins",
+      "title": "TMDB search",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-16",
+  "digest": "state/agents/nolan/2026-10-16-batman-begins.json"
+}
