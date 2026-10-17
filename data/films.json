@@ -60,7 +60,7 @@
       "title": "Batman Begins",
       "year": 2005,
       "order": 8,
-      "status": "researched",
+      "status": "live",
       "time_structure_kind": "linear-with-flashbacks",
       "deep_page": null,
       "tries": 1,
@@ -92,14 +92,20 @@
       "title": "The Dark Knight",
       "year": 2008,
       "order": 9,
-      "status": "queued",
+      "status": "researched",
       "time_structure_kind": "linear",
       "deep_page": null,
-      "tries": 0,
-      "assigned_on": null,
-      "researched_on": null,
-      "last_check": [],
-      "note": ""
+      "tries": 1,
+      "assigned_on": "2026-10-17",
+      "researched_on": "2026-10-17",
+      "last_check": [
+        "digest.inspirations[0]: source 'https://www.landmarkcinemas.com/movie-news/christopher-nolan-inspired-by-heat' was not fetched; treated as unverified",
+        "digest.missed[1]: source 'https://thequietus.com/?p=29187' was not fetched; treated as unverified",
+        "2 field(s) marked unverified at ingest"
+      ],
+      "note": "",
+      "research_digest": "state/agents/nolan/2026-10-17-the-dark-knight.json",
+      "page": "films/the-dark-knight/"
     },
     {
       "slug": "inception",

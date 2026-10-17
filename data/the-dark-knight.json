@@ -1,0 +1,432 @@
+{
+  "slug": "the-dark-knight",
+  "title": "The Dark Knight",
+  "year": 2008,
+  "one_line": "A crime epic in a cape: Batman, Gordon and Dent squeeze Gotham's mob until the Joker shows up to prove how little holds a city together.",
+  "facts": {
+    "release": {
+      "value": "2008-07-18 (United States)",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    },
+    "runtime_min": {
+      "value": 152,
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    },
+    "writers": {
+      "value": [
+        "Jonathan Nolan (screenplay)",
+        "Christopher Nolan (screenplay and story)",
+        "David S. Goyer (story)"
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    },
+    "dp": {
+      "value": "Wally Pfister",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    },
+    "editor": {
+      "value": "Lee Smith",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    },
+    "composer": {
+      "value": "Hans Zimmer and James Newton Howard",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    },
+    "budget_usd": {
+      "value": 185000000,
+      "note": "Wikipedia and Box Office Mojo agree on $185 million; no dispute seen in the pages fetched",
+      "source": "https://www.boxofficemojo.com/title/tt0468569/"
+    },
+    "gross_usd": {
+      "value": 1008480529,
+      "as_of": "2026-10-17",
+      "source": "https://www.boxofficemojo.com/title/tt0468569/"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Christian Bale",
+          "role": "Bruce Wayne / Batman"
+        },
+        {
+          "name": "Michael Caine",
+          "role": "Alfred Pennyworth"
+        },
+        {
+          "name": "Heath Ledger",
+          "role": "The Joker"
+        },
+        {
+          "name": "Gary Oldman",
+          "role": "James Gordon"
+        },
+        {
+          "name": "Aaron Eckhart",
+          "role": "Harvey Dent / Two-Face"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    }
+  },
+  "time_structure": {
+    "kind": "linear",
+    "summary": "The story runs in order from the opening bank job to Batman's retreat, with no flashbacks. Time is felt as escalation: each night the Joker raises the stakes and the plan against him has less room to hold.",
+    "sketch": {
+      "nesting": "single",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Batman, Gordon and Dent against the mob, then the Joker's escalation",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "a few weeks (unverified; the film gives no dates)",
+          "style": "colour"
+        }
+      ],
+      "joins": []
+    },
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+  },
+  "themes": [
+    {
+      "id": "order-and-chaos",
+      "name": "Order and chaos",
+      "scene": "The Joker sets two ferries, one of civilians and one of prisoners, each holding the trigger for the other. He expects ordinary people to choose their own survival. Neither boat acts, and his bet that order is only a thin skin over panic fails.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
+      "new": false
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "scene": "After Rachel's death and his own burns, Harvey Dent turns from the city's clean-handed prosecutor into Two-Face, handing out fates by coin. Nolan has said Dent shares a duality with Batman, which is why he is central.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
+      "new": false
+    },
+    {
+      "id": "sacrifice",
+      "name": "Sacrifice",
+      "scene": "At the end Batman takes the blame for Dent's crimes so Gotham can keep believing in its hero. He accepts becoming hunted so the city's hope survives, and Gordon lets the lie stand.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
+      "new": false
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "scene": "Nolan described the film as reflecting his fear of anarchy. The Joker works through terror: he sends videos and public threats, and kills people unless Batman unmasks, so the whole city is made to live by his deadlines.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
+      "new": false
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "The Joker lets his own plan look chaotic while it is carefully staged, including getting himself caught so he can reach Gotham's police station. Batman and Gordon meanwhile fake Gordon's death to draw the Joker out.",
+      "source": null,
+      "unverified": true,
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan has said Michael Mann's Heat pushed him to treat the sequel as a city story, filmed across real locations, which also made the Joker loom large against the city.",
+      "who": "Christopher Nolan",
+      "quote": "",
+      "source": "https://www.landmarkcinemas.com/movie-news/christopher-nolan-inspired-by-heat",
+      "unverified": true
+    },
+    {
+      "claim": "The Nolans and Goyer chose no origin for the Joker, because a backstory would make him less unsettling. Nolan sees him as an anarchist who is what he presents himself to be.",
+      "who": "Christopher Nolan and Jonathan Nolan",
+      "quote": "",
+      "source": "https://batman-on-film.com/660/interview-jonathan-nolan-dark-knight_2008/amp/"
+    },
+    {
+      "claim": "Goyer says the Joker-Batman dynamic drew on The Killing Joke, with The Long Halloween and Frank Miller also feeding the story, and less from Denny O'Neil than Batman Begins.",
+      "who": "David S. Goyer",
+      "quote": "",
+      "source": "https://batman-on-film.com/660/interview-jonathan-nolan-dark-knight_2008/amp/"
+    },
+    {
+      "claim": "Wikipedia's production account lists The Godfather and Heat as models for writing the film as a crime drama, and Francis Bacon as a visual suggestion for the Joker.",
+      "who": "Christopher Nolan",
+      "quote": "",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Emma Thomas",
+      "role": "producer",
+      "also": [
+        "following",
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer",
+        "the-odyssey"
+      ]
+    },
+    {
+      "name": "Jonathan Nolan",
+      "role": "co-writer",
+      "also": [
+        "the-prestige",
+        "the-dark-knight-rises",
+        "interstellar"
+      ]
+    },
+    {
+      "name": "David S. Goyer",
+      "role": "story",
+      "also": [
+        "batman-begins",
+        "the-dark-knight-rises"
+      ]
+    },
+    {
+      "name": "Wally Pfister",
+      "role": "director of photography",
+      "also": [
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "inception"
+      ]
+    },
+    {
+      "name": "Lee Smith",
+      "role": "editor",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "inception",
+        "the-dark-knight-rises",
+        "dunkirk",
+        "tenet"
+      ]
+    },
+    {
+      "name": "Hans Zimmer",
+      "role": "composer",
+      "also": [
+        "batman-begins",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk"
+      ]
+    },
+    {
+      "name": "James Newton Howard",
+      "role": "composer",
+      "also": [
+        "batman-begins"
+      ]
+    },
+    {
+      "name": "Christian Bale",
+      "role": "Bruce Wayne / Batman",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight-rises"
+      ]
+    },
+    {
+      "name": "Michael Caine",
+      "role": "Alfred",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet"
+      ]
+    },
+    {
+      "name": "Gary Oldman",
+      "role": "James Gordon",
+      "also": [
+        "batman-begins",
+        "the-dark-knight-rises",
+        "oppenheimer"
+      ]
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 85,
+        "source": "https://www.metacritic.com/movie/the-dark-knight/"
+      },
+      "rt": {
+        "value": 94,
+        "count": 339,
+        "source": "https://www.rottentomatoes.com/m/the_dark_knight"
+      },
+      "summary": "Critics were strongly positive: praise for the serious crime-film tone, the scale and above all Heath Ledger. A few found it noisy or too heavy, but almost no negative scores. Both figures are current site totals, not strictly day-of-release."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-17",
+        "source": "https://letterboxd.com/film/the-dark-knight/",
+        "unverified": true
+      },
+      "summary": "It is ranked among the best superhero films and widely called the blueprint for what followed. Ledger won a posthumous Oscar, and the Library of Congress added it to the National Film Registry in 2020. Letterboxd average not shown by the page, so left empty."
+    }
+  },
+  "missed": [
+    {
+      "point": "Zimmer and Howard wrote the score without having seen the film. Howard wrote Dent's music and Zimmer took Batman and the Joker, whose theme is built on a sustained, grating electric-cello texture rather than a tune.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    },
+    {
+      "point": "Zimmer spent months experimenting for the Joker, reportedly with razor blades on piano wire and scratched surfaces, and wrote thousands of bars before settling on one sustained note idea.",
+      "source": "https://thequietus.com/?p=29187",
+      "unverified": true
+    },
+    {
+      "point": "It was the first major feature shot partly on IMAX cameras, starting with the Hong Kong location; roughly 28 minutes of the finished film is IMAX. Practical effects were favoured, including a real flipped 18-wheel truck.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+      "caption": "a still from The Dark Knight",
+      "source": "https://www.themoviedb.org/movie/155-the-dark-knight/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
+      "caption": "a still from The Dark Knight",
+      "source": "https://www.themoviedb.org/movie/155-the-dark-knight/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/6SfX1p5G4EEEDnEulFJeSxgbtSV.jpg",
+      "caption": "a still from The Dark Knight",
+      "source": "https://www.themoviedb.org/movie/155-the-dark-knight/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/6fA9nie4ROlkyZAUlgKNjGNCbHG.jpg",
+      "caption": "a still from The Dark Knight",
+      "source": "https://www.themoviedb.org/movie/155-the-dark-knight/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/x5f2uTfw0Pqc5QI4ch5AHICee2o.jpg",
+      "caption": "a still from The Dark Knight",
+      "source": "https://www.themoviedb.org/movie/155-the-dark-knight/images/backdrops",
+      "local": "still-05"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/pbEkjhdfP7yuDcMB78YEZwgD4IN.jpg",
+      "caption": "a still from The Dark Knight",
+      "source": "https://www.themoviedb.org/movie/155-the-dark-knight/images/backdrops",
+      "local": "still-06"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
+      "title": "The Dark Knight (film), Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "time_structure",
+        "themes",
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt0468569/",
+      "title": "Box Office Mojo",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/the_dark_knight",
+      "title": "Rotten Tomatoes",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.rt"
+      ]
+    },
+    {
+      "url": "https://www.metacritic.com/movie/the-dark-knight/",
+      "title": "Metacritic",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.metacritic"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/the-dark-knight/",
+      "title": "Letterboxd",
+      "fetched": true,
+      "used_for": [
+        "reception.now"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/155-the-dark-knight/images/backdrops",
+      "title": "TMDB backdrops",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    },
+    {
+      "url": "https://batman-on-film.com/660/interview-jonathan-nolan-dark-knight_2008/amp/",
+      "title": "Batman on Film interview with Jonathan Nolan and Goyer",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://www.landmarkcinemas.com/movie-news/christopher-nolan-inspired-by-heat",
+      "title": "Christopher Nolan inspired by Heat",
+      "fetched": false,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://thequietus.com/?p=29187",
+      "title": "The Quietus, music in the films of Christopher Nolan",
+      "fetched": false,
+      "used_for": [
+        "missed"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-17",
+  "digest": "state/agents/nolan/2026-10-17-the-dark-knight.json"
+}
