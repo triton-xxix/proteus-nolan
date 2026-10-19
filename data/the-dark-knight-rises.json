@@ -1,0 +1,421 @@
+{
+  "slug": "the-dark-knight-rises",
+  "title": "The Dark Knight Rises",
+  "year": 2012,
+  "one_line": "Eight years on, a retired Batman returns to a Gotham that is then cut off, ruled by a mob and put on a countdown.",
+  "facts": {
+    "release": {
+      "value": "2012-07-20 (United States and United Kingdom; premiere 2012-07-16, New York)",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    "runtime_min": {
+      "value": 164,
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    "writers": {
+      "value": [
+        "Jonathan Nolan (screenplay)",
+        "Christopher Nolan (screenplay, story)",
+        "David S. Goyer (story)"
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    "dp": {
+      "value": "Wally Pfister",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    "editor": {
+      "value": "Lee Smith",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    "composer": {
+      "value": "Hans Zimmer",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    "budget_usd": {
+      "value": 250000000,
+      "note": "Box Office Mojo says $250m; Wikipedia gives a gross range of $250-300m and $230m net; The Numbers (seen in a search snippet, not fetched) says $230m",
+      "source": "https://www.boxofficemojo.com/title/tt1345836/"
+    },
+    "gross_usd": {
+      "value": 1085429692,
+      "as_of": "2026-10-19",
+      "source": "https://www.boxofficemojo.com/title/tt1345836/"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Christian Bale",
+          "role": "Bruce Wayne / Batman"
+        },
+        {
+          "name": "Michael Caine",
+          "role": "Alfred Pennyworth"
+        },
+        {
+          "name": "Gary Oldman",
+          "role": "James Gordon"
+        },
+        {
+          "name": "Anne Hathaway",
+          "role": "Selina Kyle"
+        },
+        {
+          "name": "Tom Hardy",
+          "role": "Bane"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    }
+  },
+  "time_structure": {
+    "kind": "linear",
+    "summary": "The film runs in order but leaps over long gaps: eight quiet years after the previous film, then a siege of Gotham that lasts months, with Bruce's imprisonment and climb out of the pit sitting inside that stretch. The countdown to the bomb at the end is the only place the clock tightens to hours.",
+    "sketch": {
+      "nesting": "single",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Bruce in retirement (the gap after the previous film)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            0.2
+          ],
+          "duration_label": "eight years",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "Bane's occupation of Gotham",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.35,
+            0.9
+          ],
+          "duration_label": "about five months",
+          "style": "colour"
+        },
+        {
+          "id": "c",
+          "label": "Bruce in the pit prison",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.45,
+            0.7
+          ],
+          "duration_label": "months, unverified",
+          "style": "colour"
+        },
+        {
+          "id": "d",
+          "label": "Bomb countdown",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.9,
+            1
+          ],
+          "duration_label": "hours, unverified",
+          "style": "colour"
+        }
+      ],
+      "joins": [
+        {
+          "from": "c",
+          "to": "b",
+          "kind": "converge",
+          "at": 0.7,
+          "label": "Bruce escapes and returns"
+        },
+        {
+          "from": "b",
+          "to": "d",
+          "kind": "converge",
+          "at": 0.9,
+          "label": "occupation ends in the bomb deadline"
+        }
+      ]
+    },
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+  },
+  "themes": [
+    {
+      "id": "order-and-chaos",
+      "name": "Order and chaos",
+      "scene": "Bane seals Gotham off, lets its wealthy be dragged from their homes and put before improvised courts where the crowd's noise counts for more than evidence. The city's institutions are not destroyed by one blow but taken over and turned inside out.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises",
+      "new": false
+    },
+    {
+      "id": "sacrifice",
+      "name": "Sacrifice",
+      "scene": "Batman flies the bomb out over the bay, away from the city, seemingly giving up his life to save it. Gordon later reads from Dickens at a funeral for a man the city thinks it has lost.",
+      "source": "https://www.slate.com/blogs/browbeat/2012/07/21/the_dark_knight_rises_inspired_by_a_tale_of_two_cities_the_parts_that_draw_from_dickens_.html",
+      "new": false
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "scene": "Bruce, broken and imprisoned in a deep pit, is told that the way out requires climbing without a safety rope, because fear is what lets a person leap. Only when he lets go of the safeguard does he make the jump.",
+      "source": null,
+      "unverified": true,
+      "new": false
+    },
+    {
+      "id": "duty",
+      "name": "Duty",
+      "scene": "After eight years in retirement, Bruce is drawn back into the costume as Gotham slides toward collapse, even though his body and the police both argue against it.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Christopher Nolan said the script drew on Dickens's A Tale of Two Cities, which his brother Jonathan introduced him to; he had not read it before.",
+      "who": "Christopher Nolan",
+      "source": "https://slashfilm.com/christopher-jonathan-nolan-talk-charles-dickens-shaped-the-dark-knight-rises"
+    },
+    {
+      "claim": "Jonathan Nolan described the novel as a picture of a recognisable civilisation falling apart, and said the story was developed in 2008, before the Occupy protests.",
+      "who": "Jonathan Nolan",
+      "source": "https://slashfilm.com/christopher-jonathan-nolan-talk-charles-dickens-shaped-the-dark-knight-rises"
+    },
+    {
+      "claim": "Nolan chose Bane over the Riddler because he wanted a physically imposing villain, a classic movie monster.",
+      "who": "Christopher Nolan",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    {
+      "claim": "Nolan agreed to a third film only once he had a story, written with Jonathan and David S. Goyer, that he felt could end the series.",
+      "who": "Christopher Nolan",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Wally Pfister",
+      "role": "Cinematographer",
+      "also": [
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception"
+      ]
+    },
+    {
+      "name": "Hans Zimmer",
+      "role": "Composer",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "interstellar",
+        "dunkirk"
+      ]
+    },
+    {
+      "name": "Lee Smith",
+      "role": "Editor",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "dunkirk"
+      ]
+    },
+    {
+      "name": "Nathan Crowley",
+      "role": "Production designer",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer"
+      ]
+    },
+    {
+      "name": "Michael Caine",
+      "role": "Alfred Pennyworth",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "interstellar",
+        "tenet"
+      ]
+    },
+    {
+      "name": "Gary Oldman",
+      "role": "James Gordon",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "oppenheimer"
+      ]
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 78,
+        "source": "https://www.metacritic.com/movie/the-dark-knight-rises/"
+      },
+      "rt": {
+        "value": 87,
+        "count": 377,
+        "source": "https://www.rottentomatoes.com/m/the_dark_knight_rises"
+      },
+      "summary": "Mostly warm: critics called it a fitting end to the trilogy, with reservations about plot holes and the scale. Overshadowed by the Aurora, Colorado shooting at a midnight screening on opening night."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-19",
+        "source": null,
+        "unverified": true
+      },
+      "summary": "Remains popular with audiences (Rotten Tomatoes audience score 90% at fetch), though the page text mentions viewers still joking about Bane's voice and plot logic. Letterboxd average could not be read reliably."
+    }
+  },
+  "missed": [
+    {
+      "point": "Bane's habit of finger-knitting paracord is a nod to Madame Defarge, the knitting revolutionary in A Tale of Two Cities.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    },
+    {
+      "point": "Gordon's graveside reading at Bruce's funeral is taken from the closing lines of A Tale of Two Cities, and Bruce is set up as a Sydney Carton figure who dies in another man's place.",
+      "source": "https://www.slate.com/blogs/browbeat/2012/07/21/the_dark_knight_rises_inspired_by_a_tale_of_two_cities_the_parts_that_draw_from_dickens_.html"
+    },
+    {
+      "point": "More than an hour of the film was shot on IMAX cameras, against about 28 minutes in The Dark Knight, and Nolan skipped the digital intermediate so the image was handled less.",
+      "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/c3OHQncTAnKFhdOTX7D3LTW6son.jpg",
+      "caption": "a still from The Dark Knight Rises",
+      "source": "https://www.themoviedb.org/movie/49026-the-dark-knight-rises/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/y2DB71C4nyIdMrANijz8mzvQtk6.jpg",
+      "caption": "a still from The Dark Knight Rises",
+      "source": "https://www.themoviedb.org/movie/49026-the-dark-knight-rises/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/2PKMeD171nYXR3J77fD3GKl1zfl.jpg",
+      "caption": "a still from The Dark Knight Rises",
+      "source": "https://www.themoviedb.org/movie/49026-the-dark-knight-rises/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/iI5kefmeVMEIEN3XrceCcNKP6WW.jpg",
+      "caption": "a still from The Dark Knight Rises",
+      "source": "https://www.themoviedb.org/movie/49026-the-dark-knight-rises/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/d354XqicJ7vi48YnPDr1vRk5uhZ.jpg",
+      "caption": "a still from The Dark Knight Rises",
+      "source": "https://www.themoviedb.org/movie/49026-the-dark-knight-rises/images/backdrops",
+      "local": "still-05"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises",
+      "title": "The Dark Knight Rises - Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "time_structure",
+        "themes",
+        "inspirations",
+        "collaborators",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt1345836/",
+      "title": "Box Office Mojo",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.metacritic.com/movie/the-dark-knight-rises/",
+      "title": "Metacritic",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.metacritic"
+      ]
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/the_dark_knight_rises",
+      "title": "Rotten Tomatoes",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.rt"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/the-dark-knight-rises/",
+      "title": "Letterboxd",
+      "fetched": true,
+      "used_for": []
+    },
+    {
+      "url": "https://slashfilm.com/christopher-jonathan-nolan-talk-charles-dickens-shaped-the-dark-knight-rises",
+      "title": "Slashfilm: Nolans on Dickens",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://www.slate.com/blogs/browbeat/2012/07/21/the_dark_knight_rises_inspired_by_a_tale_of_two_cities_the_parts_that_draw_from_dickens_.html",
+      "title": "Slate: Tale of Two Cities parallels",
+      "fetched": true,
+      "used_for": [
+        "themes.sacrifice",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/49026-the-dark-knight-rises/images/backdrops",
+      "title": "TMDB backdrops",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-19",
+  "digest": "state/agents/nolan/2026-10-19-the-dark-knight-rises.json"
+}
