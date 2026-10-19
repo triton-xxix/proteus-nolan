@@ -1,0 +1,442 @@
+{
+  "slug": "oppenheimer",
+  "title": "Oppenheimer",
+  "year": 2023,
+  "one_line": "A physicist builds the atomic bomb, then is tried for his loyalty, told in two alternating modes that separate his view from everyone else's.",
+  "facts": {
+    "release": {
+      "value": "2023-07-21 (United States and United Kingdom theatrical release; premiere 2023-07-11, Paris)",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "runtime_min": {
+      "value": 180,
+      "note": "Wikipedia infobox gives 180 (BBFC); the Letterboxd page shows 181.",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan (screenplay), based on American Prometheus by Kai Bird and Martin J. Sherwin"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "dp": {
+      "value": "Hoyte van Hoytema",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "editor": {
+      "value": "Jennifer Lame",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "composer": {
+      "value": "Ludwig Göransson",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "budget_usd": {
+      "value": 100000000,
+      "note": "Single figure of $100 million in the Wikipedia infobox (cites Keegan 2023); no range or dispute seen in the text fetched.",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "gross_usd": {
+      "value": 983100000,
+      "as_of": "2026-10-19",
+      "note": "Worldwide total as stated on Wikipedia, which cites The Numbers; the page gives no date for the figure. Box Office Mojo and The Numbers were not fetched.",
+      "unverified": true,
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Cillian Murphy",
+          "role": "J. Robert Oppenheimer"
+        },
+        {
+          "name": "Emily Blunt",
+          "role": "Katherine \"Kitty\" Oppenheimer"
+        },
+        {
+          "name": "Matt Damon",
+          "role": "Gen. Leslie Groves"
+        },
+        {
+          "name": "Robert Downey Jr.",
+          "role": "Rear Admiral Lewis Strauss"
+        },
+        {
+          "name": "Florence Pugh",
+          "role": "Jean Tatlock"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    }
+  },
+  "time_structure": {
+    "kind": "interleaved-strands",
+    "summary": "The film cuts between two modes. Colour scenes follow Oppenheimer's life from physics student through Los Alamos to his 1954 security hearing, mostly through his own eyes. Black-and-white scenes follow the 1959 Senate confirmation hearing for Lewis Strauss, a more detached view that eventually loops back to reframe the colour story.",
+    "sketch": {
+      "nesting": "interleaved",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Oppenheimer's life, 1920s to 1945 (colour, subjective)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            0.8
+          ],
+          "duration_label": "about twenty years",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "1954 security clearance hearing (colour)",
+          "direction": "static",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            0.9
+          ],
+          "duration_label": "about one month",
+          "style": "colour"
+        },
+        {
+          "id": "c",
+          "label": "1959 Strauss confirmation hearing (black and white, objective)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.3,
+            1.0
+          ],
+          "duration_label": "a few weeks",
+          "style": "mono"
+        }
+      ],
+      "joins": [
+        {
+          "from": "a",
+          "to": "b",
+          "kind": "converge",
+          "at": 0.8,
+          "label": "the life story catches up with the 1954 hearing"
+        },
+        {
+          "from": "b",
+          "to": "c",
+          "kind": "cross",
+          "at": 0.95,
+          "label": "the 1959 hearing re-reads what the 1954 strand showed"
+        }
+      ]
+    },
+    "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+    "note": "Span fractions and durations are estimates by the child from the Wikipedia timeline; screen-time fractions are unverified."
+  },
+  "themes": [
+    {
+      "id": "guilt",
+      "name": "Guilt",
+      "scene": "After the bombings of Japan, Oppenheimer meets the President in the Oval Office and tries to say he feels he has blood on his hands. The President dismisses him with contempt, and the scene marks the point where his remorse stops being something anyone in power wants to hear.",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+      "new": false
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "Questioned by a security officer, Oppenheimer invents a story to shield his friend Haakon Chevalier from an espionage inquiry. The lie seems small at the time but is dredged up years later and used against him at the 1954 hearing.",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+      "new": false
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "scene": "In one of Oppenheimer's visions, a young woman shown as Nolan's daughter Flora is disintegrated by a nuclear blast. Nolan has said it was meant to show that the ultimate destructive power ends up destroying the people closest to you.",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+      "new": false
+    },
+    {
+      "id": "the-machine",
+      "name": "The machine",
+      "scene": "At the Trinity test, the countdown builds with ticking and anxious talk among the scientists, the device is fired with real explosives rather than computer effects, and the score drops out at the critical moment so the audience watches a weapon outgrow its makers in near silence.",
+      "source": "https://theconversation.com/oppenheimer-has-an-epic-layered-soundtrack-but-its-real-power-is-in-the-silence-210983",
+      "new": false
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "scene": "The black-and-white 1959 hearing is intercut with the colour history so that the viewer learns Strauss's grievance in fragments. A closing flashback to an earlier conversation with Einstein then changes what that grievance was really about.",
+      "source": "https://www.slashfilm.com/1346215/oppenheimer-ending-explained",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan wrote the screenplay in the first person, his first time doing so, so the colour scenes are seen through Oppenheimer's eyes and the black-and-white scenes read as more objective.",
+      "who": "Nolan",
+      "source": "https://slashfilm.com/1307312/christopher-nolan-oppenheimer-script-written-first-person"
+    },
+    {
+      "claim": "In a Total Film interview, republished by Dark Horizons, Nolan described the colour scenes as subjective and the black-and-white scenes as objective.",
+      "who": "Nolan",
+      "source": "https://www.darkhorizons.com/?p=165570"
+    },
+    {
+      "claim": "Nolan drew on the Mozart and Salieri relationship in Amadeus when shaping the rivalry between Oppenheimer and Strauss.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    {
+      "claim": "Nolan has said he knew of Oppenheimer from youth, partly through a 1985 Sting song, and Robert Pattinson gave him a book of Oppenheimer's speeches in 2019.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+    },
+    {
+      "claim": "A search snippet reports Nolan linking the colour/mono device to his earlier use of colour to separate subjective from objective information in Memento. Not confirmed from a fetched page.",
+      "who": "Nolan",
+      "unverified": true,
+      "source": "https://theplaylist.net/oppenheimer-memento-20230521/"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Emma Thomas",
+      "role": "Producer",
+      "also": [
+        "following",
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "the-odyssey"
+      ]
+    },
+    {
+      "name": "Hoyte van Hoytema",
+      "role": "Cinematographer",
+      "also": [
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "the-odyssey"
+      ]
+    },
+    {
+      "name": "Jennifer Lame",
+      "role": "Editor",
+      "also": [
+        "tenet"
+      ]
+    },
+    {
+      "name": "Ludwig Göransson",
+      "role": "Composer",
+      "also": [
+        "tenet"
+      ]
+    },
+    {
+      "name": "Cillian Murphy",
+      "role": "J. Robert Oppenheimer",
+      "also": [
+        "batman-begins",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "dunkirk"
+      ]
+    },
+    {
+      "name": "Matt Damon",
+      "role": "Gen. Leslie Groves",
+      "also": [
+        "interstellar",
+        "the-odyssey"
+      ]
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 90,
+        "source": "https://www.metacritic.com/movie/oppenheimer/"
+      },
+      "rt": {
+        "value": 93,
+        "count": 509,
+        "unverified": true,
+        "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+      },
+      "summary": "Critics were close to unanimous in praise, singling out the screenplay, Cillian Murphy and the IMAX photography. Complaints were that the final act ran long, the Trinity sequence disappointed some, and the cameos and female roles were thin."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-19",
+        "unverified": true,
+        "source": "https://letterboxd.com/film/oppenheimer-2023/"
+      },
+      "summary": "It won seven Oscars including Best Picture, Director, Actor and Supporting Actor, and grossed roughly $983 million. It sits in several decade-best lists: 54th on IndieWire's best of the 2020s, and 65th on the New York Times list for the 21st century so far. The Letterboxd rating was not readable in the fetch."
+    }
+  },
+  "missed": [
+    {
+      "point": "The black-and-white sequences needed film that did not exist. Kodak reportedly made a new Double-X 65mm black-and-white stock for the IMAX and Panavision cameras, which also needed modified gates. Taken from search-result snippets only; the page itself returned a 403.",
+      "unverified": true,
+      "source": "https://petapixel.com/2023/07/24/kodak-specially-manufactured-black-and-white-70mm-film-for-oppenheimer"
+    },
+    {
+      "point": "The Trinity test is carried by silence as much as sound. A University of Sydney composer argues the score builds with layered strings and cross-rhythms, then drops out as the button is pressed, and that the same trick is used again in Oppenheimer's post-bombing speech.",
+      "source": "https://theconversation.com/oppenheimer-has-an-epic-layered-soundtrack-but-its-real-power-is-in-the-silence-210983"
+    },
+    {
+      "point": "Strauss's grudge rests on a misreading. The closing flashback shows the Einstein conversation was about the risk of a runaway chain reaction, not about Strauss, which shifts the film's weight from his wounded pride to Oppenheimer's guilt.",
+      "source": "https://www.slashfilm.com/1346215/oppenheimer-ending-explained"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
+      "caption": "A still from Oppenheimer",
+      "source": "https://www.themoviedb.org/movie/872585-oppenheimer/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/7CENyUim29IEsaJhUxIGymCRvPu.jpg",
+      "caption": "A still from Oppenheimer",
+      "source": "https://www.themoviedb.org/movie/872585-oppenheimer/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/ycnO0cjsAROSGJKuMODgRtWsHQw.jpg",
+      "caption": "A still from Oppenheimer",
+      "source": "https://www.themoviedb.org/movie/872585-oppenheimer/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/8ohejkcQkNgkJgLn71Ws6Kd35g0.jpg",
+      "caption": "A still from Oppenheimer",
+      "source": "https://www.themoviedb.org/movie/872585-oppenheimer/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/zpkUscxB4Is9HMbrSkCoWHRIGOw.jpg",
+      "caption": "A still from Oppenheimer",
+      "source": "https://www.themoviedb.org/movie/872585-oppenheimer/images/backdrops",
+      "local": "still-05"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/kMa1TSDj76zTSleXE7xsuZ4s3i0.jpg",
+      "caption": "A still from Oppenheimer",
+      "source": "https://www.themoviedb.org/movie/872585-oppenheimer/images/backdrops",
+      "local": "still-06"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+      "title": "Oppenheimer (film), Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.budget_usd",
+        "facts.gross_usd",
+        "facts.cast_top5",
+        "time_structure",
+        "themes",
+        "inspirations",
+        "reception.at_release.rt",
+        "reception.now.summary"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/872585-oppenheimer/images/backdrops",
+      "title": "Oppenheimer backdrops, TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    },
+    {
+      "url": "https://www.metacritic.com/movie/oppenheimer/",
+      "title": "Oppenheimer, Metacritic",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.metacritic"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/oppenheimer-2023/",
+      "title": "Oppenheimer, Letterboxd",
+      "fetched": true,
+      "used_for": [
+        "reception.now.letterboxd (rating not visible)"
+      ]
+    },
+    {
+      "url": "https://slashfilm.com/1307312/christopher-nolan-oppenheimer-script-written-first-person",
+      "title": "Nolan's Oppenheimer script written in first person, SlashFilm",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://www.darkhorizons.com/?p=165570",
+      "title": "Nolan Talks Oppenheimer Color Switch, Dark Horizons",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://theconversation.com/oppenheimer-has-an-epic-layered-soundtrack-but-its-real-power-is-in-the-silence-210983",
+      "title": "Oppenheimer has an epic layered soundtrack, The Conversation",
+      "fetched": true,
+      "used_for": [
+        "themes.the-machine",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.slashfilm.com/1346215/oppenheimer-ending-explained",
+      "title": "Oppenheimer Ending Explained, SlashFilm",
+      "fetched": true,
+      "used_for": [
+        "themes.time",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://petapixel.com/2023/07/24/kodak-specially-manufactured-black-and-white-70mm-film-for-oppenheimer",
+      "title": "Kodak black and white 70mm film for Oppenheimer, PetaPixel",
+      "fetched": false,
+      "used_for": [
+        "missed"
+      ]
+    },
+    {
+      "url": "https://theplaylist.net/oppenheimer-memento-20230521/",
+      "title": "Oppenheimer will use a Memento method, The Playlist",
+      "fetched": false,
+      "used_for": [
+        "inspirations"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-19",
+  "digest": "state/agents/nolan/2026-10-19-oppenheimer.json"
+}
