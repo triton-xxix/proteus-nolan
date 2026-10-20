@@ -185,14 +185,16 @@
       "title": "Tenet",
       "year": 2020,
       "order": 12,
-      "status": "queued",
+      "status": "researched",
       "time_structure_kind": "inverted-crossing",
       "deep_page": "tenet/",
-      "tries": 0,
-      "assigned_on": null,
-      "researched_on": null,
+      "tries": 1,
+      "assigned_on": "2026-10-20",
+      "researched_on": "2026-10-20",
       "last_check": [],
-      "note": "The deep timeline page is live; this row is the standard film page still to research."
+      "note": "The deep timeline page is live; this row is the standard film page still to research.",
+      "research_digest": "state/agents/nolan/2026-10-20-tenet.json",
+      "page": "films/tenet/"
     },
     {
       "slug": "oppenheimer",

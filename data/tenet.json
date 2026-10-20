@@ -1,0 +1,423 @@
+{
+  "slug": "tenet",
+  "title": "Tenet",
+  "year": 2020,
+  "one_line": "A spy thriller in which people and objects can run backwards through time, so the same fight is staged twice, once in each direction.",
+  "facts": {
+    "release": {
+      "value": "2020-08-26 (United Kingdom); 2020-09-03 (United States)",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    "runtime_min": {
+      "value": 150,
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    "dp": {
+      "value": "Hoyte van Hoytema",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    "editor": {
+      "value": "Jennifer Lame",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    "composer": {
+      "value": "Ludwig Göransson",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    "budget_usd": {
+      "value": 205000000,
+      "note": "Wikipedia and The Numbers agree on $205 million; no dispute found in the pages fetched.",
+      "source": "https://www.the-numbers.com/movie/Tenet-(2020)"
+    },
+    "gross_usd": {
+      "value": 366273550,
+      "as_of": "2026-10-20",
+      "source": "https://www.the-numbers.com/movie/Tenet-(2020)",
+      "note": "Worldwide total as shown on The Numbers when fetched; the page gives no single as-of date. Wikipedia's infobox rounds to $376.6 million, so the two sources differ by about $10 million."
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "John David Washington",
+          "role": "The Protagonist"
+        },
+        {
+          "name": "Robert Pattinson",
+          "role": "Neil"
+        },
+        {
+          "name": "Elizabeth Debicki",
+          "role": "Kat Barton"
+        },
+        {
+          "name": "Dimple Kapadia",
+          "role": "Priya Singh"
+        },
+        {
+          "name": "Michael Caine",
+          "role": "Sir Michael Crosby"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    }
+  },
+  "time_structure": {
+    "kind": "inverted-crossing",
+    "summary": "Objects and people can have their entropy inverted, so they move backwards through time while the world around them moves forwards. The film's big set piece is a temporal pincer movement: one team runs forwards and another runs inverted, and both converge on the same battle from opposite ends. The Protagonist and Neil each cross their own path, so a character can meet a version of themselves.",
+    "sketch": {
+      "nesting": "parallel",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Protagonist, forward: recruitment, the trail to Sator, the battle",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "unverified: roughly a few weeks of story time",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "Protagonist and Neil, inverted: the same battle and the hypocenter run backwards",
+          "direction": "backward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.6,
+            0.9
+          ],
+          "duration_label": "unverified: about one day of the battle, run in reverse",
+          "style": "mono"
+        },
+        {
+          "id": "c",
+          "label": "Neil, forward: the long game that ends in his sacrifice",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.3,
+            0.9
+          ],
+          "duration_label": "unverified: spans the whole plot",
+          "style": "colour"
+        }
+      ],
+      "joins": [
+        {
+          "from": "a",
+          "to": "b",
+          "kind": "cross",
+          "at": 0.5,
+          "label": "Turnstile: the forward Protagonist steps into inversion"
+        },
+        {
+          "from": "a",
+          "to": "b",
+          "kind": "converge",
+          "at": 0.75,
+          "label": "Temporal pincer at Stalsk-12: forward and inverted teams meet the same fight"
+        },
+        {
+          "from": "c",
+          "to": "b",
+          "kind": "converge",
+          "at": 0.9,
+          "label": "Hypocenter: several versions of Neil in one place"
+        }
+      ]
+    },
+    "source": "https://en.wikipedia.org/wiki/Tenet_(film)",
+    "note": "Screen-time fractions, spans and duration labels are my estimates from the plot summary, not measured from the film. Treat as unverified."
+  },
+  "themes": [
+    {
+      "id": "time",
+      "name": "Time",
+      "scene": "In the pincer movement, one team advances forwards and another is inverted and moves backwards. Both are fighting the same battle from opposite ends of its timeline, so what one team sees as the cause, the other sees as the effect. The structure of the fight is the idea.",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)",
+      "new": false
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "scene": "In the climactic hypocenter, several versions of the same character exist at once, some forwards and some inverted. The film also plays on palindromes, with the title and several names echoing a Latin word square that reads the same in every direction.",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)",
+      "new": false
+    },
+    {
+      "id": "sacrifice",
+      "name": "Sacrifice",
+      "scene": "Neil, recruited by a future Protagonist, takes on the job of protecting a mission he will not live to see completed, and gives his life in the hypocenter so the others can leave with the nine pieces of the Algorithm.",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)",
+      "new": false
+    },
+    {
+      "id": "the-machine",
+      "name": "The machine",
+      "scene": "The Algorithm is made of nine pieces, designed so that people in the future can invert the world's entropy and destroy the past. Sator collects all nine, and the Protagonist and Ives have to take them back from the hypocenter before the device is used.",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)",
+      "new": false
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "Sator, dying and willing to take the world with him, uses an inverted bullet to wound Kat. This is the film's cleanest trick on the audience: the harm is already done before the weapon is fired, and the viewer works out the order afterwards.",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan spent roughly twenty years developing the ideas and started writing the script in 2014.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    {
+      "claim": "He worked from how he imagined Sergio Leone made Once Upon a Time in the West, and avoided watching spy films while writing so they would not shape the script.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    {
+      "claim": "Physicist Kip Thorne helped with early analysis of the time and quantum ideas; Nolan has said the film is loosely based on real science but does not claim accuracy.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    {
+      "claim": "Ludwig Göransson wrote parts of the score to sound the same forwards or backwards, and recorded an orchestra playing reversed sheet music, then reversed the recording.",
+      "who": "Ludwig Göransson",
+      "source": "https://www.sohohouse.com/house-notes/issue-005/music/ludwig-goransson-on-crafting-tenet-score"
+    },
+    {
+      "claim": "A web search summary credits a childhood viewing of a Roger Moore Bond film, and the image of a bullet leaving a wall (used in Memento), as roots of the film. I did not fetch the underlying interview.",
+      "who": "Nolan",
+      "source": null,
+      "unverified": true
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Hoyte van Hoytema",
+      "role": "Director of photography",
+      "also": [
+        "interstellar",
+        "dunkirk",
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Ludwig Göransson",
+      "role": "Composer",
+      "also": [
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Jennifer Lame",
+      "role": "Editor",
+      "also": [
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Emma Thomas",
+      "role": "Producer",
+      "also": [
+        "following",
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Nathan Crowley",
+      "role": "Production designer",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "the-dark-knight-rises",
+        "inception",
+        "interstellar",
+        "dunkirk"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Michael Caine",
+      "role": "Sir Michael Crosby",
+      "also": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar"
+      ],
+      "unverified": true
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 69,
+        "source": "https://www.metacritic.com/movie/tenet/"
+      },
+      "rt": {
+        "value": 70,
+        "count": 380,
+        "source": "https://www.rottentomatoes.com/m/tenet"
+      },
+      "summary": "Critics were mostly favourable but split. Praise went to the scale, the staging of the inverted action and the ambition; complaints went to the dense plot, heavy exposition and a mix that made dialogue hard to hear. It opened in cinemas during the pandemic, which shaped its box office."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-20",
+        "source": "https://letterboxd.com/film/tenet/",
+        "unverified": true
+      },
+      "summary": "The Letterboxd page was fetched but gave no usable number, only that user reviews are mixed with the same complaints about plot and sound. Rotten Tomatoes audience score was 76% from over 5,000 ratings when fetched. Metacritic user score was 7.2 from 1,673 ratings."
+    }
+  },
+  "missed": [
+    {
+      "point": "The Sator Square runs through the film: the title, and character and place names such as Sator, Arepo, Opera and Rotas, are taken from its palindromic Latin words.",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    },
+    {
+      "point": "The score is built on the same idea as the plot: Göransson had musicians play reversed sheet music and then reversed the recording, so you cannot easily tell if the orchestra is running forwards or backwards.",
+      "source": "https://www.sohohouse.com/house-notes/issue-005/music/ludwig-goransson-on-crafting-tenet-score"
+    },
+    {
+      "point": "The film leans on determinism: characters repeatedly say that what has happened has happened, and one analysis reads Kat as the character who best embodies free will.",
+      "source": "https://en.wikipedia.org/wiki/Tenet_(film)"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/mQOUyqDybTqxl73hO5LujCZsM1o.jpg",
+      "caption": "A still from Tenet",
+      "source": "https://www.themoviedb.org/movie/577922-tenet/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/gPucRIw0n3MPv7r1FEdMpngNXr7.jpg",
+      "caption": "A still from Tenet",
+      "source": "https://www.themoviedb.org/movie/577922-tenet/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/7BYtnXUfweV6EryNYDpZFeS31Ia.jpg",
+      "caption": "A still from Tenet",
+      "source": "https://www.themoviedb.org/movie/577922-tenet/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/1g7n02DNWOyrYl8WzXViloEHdSC.jpg",
+      "caption": "A still from Tenet",
+      "source": "https://www.themoviedb.org/movie/577922-tenet/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/62kBisTm7o2rLkyJnNt20CcnrGp.jpg",
+      "caption": "A still from Tenet",
+      "source": "https://www.themoviedb.org/movie/577922-tenet/images/backdrops",
+      "local": "still-05"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tenet_(film)",
+      "title": "Tenet (film) - Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.cast_top5",
+        "time_structure",
+        "themes",
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.the-numbers.com/movie/Tenet-(2020)",
+      "title": "Tenet (2020) - The Numbers",
+      "fetched": true,
+      "used_for": [
+        "facts.budget_usd",
+        "facts.gross_usd"
+      ]
+    },
+    {
+      "url": "https://www.metacritic.com/movie/tenet/",
+      "title": "Tenet - Metacritic",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.metacritic"
+      ]
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/tenet",
+      "title": "Tenet - Rotten Tomatoes",
+      "fetched": true,
+      "used_for": [
+        "reception.at_release.rt",
+        "reception.now"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/tenet/",
+      "title": "Tenet - Letterboxd",
+      "fetched": true,
+      "used_for": [
+        "reception.now"
+      ]
+    },
+    {
+      "url": "https://www.sohohouse.com/house-notes/issue-005/music/ludwig-goransson-on-crafting-tenet-score",
+      "title": "Ludwig Göransson on crafting Tenet's omnipresent character - Soho House",
+      "fetched": true,
+      "used_for": [
+        "inspirations",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/577922-tenet/images/backdrops",
+      "title": "Tenet backdrops - TMDB",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-20",
+  "digest": "state/agents/nolan/2026-10-20-tenet.json"
+}
