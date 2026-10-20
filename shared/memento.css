@@ -1,0 +1,37 @@
+/* Memento, both ways: the braid and the re-sorting list. Tokens come from site.css. */
+.mem .site__kicker a { color: var(--ink-soft); }
+.mem__fig { margin: 0 0 3rem; }
+.braid { width: 100%; height: auto; display: block; }
+.braid__axis { font: 600 13px var(--display); letter-spacing: 0.08em; text-transform: uppercase; fill: var(--ink-soft); }
+.braid__join { font: 500 13px var(--text); fill: var(--accent); }
+.braid__line { transition: stroke-opacity 0.2s, stroke-width 0.2s; }
+.braid:hover .braid__line { stroke-opacity: 0.25; }
+.braid .braid__line:hover { stroke-opacity: 1; stroke-width: 3.5; }
+.mem__fig figcaption { color: var(--ink-soft); font-size: 0.92rem; max-width: 62ch; margin-top: 0.8rem; text-wrap: pretty; }
+.mem__toggle { display: inline-flex; border: 1px solid #2A313B; border-radius: 999px; padding: 3px; margin-bottom: 0.8rem; }
+.mem__toggle button { font: 600 0.95rem var(--display); color: var(--ink-soft); background: none; border: 0; border-radius: 999px; padding: 0.5rem 1rem; cursor: pointer; }
+.mem__toggle button[aria-pressed="true"] { background: var(--ink); color: var(--canvas); }
+.mem__toggle button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mem__hint { color: var(--ink-soft); font-size: 0.85rem; margin: 0 0 1rem; }
+.seqs { list-style: none; margin: 0 0 3rem; padding: 0; display: grid; gap: 4px; }
+.seq { display: grid; grid-template-columns: 4.6rem 1fr; gap: 0.8rem; align-items: baseline; padding: 0.55rem 0.8rem; background: var(--surface); border-left: 3px solid; }
+.seq--colour { border-color: var(--fwd); }
+.seq--mono { border-color: var(--ink-soft); }
+.seq--both { border-color: var(--accent); }
+.seq__n { display: inline-flex; gap: 0.35rem; font: 600 0.85rem var(--display); }
+.seq__w, .seq__s { display: inline-block; min-width: 1.9rem; text-align: center; border-radius: 4px; padding: 0 0.25rem; }
+.seq__w { background: #2A313B; color: var(--ink); }
+.seq__s { border: 1px solid #2A313B; color: var(--ink-soft); }
+.seqs[data-order="story"] .seq__s { background: #2A313B; color: var(--ink); border-color: transparent; }
+.seqs[data-order="story"] .seq__w { background: none; border: 1px solid #2A313B; color: var(--ink-soft); }
+.seq__label { font-size: 0.98rem; text-wrap: pretty; }
+.seq__flag { font-style: normal; font-size: 0.75rem; color: var(--accent); margin-left: 0.3rem; }
+.mem__notes { margin: 0 0 2.5rem; max-width: 68ch; color: var(--ink-soft); }
+.mem__notes ul { padding-left: 1.1rem; }
+.mem__src { font-size: 0.85rem; color: var(--ink-soft); padding-left: 1.1rem; overflow-wrap: anywhere; }
+.site__foot { color: var(--ink-soft); font-size: 0.9rem; border-top: 1px solid #1E242D; padding-top: 1.5rem; }
+@media (max-width: 600px) {
+  .braid__axis { font-size: 22px; }
+  .braid__join { font-size: 22px; }
+  .seq { grid-template-columns: 4.2rem 1fr; padding: 0.5rem 0.6rem; }
+}

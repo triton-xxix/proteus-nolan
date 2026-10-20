@@ -1,0 +1,397 @@
+{
+ "researched_on": "2026-10-20",
+ "counts": {
+  "colour": 22,
+  "mono": 22,
+  "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+  "notes": "Wikipedia (Klein's scheme): 22 black-and-white sequences numbered 1-22, colour lettered A-V (22 letters). The strands share one sequence, 22/A (the Polaroid transition), so distinct sequences on screen are 43 (21 pure mono + 21 pure colour + 22/A), plus the reversed opening credits. A doubtful Salon fetch said 'Credits + 22 mono + 21 colour' = 44 segments, the same 43 plus credits. Count depends on whether 22/A is counted once or in both strands."
+ },
+ "convention": "Klein (Salon, 2001): black-and-white numbered 1-22, colour lettered A-V. Colour A is the same sequence as mono 22. Screen order: credits (reversed), 1, V, 2, U, 3, T ... 21, B, 22/A, end credits. Story order: 1-21, 22/A, B ... V. No source found using the reverse convention.",
+ "sequences": [
+  {
+   "screen": 1,
+   "strand": "mono",
+   "label": "1",
+   "story_pos": 1,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 2,
+   "strand": "colour",
+   "label": "V",
+   "story_pos": 43,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 3,
+   "strand": "mono",
+   "label": "2",
+   "story_pos": 2,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 4,
+   "strand": "colour",
+   "label": "U",
+   "story_pos": 42,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 5,
+   "strand": "mono",
+   "label": "3",
+   "story_pos": 3,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 6,
+   "strand": "colour",
+   "label": "T",
+   "story_pos": 41,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 7,
+   "strand": "mono",
+   "label": "4",
+   "story_pos": 4,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 8,
+   "strand": "colour",
+   "label": "S",
+   "story_pos": 40,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  },
+  {
+   "screen": 9,
+   "strand": "mono",
+   "label": "5",
+   "story_pos": 5,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 10,
+   "strand": "colour",
+   "label": "R",
+   "story_pos": 39,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 11,
+   "strand": "mono",
+   "label": "6",
+   "story_pos": 6,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 12,
+   "strand": "colour",
+   "label": "Q",
+   "story_pos": 38,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 13,
+   "strand": "mono",
+   "label": "7",
+   "story_pos": 7,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 14,
+   "strand": "colour",
+   "label": "P",
+   "story_pos": 37,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 15,
+   "strand": "mono",
+   "label": "8",
+   "story_pos": 8,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 16,
+   "strand": "colour",
+   "label": "O",
+   "story_pos": 36,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 17,
+   "strand": "mono",
+   "label": "9",
+   "story_pos": 9,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 18,
+   "strand": "colour",
+   "label": "N",
+   "story_pos": 35,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 19,
+   "strand": "mono",
+   "label": "10",
+   "story_pos": 10,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 20,
+   "strand": "colour",
+   "label": "M",
+   "story_pos": 34,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 21,
+   "strand": "mono",
+   "label": "11",
+   "story_pos": 11,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 22,
+   "strand": "colour",
+   "label": "L",
+   "story_pos": 33,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 23,
+   "strand": "mono",
+   "label": "12",
+   "story_pos": 12,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 24,
+   "strand": "colour",
+   "label": "K",
+   "story_pos": 32,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 25,
+   "strand": "mono",
+   "label": "13",
+   "story_pos": 13,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 26,
+   "strand": "colour",
+   "label": "J",
+   "story_pos": 31,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 27,
+   "strand": "mono",
+   "label": "14",
+   "story_pos": 14,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 28,
+   "strand": "colour",
+   "label": "I",
+   "story_pos": 30,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 29,
+   "strand": "mono",
+   "label": "15",
+   "story_pos": 15,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 30,
+   "strand": "colour",
+   "label": "H",
+   "story_pos": 29,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 31,
+   "strand": "mono",
+   "label": "16",
+   "story_pos": 16,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 32,
+   "strand": "colour",
+   "label": "G",
+   "story_pos": 28,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 33,
+   "strand": "mono",
+   "label": "17",
+   "story_pos": 17,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 34,
+   "strand": "colour",
+   "label": "F",
+   "story_pos": 27,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 35,
+   "strand": "mono",
+   "label": "18",
+   "story_pos": 18,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 36,
+   "strand": "colour",
+   "label": "E",
+   "story_pos": 26,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 37,
+   "strand": "mono",
+   "label": "19",
+   "story_pos": 19,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 38,
+   "strand": "colour",
+   "label": "D",
+   "story_pos": 25,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 39,
+   "strand": "mono",
+   "label": "20",
+   "story_pos": 20,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 40,
+   "strand": "colour",
+   "label": "C",
+   "story_pos": 24,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 41,
+   "strand": "mono",
+   "label": "21",
+   "story_pos": 21,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 42,
+   "strand": "colour",
+   "label": "B",
+   "story_pos": 23,
+   "source": "pattern implied by Wikipedia ellipsis",
+   "verified": false
+  },
+  {
+   "screen": 43,
+   "strand": "both",
+   "label": "22/A (mono turns to colour)",
+   "story_pos": 22,
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "verified": true
+  }
+ ],
+ "anchors": [
+  {
+   "what": "Presented order stated by Wikipedia: opening credits reversed, 1, V, 2, U, 3, T, 4, S, ..., 22/A, credits. Opening colour sequence V is the shooting, played in reverse.",
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+  },
+  {
+   "what": "Convergence is 22/A: black-and-white 22 becomes colour A while a Polaroid develops. No timecode given.",
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+  },
+  {
+   "what": "Chronological order (DVD hidden feature on 2-Disc Region 1 and 3-Disc Region 2 editions): credits reversed, 1-21, 22/A, B-V, opening title forward. Story begins at mono 1, ends at colour V, the shooting shown first on screen.",
+   "source": "https://en.wikipedia.org/wiki/Memento_(film)"
+  },
+  {
+   "what": "Salon letters page confirms the label 22/A and ties it to Leonard copying the licence plate.",
+   "source": "https://www.salon.com/2001/07/04/memento_2"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Memento_(film)",
+   "fetched": true,
+   "what": "Structure section: counts, labels, presented and DVD chronological order. No table, no timings. Second half of page (offset 100000) had nothing relevant."
+  },
+  {
+   "url": "https://www.salon.com/2001/07/04/memento_2",
+   "fetched": true,
+   "what": "Klein follow-up Q&A with reader letters; no sequence list; confirms 22/A."
+  },
+  {
+   "url": "https://www.salon.com/2001/06/28/memento/",
+   "fetched": true,
+   "what": "Guessed URL. Fetch returned a full labelled list, but provenance doubtful and its descriptions look partly wrong. Used only to cross-check the ordering, not for descriptions."
+  },
+  {
+   "url": "https://www.salon.com/2001/06/28/memento_decoder/",
+   "fetched": false,
+   "what": "404"
+  }
+ ],
+ "gaps": "No verified per-sequence plot descriptions, so none given. Labels for screen 9-42 follow the alternating pattern Wikipedia gives with an ellipsis (mono ascending, colour descending); verified false for those. No convergence timecode from any source. Not checked: fan chronology sites, special edition booklet, screenplay. Count ambiguity: 22+22 with shared 22/A gives 43 distinct sequences."
+}
