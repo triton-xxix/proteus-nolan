@@ -1,0 +1,416 @@
+{
+  "slug": "the-odyssey",
+  "title": "The Odyssey",
+  "year": 2026,
+  "one_line": "Odysseus tries to get home from Troy, and the film tells the war and the voyage out of order through memory and other people's accounts.",
+  "facts": {
+    "release": {
+      "value": "2026-07-17 (United States and United Kingdom theatrical release; premiere 2026-07-06, London)",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "runtime_min": {
+      "value": 173,
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "writers": {
+      "value": [
+        "Christopher Nolan (screenplay), based on Homer's Odyssey"
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "dp": {
+      "value": "Hoyte van Hoytema",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "editor": {
+      "value": "Jennifer Lame",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "composer": {
+      "value": "Ludwig Göransson",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "budget_usd": {
+      "value": 250000000,
+      "note": "Wikipedia gives an estimated net budget of $250 million; a TMDB listing seen in search results gives the same figure. No dispute seen.",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "gross_usd": {
+      "value": 1791000000,
+      "as_of": "2026-10-20",
+      "note": "Worldwide total as stated on Wikipedia as of 20 October 2026; Box Office Mojo and The Numbers were not fetched.",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    "cast_top5": {
+      "value": [
+        {
+          "name": "Matt Damon",
+          "role": "Odysseus"
+        },
+        {
+          "name": "Tom Holland",
+          "role": "Telemachus"
+        },
+        {
+          "name": "Anne Hathaway",
+          "role": "Penelope"
+        },
+        {
+          "name": "Robert Pattinson",
+          "role": "Antinous"
+        },
+        {
+          "name": "Lupita Nyong'o",
+          "role": "Helen of Troy and Clytemnestra"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    }
+  },
+  "time_structure": {
+    "kind": "interleaved-strands",
+    "summary": "The present-day strands are Ithaca, where Telemachus and Penelope face the suitors, and Odysseus on Ogygia. The Trojan War and the voyage home arrive as memories and as competing accounts told by different characters, cut in without dates or place titles. The same events, such as the wooden horse, are shown from more than one teller, and Odysseus's own version comes last.",
+    "sketch": {
+      "nesting": "interleaved",
+      "threads": [
+        {
+          "id": "a",
+          "label": "Ithaca and Sparta: Telemachus, Penelope and the suitors (present)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0,
+            1
+          ],
+          "duration_label": "unverified: present-day span not stated in sources",
+          "style": "colour"
+        },
+        {
+          "id": "b",
+          "label": "Odysseus on Ogygia with Calypso, memory dulled (present)",
+          "direction": "forward",
+          "level": 0,
+          "rate": 1,
+          "span": [
+            0.05,
+            0.6
+          ],
+          "duration_label": "seven years (per Wikipedia plot)",
+          "style": "colour"
+        },
+        {
+          "id": "c",
+          "label": "Recalled war and voyage: Troy, Cyclops, Circe, underworld, storm",
+          "direction": "forward",
+          "level": 1,
+          "rate": 1,
+          "span": [
+            0.02,
+            0.9
+          ],
+          "duration_label": "about ten years of war and wandering (unverified)",
+          "style": "colour"
+        }
+      ],
+      "joins": [
+        {
+          "from": "c",
+          "to": "b",
+          "kind": "nest",
+          "at": 0.3,
+          "label": "Calypso prompts Odysseus to remember"
+        },
+        {
+          "from": "c",
+          "to": "a",
+          "kind": "nest",
+          "at": 0.45,
+          "label": "Menelaus tells the horse story to Telemachus in Sparta"
+        },
+        {
+          "from": "b",
+          "to": "a",
+          "kind": "converge",
+          "at": 0.8,
+          "label": "Odysseus reaches Ithaca and confronts the suitors"
+        }
+      ],
+      "unverified": true,
+      "note": "Spans and fractions are approximate and drawn from plot descriptions; no source gives screen-time breakdowns."
+    },
+    "source": "https://www.theringer.com/2026/07/23/movies/the-odyssey-christopher-nolan-flashbacks-time-jumping-explained"
+  },
+  "themes": [
+    {
+      "id": "memory",
+      "name": "Memory",
+      "scene": "On Calypso's island Odysseus is dulled by the lotus and loses his past for years. Her prompting is what starts the flashbacks to the war and the voyage, so recovering what he did is the thing the story is pulling toward.",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+      "new": false
+    },
+    {
+      "id": "guilt",
+      "name": "Guilt",
+      "scene": "Late in the film Odysseus, in disguise, tells Penelope about the sack of Troy and admits he broke the laws of the gods. The earlier fragments of the war resolve into his own admission.",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+      "new": false
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "scene": "Back on Ithaca Odysseus hides as a beggar and uses an assumed name. Earlier the wooden horse is told as a clever ruse in one account and a shameful act in another, so the audience is deceived by tellers too.",
+      "source": "https://www.theringer.com/2026/07/23/movies/the-odyssey-christopher-nolan-flashbacks-time-jumping-explained",
+      "new": false
+    },
+    {
+      "id": "fathers-and-children",
+      "name": "Fathers and children",
+      "scene": "Telemachus travels to Sparta to learn what happened to his absent father and hears the horse story from Menelaus. The son builds his picture of Odysseus from other men's accounts.",
+      "source": "https://www.theringer.com/2026/07/23/movies/the-odyssey-christopher-nolan-flashbacks-time-jumping-explained",
+      "new": false
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "scene": "The film opens mid-feast with a bard telling of the horse, cuts to the horse itself, then drops back to Ithaca. Dates and places are never captioned, so the audience has to work out from context where in time it is.",
+      "source": "https://www.theringer.com/2026/07/23/movies/the-odyssey-christopher-nolan-flashbacks-time-jumping-explained",
+      "new": false
+    }
+  ],
+  "inspirations": [
+    {
+      "claim": "Nolan traces the film to losing the chance to direct a Troy project years ago, and he stayed drawn to that world and the wooden horse.",
+      "who": "Nolan",
+      "source": "https://www.toy-people.com/en/?p=105299"
+    },
+    {
+      "claim": "He grew up on Ray Harryhausen-style myth films and felt none had been made at IMAX-level blockbuster scale.",
+      "who": "Nolan",
+      "source": "https://www.toy-people.com/en/?p=105299"
+    },
+    {
+      "claim": "Per Wikipedia, Nolan named Tarkovsky's Andrei Rublev and Kurosawa's Ran as major influences on visual style and tone, citing a June 2026 New York Times interview.",
+      "who": "Nolan",
+      "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+    },
+    {
+      "claim": "Search-result summaries say Nolan credits the Star Wars opening text for the film's framing text and wanted the version of the story he remembered from a school play. Not fetched.",
+      "who": "Nolan",
+      "unverified": true,
+      "source": null
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Emma Thomas",
+      "role": "producer (unverified for this film)",
+      "also": [
+        "following",
+        "memento",
+        "insomnia",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Hoyte van Hoytema",
+      "role": "director of photography",
+      "also": [
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Jennifer Lame",
+      "role": "editor",
+      "also": [
+        "tenet",
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Ludwig Göransson",
+      "role": "composer",
+      "also": [
+        "tenet",
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Matt Damon",
+      "role": "Odysseus",
+      "also": [
+        "interstellar",
+        "oppenheimer"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Anne Hathaway",
+      "role": "Penelope",
+      "also": [
+        "the-dark-knight-rises",
+        "interstellar"
+      ],
+      "unverified": true
+    },
+    {
+      "name": "Robert Pattinson",
+      "role": "Antinous",
+      "also": [
+        "tenet"
+      ],
+      "unverified": true
+    }
+  ],
+  "reception": {
+    "at_release": {
+      "metacritic": {
+        "value": 88,
+        "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+      },
+      "rt": {
+        "value": 94,
+        "count": 515,
+        "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+      },
+      "summary": "Critics were strongly positive: Wikipedia says it is Nolan's best-rated film on Rotten Tomatoes. Praise went to scale and spectacle. Complaints included Damon's modern feel, little focus on the gods and hard-to-hear dialogue. CinemaScore was an A."
+    },
+    "now": {
+      "letterboxd": {
+        "value": null,
+        "as_of": "2026-10-22",
+        "note": "The Letterboxd page was fetched but showed no overall average.",
+        "unverified": true,
+        "source": null
+      },
+      "summary": "Audience opinion is more split than critics'. Letterboxd reviews sampled ranged from five stars to 2.5, with the writing the main complaint. TMDB users rate it about 8 out of 10 but reviews are polarised. Box office reached $1.791 billion by 20 October 2026, Nolan's biggest."
+    }
+  },
+  "missed": [
+    {
+      "point": "Recurring images of Odysseus on temple steps and a stone head look random until the end, when their meaning is made clear.",
+      "source": "https://www.theringer.com/2026/07/23/movies/the-odyssey-christopher-nolan-flashbacks-time-jumping-explained"
+    },
+    {
+      "point": "The wooden horse is told three times with different tones (heroic, dishonourable, tragic) depending on who is speaking, so the structure is about unreliable telling.",
+      "source": "https://www.theringer.com/2026/07/23/movies/the-odyssey-christopher-nolan-flashbacks-time-jumping-explained"
+    },
+    {
+      "point": "Homer's poem is itself non-linear, with much of the voyage told by Odysseus in recollection, so the film's structure follows the source rather than departing from it. Taken from a search summary of the Cornell Sun piece, not fetched.",
+      "source": "https://www.cornellsun.com/article/2026/05/erm-actually-a-nerds-guide-to-christopher-nolans-the-odyssey",
+      "unverified": true
+    }
+  ],
+  "images": [
+    {
+      "url": "https://image.tmdb.org/t/p/original/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
+      "caption": "a still from The Odyssey",
+      "source": "https://www.themoviedb.org/movie/1368337-the-odyssey/images/backdrops",
+      "local": "still-01"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/twiVn9oFXOVR0uoYgawyEBlnFu8.jpg",
+      "caption": "a still from The Odyssey",
+      "source": "https://www.themoviedb.org/movie/1368337-the-odyssey/images/backdrops",
+      "local": "still-02"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/njbjSn2ihutJD1lNeM4jAmeDkG9.jpg",
+      "caption": "a still from The Odyssey",
+      "source": "https://www.themoviedb.org/movie/1368337-the-odyssey/images/backdrops",
+      "local": "still-03"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+      "caption": "a still from The Odyssey",
+      "source": "https://www.themoviedb.org/movie/1368337-the-odyssey/images/backdrops",
+      "local": "still-04"
+    },
+    {
+      "url": "https://image.tmdb.org/t/p/original/r57L2UBLPKcHdZQYg8tagv9XqK2.jpg",
+      "caption": "a still from The Odyssey",
+      "source": "https://www.themoviedb.org/movie/1368337-the-odyssey/images/backdrops",
+      "local": "still-05"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+      "title": "The Odyssey (2026 film) - Wikipedia",
+      "fetched": true,
+      "used_for": [
+        "facts.release",
+        "facts.runtime_min",
+        "facts.writers",
+        "facts.dp",
+        "facts.editor",
+        "facts.composer",
+        "facts.budget_usd",
+        "facts.gross_usd",
+        "facts.cast_top5",
+        "themes",
+        "inspirations",
+        "reception"
+      ]
+    },
+    {
+      "url": "https://www.theringer.com/2026/07/23/movies/the-odyssey-christopher-nolan-flashbacks-time-jumping-explained",
+      "title": "The Ringer: The Odyssey flashbacks explained",
+      "fetched": true,
+      "used_for": [
+        "time_structure",
+        "themes",
+        "missed"
+      ]
+    },
+    {
+      "url": "https://www.toy-people.com/en/?p=105299",
+      "title": "Toy People: Nolan on Troy and The Odyssey (cites Empire)",
+      "fetched": true,
+      "used_for": [
+        "inspirations"
+      ]
+    },
+    {
+      "url": "https://www.themoviedb.org/movie/1368337-the-odyssey/images/backdrops",
+      "title": "TMDB backdrops",
+      "fetched": true,
+      "used_for": [
+        "images"
+      ]
+    },
+    {
+      "url": "https://letterboxd.com/film/the-odyssey-2026/",
+      "title": "Letterboxd: The Odyssey",
+      "fetched": true,
+      "used_for": [
+        "reception.now"
+      ]
+    },
+    {
+      "url": "https://www.cornellsun.com/article/2026/05/erm-actually-a-nerds-guide-to-christopher-nolans-the-odyssey",
+      "title": "Cornell Sun nerd's guide",
+      "fetched": false,
+      "used_for": [
+        "missed"
+      ]
+    }
+  ],
+  "researched_on": "2026-10-22",
+  "digest": "state/agents/nolan/2026-10-22-the-odyssey.json"
+}
