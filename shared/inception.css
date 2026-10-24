@@ -1,0 +1,44 @@
+/* Ten hours of flight: the five clocks, the converter, the levels table and the kicks. Tokens from site.css. */
+.inc .site__kicker a { color: var(--ink-soft); }
+.inc__fig { margin: 0 0 3rem; }
+.clocks { width: 100%; height: auto; display: block; }
+.clocks__name { font: 600 15px var(--display); fill: var(--ink); }
+.clocks__word { font: 500 13px var(--text); fill: var(--ink-soft); }
+.clocks__val { font: 600 15px var(--display); }
+.clocks__tick { font: 500 12px var(--text); fill: var(--ink-soft); letter-spacing: 0.04em; }
+.inc__fig figcaption { color: var(--ink-soft); font-size: 0.92rem; max-width: 62ch; margin-top: 0.8rem; text-wrap: pretty; }
+.inc__conv { margin: 0 0 3rem; }
+.conv label { display: inline-flex; gap: 0.5rem; align-items: center; font: 600 0.95rem var(--display); color: var(--ink-soft); flex-wrap: wrap; }
+.conv input, .conv select { font: 600 1.1rem var(--display); color: var(--ink); background: var(--surface); border: 1px solid #2A313B; border-radius: 8px; padding: 0.45rem 0.7rem; }
+.conv input { width: 7.5rem; }
+.conv input:focus-visible, .conv select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.conv__out { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 4px; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); }
+.conv__out li { background: var(--surface); border-top: 3px solid var(--c); padding: 0.7rem 0.9rem; display: grid; gap: 0.2rem; }
+.conv__name { font: 600 0.8rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
+.conv__out output { font: 700 1.35rem var(--display); color: var(--c); font-variant-numeric: tabular-nums; }
+.inc__table { margin: 0 0 3rem; overflow-x: auto; }
+.inc__table table { border-collapse: collapse; width: 100%; font-size: 0.95rem; min-width: 34rem; }
+.inc__table th, .inc__table td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid #1E242D; vertical-align: top; }
+.inc__table thead th { font: 600 0.75rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
+.inc__table tbody th { border-left: 3px solid var(--c); font: 600 1rem var(--display); white-space: nowrap; }
+.inc__table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.inc__q { color: var(--ink-soft); }
+.inc__flag { font-style: normal; font-size: 0.75rem; color: var(--accent); margin-left: 0.3rem; }
+.inc__kicks { margin: 0 0 3rem; max-width: 68ch; }
+.inc__kicks p { color: var(--ink-soft); }
+.kicks { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.kicks li { background: var(--surface); border-left: 3px solid var(--c); padding: 0.7rem 0.9rem; }
+.inc__kl { font: 600 0.8rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--c); display: block; margin-bottom: 0.15rem; }
+.inc__kw { color: var(--ink-soft); }
+.inc__notes { margin: 0 0 2.5rem; max-width: 68ch; color: var(--ink-soft); }
+.inc__notes p { margin: 0 0 0.8rem; }
+.inc__honest { color: var(--ink); border-left: 3px solid var(--accent); padding-left: 0.8rem; }
+.inc__two { color: var(--ink); background: var(--surface); padding: 0.8rem 1rem; border-radius: 8px; }
+.inc__src { font-size: 0.85rem; color: var(--ink-soft); padding-left: 1.1rem; overflow-wrap: anywhere; }
+.site__foot { color: var(--ink-soft); font-size: 0.9rem; border-top: 1px solid #1E242D; padding-top: 1.5rem; }
+@media (max-width: 600px) {
+  .clocks__name { font-size: 24px; }
+  .clocks__word { font-size: 20px; }
+  .clocks__val { font-size: 24px; }
+  .clocks__tick { font-size: 19px; }
+}

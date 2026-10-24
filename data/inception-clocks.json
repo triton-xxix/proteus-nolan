@@ -1,0 +1,57 @@
+{
+  "note": "Data for the Inception deep page, 'Ten hours of flight'. The page computes every duration from flight_hours and the per-level factor; nothing on it is typed by hand. Each claim carries a source and a verified flag set by a research child (Sonnet) on the day given below. The transcript source is fan-transcribed. An unverified claim is my recollection of the film and the page says so.",
+  "researched_on": "2026-10-24",
+  "flight_hours": 10,
+  "factor_per_level": 20,
+  "spoken_factor": 12,
+  "claims": {
+    "factor": {
+      "text": "The film gives two ratios. Cobb: five minutes in the real world is an hour in the dream, which is 12 to 1. Yusuf, on the compound sedative: brain function in the dream will be about 20 times normal. Nobody says which one governs time at each level.",
+      "source": "https://scrapsfromtheloft.com/movies/inception-2010-transcript/",
+      "quote": "Five minutes in the real world gives you an hour in the dream.",
+      "verified": true
+    },
+    "flight": {
+      "text": "The job is done on a Sydney to Los Angeles flight. Eames: we need at least a good ten hours.",
+      "source": "https://scrapsfromtheloft.com/movies/inception-2010-transcript/",
+      "quote": "We need at least a good 10 hours.",
+      "verified": true
+    },
+    "film_words": {
+      "text": "Yusuf works it out for the team: a week the first level down, six months the second, and on the third, ten years. Those round numbers fit the 20 to 1 rule, not the 12 to 1 one.",
+      "source": "https://scrapsfromtheloft.com/movies/inception-2010-transcript/",
+      "quote": "It's a week, the first level down.",
+      "verified": true
+    },
+    "limbo": {
+      "text": "Cobb and Mal spent something like fifty years in Limbo in one night, and Saito is an old man by the time Cobb finds him there.",
+      "source": "https://en.wikipedia.org/wiki/Inception",
+      "quote": "experiencing fifty years in one night",
+      "verified": true
+    },
+    "kicks": {
+      "text": "A kick, the feeling of falling, wakes a dreamer one level up. Yusuf: the trick is to synchronise a kick that can penetrate all three levels. Because the levels run at different speeds the kicks have to be timed to land together, so the climax cuts between all of them at once; Bordwell counts four embedded timelines framed by a fifth.",
+      "source": "https://www.davidbordwell.net/blog/?p=9770",
+      "quote": "intercuts four embedded timelines, all of them framed by a fifth",
+      "verified": true
+    }
+  },
+  "levels": [
+    { "id": 0, "name": "The plane", "place": "A first-class cabin, Sydney to Los Angeles", "film_word": "ten hours", "film_word_verified": true, "colour": "#EEF1F4" },
+    { "id": 1, "name": "Level one", "place": "A rainy city, a van, a bridge", "film_word": "a week", "film_word_verified": true, "colour": "#3C9AB4" },
+    { "id": 2, "name": "Level two", "place": "A hotel where gravity comes and goes", "film_word": "six months", "film_word_verified": true, "colour": "#E8A23B" },
+    { "id": 3, "name": "Level three", "place": "A fortress in the snow", "film_word": "ten years", "film_word_verified": true, "colour": "#C8463A" },
+    { "id": 4, "name": "Limbo", "place": "Raw dream space, a shoreline city built by two people", "film_word": "fifty years", "film_word_verified": true, "colour": "#9AA6B2", "rate_holds": false }
+  ],
+  "kicks": [
+    { "level": 1, "what": "Yusuf drives the van off the bridge; the kick is the moment it hits the water.", "wakes": "everyone asleep in the van", "verified": true },
+    { "level": 2, "what": "Arthur rigs the lift with explosives and fires it up the shaft while the hotel has no gravity.", "wakes": "the team asleep in the lift", "verified": true },
+    { "level": 3, "what": "Eames rigs the fortress with explosives and brings the floor down.", "wakes": "the team asleep in the fortress", "verified": true }
+  ],
+  "not_found": "No source gives measured screen time per level in the climax. Bordwell counts the timelines and gives no minutes. Nor does anyone in the film say the 20 to 1 rule still holds in Limbo; fifty years in one night is a far larger ratio.",
+  "sources": [
+    { "url": "https://scrapsfromtheloft.com/movies/inception-2010-transcript/", "what": "fan transcript of the dialogue: the two ratios, the flight, Yusuf's week, six months and ten years, the synchronised kick, fifty years", "fetched": true },
+    { "url": "https://en.wikipedia.org/wiki/Inception", "what": "plot summary: the kicks as a bridge, a rigged lift and a rigged fortress; fifty years in one night; aged Saito", "fetched": true },
+    { "url": "https://www.davidbordwell.net/blog/?p=9770", "what": "Bordwell on the nested timelines and the shared deadlines", "fetched": true }
+  ]
+}
