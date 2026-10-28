@@ -1,0 +1,27 @@
+{
+  "researched_on": "2026-10-28",
+  "researched_by": "sonnet child, copied from state/agents/dunkirk-strands.json by the Workshop with card_text cut to the card names and the repeated 'positions are estimates' moved to the page's honesty line",
+  "runtime_min": 106,
+  "strands": [
+    {"id":"mole","name":"The Mole","span_hours":168,"card_text":"The Mole","who":"Tommy, Gibson, Alex (soldiers on the beach and mole)","verified":true,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"},
+    {"id":"sea","name":"The Sea","span_hours":24,"card_text":"The Sea","who":"Mr Dawson, Peter, George on the Moonstone","verified":true,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"},
+    {"id":"air","name":"The Air","span_hours":1,"card_text":"The Air","who":"Farrier and Collins, Spitfire pilots","verified":true,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"}
+  ],
+  "crossings": [
+    {"id":"c1","what":"Collins's Spitfire is hit and ditches in the sea; Peter on the Moonstone pulls him from the water.","strands":["air","sea"],"order_in":{"air":0.45,"sea":0.4},"film_position":null,"verified":true,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"},
+    {"id":"c2","what":"Farrier shoots down a German bomber attacking a destroyer, saving the men in the water. That this is the same moment Tommy and Alex are in the water is my inference from the plot summary.","strands":["air","mole","sea"],"order_in":{"air":0.7,"mole":0.9,"sea":0.8},"film_position":null,"verified":false,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"},
+    {"id":"c3","what":"The Moonstone picks up Tommy and Alex from the burning water, where the mole strand meets the sea strand.","strands":["mole","sea"],"order_in":{"mole":0.9,"sea":0.75},"film_position":null,"verified":true,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"},
+    {"id":"c4","what":"Alex tells Peter that George has died, and Peter lies to the shell-shocked officer about George's condition.","strands":["mole","sea"],"order_in":{"mole":0.9,"sea":0.85},"film_position":null,"verified":true,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"},
+    {"id":"c5","what":"Farrier shoots down a dive-bomber near the mole as his fuel runs out, then glides onto the beach outside the perimeter, the land strand's ground.","strands":["air","mole"],"order_in":{"air":0.95,"mole":0.85},"film_position":null,"verified":false,"source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)"}
+  ],
+  "claims": {
+    "structure": {"text":"Per Wikipedia, Nolan built the film around the characters' points of view, wanted images rather than dialogue and backstory to carry it, and wanted a snowballing effect of separate storylines connecting, something he had only used before in his third acts. A paraphrase, not a direct quote.","source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)","verified":true},
+    "converge": {"text":"The three clocks meet only in the final stretch: the Moonstone pulls men from the water, and the pilot who ditches belongs to the sea strand from then on. Exact timing within the film is not sourced.","source":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)","verified":false}
+  },
+  "not_found": "No fetched source gave the full on-screen title card wording beyond the names The Mole, The Sea and The Air (the Wikipedia fetch was cut at 100,000 of 272,726 characters), no direct Nolan quote on the structure, and no timestamps, so every position inside a strand is an estimate from the plot order.",
+  "sources": [
+    {"url":"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)","what":"runtime 106 min, plot by strand, the week, day and hour spans, Nolan's reasons for the structure (first 100,000 characters only)","fetched":true},
+    {"url":"https://screencrush.com/dunkirk-the-mole-explained/","what":"title cards named The Mole, The Sea, The Air","fetched":true},
+    {"url":"https://www.bfi.org.uk/sight-and-sound/reviews/film-week-dunkirk-christopher-nolans-victorious-retreat","what":"turned up on structure and convergence; not fetched","fetched":false}
+  ]
+}

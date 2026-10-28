@@ -1,0 +1,39 @@
+/* A week, a day, an hour: the three clocks, the squeeze cards, the scrubber and the crossings. Tokens from site.css. */
+.dk .site__kicker a { color: var(--ink-soft); }
+.dk__fig { margin: 0 0 3rem; }
+.dk-clock { width: 100%; height: auto; display: block; }
+.dk-clock__name { font: 600 15px var(--display); fill: var(--ink); }
+.dk-clock__span { font: 500 13px var(--text); fill: var(--ink-soft); }
+.dk-clock__tick { font: 500 12px var(--text); fill: var(--ink-soft); letter-spacing: 0.04em; }
+.dk-clock__n { font: 700 11px var(--display); fill: #F2EFE8; }
+.dk__fig figcaption { color: var(--ink-soft); font-size: 0.92rem; max-width: 62ch; margin-top: 0.8rem; text-wrap: pretty; }
+.dk__speeds, .dk__scrub { margin: 0 0 3rem; }
+.dk__sl, .dk__out { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 4px; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+.dk__sl li, .dk__out li { background: var(--surface); border-top: 3px solid var(--c); padding: 0.8rem 0.9rem; display: grid; gap: 0.25rem; align-content: start; }
+.dk__sn { font: 600 0.8rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
+.dk__sv, .dk__out output { font: 700 1.5rem var(--display); color: var(--c); font-variant-numeric: tabular-nums; }
+.dk__sp { color: var(--ink-soft); font-size: 0.9rem; }
+.dk__card { font-size: 0.8rem; color: var(--ink-soft); margin-top: 0.3rem; }
+.dk__note { color: var(--ink-soft); font-size: 0.9rem; max-width: 62ch; margin-top: 0.8rem; }
+.dk-form label { font: 600 0.95rem var(--display); color: var(--ink-soft); display: block; margin-bottom: 0.5rem; }
+.dk-form output { color: var(--ink); font-variant-numeric: tabular-nums; }
+.dk-form input[type=range] { width: 100%; accent-color: var(--accent); }
+.dk-form input:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.dk__xs { margin: 0 0 3rem; max-width: 68ch; }
+.dk__xs > p { color: var(--ink-soft); }
+.dk__xl { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.dk__xl li { background: var(--surface); padding: 0.7rem 0.9rem; display: grid; grid-template-columns: 2rem 1fr; gap: 0.6rem; align-items: start; }
+.dk__xl p { margin: 0; }
+.dk__xn { width: 1.6rem; height: 1.6rem; border: 2px solid #F2EFE8; border-radius: 50%; display: grid; place-items: center; font: 700 0.8rem var(--display); }
+.dk__xm { color: var(--ink-soft); font-size: 0.85rem; margin-top: 0.2rem !important; }
+.dk__flag { font-style: normal; font-size: 0.75rem; color: var(--accent); margin-left: 0.3rem; }
+.dk__notes { margin: 0 0 2.5rem; max-width: 68ch; color: var(--ink-soft); }
+.dk__notes p { margin: 0 0 0.8rem; }
+.dk__honest { color: var(--ink); border-left: 3px solid var(--accent); padding-left: 0.8rem; }
+.dk__src { font-size: 0.85rem; color: var(--ink-soft); padding-left: 1.1rem; overflow-wrap: anywhere; }
+.site__foot { color: var(--ink-soft); font-size: 0.9rem; border-top: 1px solid #1E242D; padding-top: 1.5rem; }
+@media (max-width: 600px) {
+  .dk-clock__name { font-size: 24px; }
+  .dk-clock__span { font-size: 20px; }
+  .dk-clock__tick { font-size: 19px; }
+}

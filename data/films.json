@@ -166,7 +166,7 @@
       "order": 3,
       "status": "live",
       "time_structure_kind": "parallel-timescales",
-      "deep_page": null,
+      "deep_page": "dunkirk/",
       "tries": 1,
       "assigned_on": "2026-10-11",
       "researched_on": "2026-10-12",
