@@ -1,0 +1,63 @@
+{
+  "fetched": "2026-11-09",
+  "audit": "Researched by a Sonnet child, then audited by the parent against s3. Film order matches s3's timestamps, with its 40 beats merged or dropped to 26. Six beats whose own notes admit a guess were downgraded to inferred (films 1, 3, 14, 18, 19, 20). s3 does not label a layer beat by beat, so the layer of each beat is a reading of what s3 and s1 describe.",
+  "sources": [
+    {"id":"s1","url":"https://en.wikipedia.org/wiki/The_Prestige_(film)","title":"The Prestige (film), Wikipedia (plot is given in chronological order)"},
+    {"id":"s2","url":"https://checkplease.neocities.org/couchto4k/p/the-unreliable-diaries","title":"The Unreliable Diaries, The Prestige (fan analysis)"},
+    {"id":"s3","url":"https://checkplease.neocities.org/p/40-beats-the-prestige","title":"40 Beats (The Prestige), film-order beat list with timestamps"},
+    {"id":"s4","url":"https://nofilmschool.com/how-the-prestige-is-a-magic-trick","title":"How The Prestige is written like its own magic trick, No Film School"}
+  ],
+  "not_fetched": "The fandom wiki, a screenplay or transcript site and the Strange Horizons essay were not fetched this run, and the last 7,342 characters of the Wikipedia page were not read.",
+  "layers": [
+    {"depth":0,"id":"frame","name":"Prison frame","holder":"Borden, awaiting the gallows, with Cutter's narration over the top","text":"Angier's Colorado diary reaches him through Lord Caldlow's solicitor; the trial, Caldlow's identity and the hanging also play here","where":"London: theatre, courtroom, prison","note":"The novel's modern-day frame was replaced by Borden waiting to hang; Cutter's voice opens and closes the film.","source":"s1"},
+    {"depth":1,"id":"angier_diary","name":"Angier's diary","holder":"Borden, reading it in his cell","text":"Angier's account of going to Colorado Springs to find Tesla, the machine and the London shows","where":"Colorado Springs, then London","note":"Per s2 it leaves out that the machine duplicates and the nightly drownings, so it works as a taunt aimed at Borden. Wikipedia does not name this diary.","source":"s2"},
+    {"depth":2,"id":"borden_notebook","name":"Borden's coded notebook","holder":"Angier, reading it in Colorado","text":"Borden's account of the young years, the rivalry and the Transported Man, written in a cipher","where":"Victorian London (the past)","note":"Olivia passes it to Angier; its keyword is Tesla, which is how it is read.","source":"s1"}
+  ],
+  "beats": [
+    {"film":1,"story":19,"depth":0,"what":"Cutter explains a trick's three parts over Angier's final show","where":"London theatre","placement":"inferred","source":"s3","note":"Film order from s3. Story slot is a guess: the night Angier dies, after the nightly run began."},
+    {"film":2,"story":22,"depth":0,"what":"In prison, Borden is offered Angier's diary in return for care of his daughter","where":"London prison","placement":"sourced","source":"s3","note":"Film order from s3. Story slot after the trial is from s1's order."},
+    {"film":3,"story":12,"depth":1,"what":"Angier arrives in Colorado Springs seeking Tesla and starts reading Borden's notebook","where":"Colorado Springs","placement":"inferred","source":"s3","note":"Story slot is a guess from s1: Angier travels after he has the notebook and Fallon is kidnapped."},
+    {"film":4,"story":1,"depth":2,"what":"Young Borden, Angier and Cutter work for Milton; bullet catch argument","where":"London","placement":"sourced","source":"s3","note":"Earliest story event. s1 begins the chronology with the three working for Cutter and Julia's death; s3 gives this earlier scene."},
+    {"film":5,"story":2,"depth":2,"what":"Cutter sends the pair to see Chung Ling Soo; Angier cannot lift the fishbowl","where":"London","placement":"sourced","source":"s3"},
+    {"film":6,"story":3,"depth":2,"what":"Julia drowns during a water-tank escape after a knot dispute","where":"London","placement":"sourced","source":"s3","note":"s1 also puts Julia's drowning first in story order."},
+    {"film":7,"story":4,"depth":2,"what":"At Julia's grave Angier asks which knot Borden tied","where":"London cemetery","placement":"sourced","source":"s3"},
+    {"film":8,"story":5,"depth":2,"what":"Borden marries Sarah and starts out with Fallon; Angier becomes the Great Danton","where":"London","placement":"sourced","source":"s3"},
+    {"film":9,"story":6,"depth":2,"what":"Angier sabotages Borden's bullet catch and Borden loses two fingers","where":"London stage","placement":"sourced","source":"s3"},
+    {"film":10,"story":7,"depth":2,"what":"Cutter builds Angier's bird act and brings in Olivia; Angier sees a Tesla demonstration","where":"London","placement":"sourced","source":"s3"},
+    {"film":11,"story":8,"depth":2,"what":"Borden debuts The Transported Man; Angier refuses to accept it uses a double","where":"London stage","placement":"sourced","source":"s3"},
+    {"film":12,"story":9,"depth":2,"what":"Angier hires lookalike Root and suffers hiding under the stage","where":"London stage","placement":"sourced","source":"s3"},
+    {"film":13,"story":10,"depth":2,"what":"Olivia spies on Borden, falls for him, and passes Angier the coded notebook","where":"London","placement":"sourced","source":"s3","note":"Merges two s3 beats (spying, then the notebook handover); s1 agrees she passes the notebook."},
+    {"film":14,"story":11,"depth":2,"what":"Borden buries Angier in a coffin; Cutter begs Angier to stop","where":"London","placement":"inferred","source":"s3","note":"Story slot is a guess: s1 does not mention the coffin; placed just before Angier leaves for Colorado."},
+    {"film":15,"story":13,"depth":2,"what":"Tesla warns Angier; the notebook's own text reveals Tesla was only the keyword","where":"Colorado Springs","placement":"sourced","source":"s3","note":"Depth 2 because the text reads as the notebook; the scene is set in Colorado."},
+    {"film":16,"story":14,"depth":1,"what":"The machine duplicates a cat; Angier finds a field of duplicate hats","where":"Colorado Springs","placement":"sourced","source":"s3"},
+    {"film":17,"story":15,"depth":1,"what":"Tesla leaves a warning, burns his lab and leaves the machine with Angier","where":"Colorado Springs","placement":"sourced","source":"s3"},
+    {"film":18,"story":18,"depth":1,"what":"Sarah takes her own life; the twin who loved her arrives too late","where":"London","placement":"inferred","source":"s3","note":"The layer is a guess: it could be the prison frame's present rather than Angier's diary."},
+    {"film":19,"story":16,"depth":1,"what":"Angier ships the machine to London and plans The Real Transported Man","where":"London","placement":"inferred","source":"s3","note":"Layer is a reading: Angier's diary is where Borden would learn of it. Story order from s1."},
+    {"film":20,"story":17,"depth":1,"what":"Angier performs nightly; the original drowns while the copy appears in the balcony","where":"London stage","placement":"inferred","source":"s3","note":"Same layer doubt as the previous beat."},
+    {"film":21,"story":20,"depth":0,"what":"Borden goes backstage, watches Angier drown and is found over the body","where":"London theatre","placement":"sourced","source":"s3"},
+    {"film":22,"story":21,"depth":0,"what":"Borden is convicted of murder and sentenced to hang","where":"London courtroom","placement":"sourced","source":"s3"},
+    {"film":23,"story":23,"depth":0,"what":"Borden sees Lord Caldlow with his daughter and recognises Angier; Angier tears up his note","where":"London prison","placement":"sourced","source":"s3","note":"s1 gives the same reveal and the torn note."},
+    {"film":24,"story":24,"depth":0,"what":"Cutter learns Angier faked his death; Borden is hanged","where":"London","placement":"sourced","source":"s3"},
+    {"film":25,"story":25,"depth":0,"what":"A Borden twin shoots Angier in the basement and explains the shared life","where":"Angier's theatre basement","placement":"sourced","source":"s3","note":"s1 puts the shooter and the twin reveal in the same scene."},
+    {"film":26,"story":26,"depth":0,"what":"Angier's dying confession, Borden reunites with Jess, tanks revealed, Cutter closes","where":"Theatre and basement","placement":"sourced","source":"s3"}
+  ],
+  "traps": [
+    {"id":"notebook","writer":"Borden","reader":"Angier","says":"Borden's private journal, readable with the right keyword, apparently exposing how he does the Transported Man","does":"Per s2, the keyword opens only personal entries, not the method; it was meant as a dead end, though it also confirmed Angier's Tesla lead.","source":"s2"},
+    {"id":"diary","writer":"Angier","reader":"Borden","says":"An honest record of the search for Tesla and the machine","does":"Per s2, it leaves out that the machine makes a copy and the nightly drownings, so it works as a taunt: Borden dies without understanding the backstage mechanism.","source":"s2"},
+    {"id":"nested_reveals","writer":"The film","reader":"the audience","says":"Each diary seems to give an answer","does":"Per s4, each layer supplies an apparent answer while adding more misdirection, so the viewer is always one step behind.","source":"s4"}
+  ],
+  "claims": [
+    {"id":"hundred_run","what":"Number of performances Angier's final run was scheduled for","value":null,"spoken":false,"source":"s1","note":"No fetched source gives it."},
+    {"id":"tank_count","what":"Number of water tanks or bodies shown or stated","value":null,"spoken":false,"source":"s1","note":"s1 says rows of tanks; no source fetched gives a count."},
+    {"id":"setting_years","what":"Years the story is set","value":"1890s Victorian London; Colorado Springs for the Tesla scenes","spoken":false,"source":"s1","note":"s1 gives a decade, not specific years."},
+    {"id":"runtime","what":"Running time in minutes","value":130,"spoken":false,"source":"s1"},
+    {"id":"book","what":"Book adapted, author and year","value":"The Prestige by Christopher Priest, 1995","spoken":false,"source":"s1"},
+    {"id":"keyword","what":"Keyword that decodes Borden's notebook","value":"Tesla","spoken":true,"source":"s2"},
+    {"id":"journals","what":"Nolan's phrase for the adaptation problem","value":"journals within journals and stories within stories","spoken":false,"source":"s1","note":"From a Variety interview, as reported by Wikipedia."}
+  ],
+  "conflicts": [
+    "s2 calls Angier reading Borden's notebook the first nested layer and Borden reading Angier's diary the second, while s3's order shows Angier's Colorado scenes first inside the prison frame and Borden's London past inside that; this page follows s3.",
+    "s3 does not label a layer beat by beat, and the beats from Sarah's death to Angier's nightly shows could be the prison frame's present rather than Angier's diary; this page draws them in the diary and marks them as guesses.",
+    "s1 does not describe Angier's diary at all and says the modern-day frame was replaced by Borden awaiting the gallows; the diary layer rests on s2 and s3."
+  ]
+}

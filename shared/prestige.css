@@ -1,0 +1,39 @@
+/* Who is reading whom: the stack, the dive profile, the traps. Tokens from site.css; the braid, the toggle and the list come from memento.css. */
+.pre__scrub { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1rem, 3vw, 2.5rem); align-items: start; margin: 0 0 2.5rem; }
+.nest__l { border-left: 3px solid var(--c); background: rgba(255, 255, 255, 0.03); padding: 0.7rem 0.8rem; margin-top: 0.6rem; opacity: 0.32; transition: opacity 0.25s, background 0.25s; }
+.nest > .nest__l { margin-top: 0; }
+.nest__l.is-on { opacity: 1; }
+.nest__l.is-here { background: rgba(255, 255, 255, 0.08); }
+.nest__name { font: 600 1.02rem var(--display); color: var(--c); margin: 0; }
+.nest__who { font-size: 0.88rem; color: var(--ink-soft); margin: 0.15rem 0 0; text-wrap: pretty; }
+.pre__now { position: sticky; top: 1rem; }
+.pre__range { display: block; font: 600 0.95rem var(--display); color: var(--ink-soft); }
+.pre__range input { display: block; width: 100%; margin-top: 0.5rem; height: 2rem; accent-color: var(--accent); }
+.pre__depth { font: 600 0.8rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin: 1rem 0 0.3rem; }
+.pre__what-now { font: 600 clamp(1.3rem, 3vw, 1.9rem)/1.15 var(--display); margin: 0 0 0.6rem; min-height: 3.5em; text-wrap: balance; }
+.pre__meta { color: var(--ink-soft); font-size: 0.92rem; margin: 0; }
+.pf { width: 100%; height: auto; display: block; }
+.pf__lane { font: 600 14px var(--display); }
+.pf__axis { font: 600 13px var(--display); letter-spacing: 0.08em; text-transform: uppercase; fill: var(--ink-soft); }
+.pre__traps { margin: 0 0 3rem; }
+.traps { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 1px; background: #1E242D; border: 1px solid #1E242D; }
+.trap { background: var(--surface); padding: 1.2rem 1.2rem 1rem; }
+.trap__h { font: 600 1.25rem/1.15 var(--display); margin: 0 0 0.7rem; }
+.trap p { margin: 0 0 0.7rem; font-size: 0.98rem; text-wrap: pretty; }
+.trap__k { display: block; font: 600 0.75rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); }
+.pre__claims { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: 4px; }
+.pre__claims li { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 2fr); gap: 0.8rem; padding: 0.55rem 0.8rem; background: var(--surface); align-items: baseline; }
+.pre__val { font: 600 1.05rem var(--display); overflow-wrap: anywhere; }
+.pre__note { color: var(--ink-soft); font-size: 0.88rem; overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+  .pre__scrub { grid-template-columns: minmax(0, 1fr); }
+  .pre__now { position: static; order: -1; }
+  .pre__what-now { min-height: 4.6em; }
+  .pre__claims li { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
+}
+@media (max-width: 600px) {
+  .pf__lane, .pf__axis { font-size: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nest__l { transition: none; }
+}
