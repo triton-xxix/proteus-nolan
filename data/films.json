@@ -203,7 +203,7 @@
       "order": 11,
       "status": "live",
       "time_structure_kind": "interleaved-strands",
-      "deep_page": null,
+      "deep_page": "oppenheimer/",
       "tries": 1,
       "assigned_on": "2026-10-19",
       "researched_on": "2026-10-19",

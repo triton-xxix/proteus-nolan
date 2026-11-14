@@ -1,0 +1,37 @@
+{
+  "film": "oppenheimer",
+  "researched_on": "2026-11-14",
+  "method": "Every event and every year below is taken from the Plot section of the Wikipedia article on the film, fetched 14 Nov 2026 by the Workshop run (no research child). Where the plot gives a decade or no year, the row says so and the page draws it as a range or leaves it off the axis. Strand labels follow the committed film page (films/oppenheimer.json): colour for Oppenheimer's own story and the 1954 hearing, black and white for the 1959 Senate hearing. Film order is not in this file: no fetched source gives scene timestamps.",
+  "runtime_min": 180,
+  "strands": [
+    { "id": "life", "name": "His life, in colour", "mode": "colour", "what": "Oppenheimer's own story, from study in Europe to Los Alamos and after" },
+    { "id": "h54", "name": "The 1954 hearing, in colour", "mode": "colour", "what": "The security clearance hearing Strauss set up" },
+    { "id": "h59", "name": "The 1959 hearing, in black and white", "mode": "mono", "what": "Strauss's Senate confirmation hearing for Secretary of Commerce" }
+  ],
+  "events": [
+    { "id": "europe", "strand": "life", "from": null, "to": null, "stated": "no year", "what": "Studies theoretical physics in Europe", "quote": "after studying theoretical physics in Europe" },
+    { "id": "berkeley", "strand": "life", "from": 1930, "to": 1939, "stated": "decade", "what": "Teaches at Caltech and Berkeley; colleagues in the Communist Party, he does not join", "quote": "In the 1930s, J. Robert Oppenheimer teaches at the California Institute of Technology and the University of California, Berkeley" },
+    { "id": "clearance", "strand": "life", "from": 1942, "to": 1942, "stated": "year", "what": "Gains his security clearance and rekindles the affair with Jean Tatlock", "quote": "immediately after gaining his security clearance in 1942" },
+    { "id": "trinity", "strand": "life", "from": 1945, "to": 1945, "stated": "month", "month": "July", "what": "The Trinity test, then Hiroshima and Nagasaki, then the Oval Office", "quote": "In July 1945, the US Army successfully conducts the Trinity test" },
+    { "id": "einstein", "strand": "life", "from": 1947, "to": 1947, "stated": "year", "what": "A conversation with Einstein at Princeton, seen by Strauss from a distance", "quote": "starting with Albert Einstein at Princeton University in 1947", "pivot": true },
+    { "id": "soviet", "strand": "life", "from": 1949, "to": 1949, "stated": "year", "what": "The Soviet bomb; Oppenheimer argues for arms talks over Teller's thermonuclear weapon, and frustrates Strauss", "quote": "In 1949, the Soviet Union successfully tests a plutonium bomb" },
+    { "id": "hearing54", "strand": "h54", "from": 1954, "to": 1954, "stated": "year", "what": "Strauss and Borden start a clearance hearing; Robb replays the accusations; the Q clearance is revoked two to one", "quote": "In 1954, irritated at constantly being undermined by Oppenheimer, Strauss conspires" },
+    { "id": "hearing59", "strand": "h59", "from": 1959, "to": 1959, "stated": "year", "what": "Strauss's confirmation hearing; Hill exposes the vendetta; the Senate rejects him", "quote": "In 1959, Strauss is nominated as US Secretary of Commerce" },
+    { "id": "fermi", "strand": "life", "from": 1963, "to": 1963, "stated": "year", "what": "Oppenheimer receives the Enrico Fermi Award", "quote": "While Oppenheimer receives the Enrico Fermi Award in 1963" }
+  ],
+  "lookbacks": [
+    { "id": "claim", "from": "hearing59", "to": "einstein", "what": "Strauss tells the Senate Oppenheimer turned scientists against him, starting with Einstein", "quote": "Strauss further alleges that Oppenheimer turned scientists against him, starting with Albert Einstein at Princeton University in 1947" },
+    { "id": "reveal", "from": "fermi", "to": "einstein", "what": "A flashback shows Strauss was never mentioned: they talked about the catastrophe they had feared, now inevitable", "quote": "a flashback reveals he never mentioned Strauss during his 1947 conversation with Einstein" }
+  ],
+  "claims": {
+    "modes": { "text": "Nolan described the colour scenes as subjective and the black-and-white scenes as objective.", "source": "https://www.darkhorizons.com/?p=165570", "verified": true, "via": "films/oppenheimer.json, researched 19 Oct 2026" },
+    "first_person": { "text": "He wrote the screenplay in the first person, his first time doing so.", "source": "https://slashfilm.com/1307312/christopher-nolan-oppenheimer-script-written-first-person", "verified": true, "via": "films/oppenheimer.json, researched 19 Oct 2026" },
+    "ending": { "text": "The closing flashback moves the weight of the film from Strauss's wounded pride to Oppenheimer's guilt.", "source": "https://www.slashfilm.com/1346215/oppenheimer-ending-explained", "verified": true, "via": "films/oppenheimer.json, researched 19 Oct 2026" }
+  },
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Oppenheimer_(film)", "what": "Plot section: every event, year and quote above", "fetched": true },
+    { "url": "https://www.darkhorizons.com/?p=165570", "what": "colour as subjective, black and white as objective", "fetched": true },
+    { "url": "https://www.slashfilm.com/1346215/oppenheimer-ending-explained", "what": "the ending's reading", "fetched": true }
+  ],
+  "not_yet": "Film order. Which of these the film shows first, and how long each strand holds the screen, needs scene timestamps from a fetched source. Queued in BACKLOG.md."
+}
