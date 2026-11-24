@@ -1,0 +1,618 @@
+{
+  "built_from": "sites/nolan/films/*.json (facts.dp, facts.editor, facts.composer, facts.writers, facts.cast_top5)",
+  "films": [
+    {
+      "slug": "following",
+      "title": "Following",
+      "year": 1998,
+      "camera": [
+        "Christopher Nolan"
+      ],
+      "cut": [
+        "Gareth Heal",
+        "Christopher Nolan"
+      ],
+      "score": [
+        "David Julyan"
+      ],
+      "writing": [
+        "Christopher Nolan"
+      ],
+      "cast_top5": [
+        "Jeremy Theobald",
+        "Alex Haw",
+        "Lucy Russell",
+        "John Nolan",
+        "Dick Bradsell"
+      ]
+    },
+    {
+      "slug": "memento",
+      "title": "Memento",
+      "year": 2000,
+      "camera": [
+        "Wally Pfister"
+      ],
+      "cut": [
+        "Dody Dorn"
+      ],
+      "score": [
+        "David Julyan"
+      ],
+      "writing": [
+        "Christopher Nolan",
+        "Jonathan Nolan"
+      ],
+      "cast_top5": [
+        "Guy Pearce",
+        "Carrie-Anne Moss",
+        "Joe Pantoliano",
+        "Mark Boone Junior",
+        "Russ Fega"
+      ]
+    },
+    {
+      "slug": "insomnia",
+      "title": "Insomnia",
+      "year": 2002,
+      "camera": [
+        "Wally Pfister"
+      ],
+      "cut": [
+        "Dody Dorn"
+      ],
+      "score": [
+        "David Julyan"
+      ],
+      "writing": [
+        "Hillary Seitz",
+        "Nikolaj Frobenius",
+        "Erik Skjoldbjærg"
+      ],
+      "cast_top5": [
+        "Al Pacino",
+        "Robin Williams",
+        "Hilary Swank",
+        "Maura Tierney",
+        "Martin Donovan"
+      ]
+    },
+    {
+      "slug": "batman-begins",
+      "title": "Batman Begins",
+      "year": 2005,
+      "camera": [
+        "Wally Pfister"
+      ],
+      "cut": [
+        "Lee Smith"
+      ],
+      "score": [
+        "Hans Zimmer",
+        "James Newton Howard"
+      ],
+      "writing": [
+        "Christopher Nolan",
+        "David S. Goyer"
+      ],
+      "cast_top5": [
+        "Christian Bale",
+        "Michael Caine",
+        "Liam Neeson",
+        "Katie Holmes",
+        "Gary Oldman"
+      ]
+    },
+    {
+      "slug": "the-prestige",
+      "title": "The Prestige",
+      "year": 2006,
+      "camera": [
+        "Wally Pfister"
+      ],
+      "cut": [
+        "Lee Smith"
+      ],
+      "score": [
+        "David Julyan"
+      ],
+      "writing": [
+        "Christopher Nolan",
+        "Jonathan Nolan"
+      ],
+      "cast_top5": [
+        "Hugh Jackman",
+        "Christian Bale",
+        "Michael Caine",
+        "Scarlett Johansson",
+        "Rebecca Hall"
+      ]
+    },
+    {
+      "slug": "the-dark-knight",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "camera": [
+        "Wally Pfister"
+      ],
+      "cut": [
+        "Lee Smith"
+      ],
+      "score": [
+        "Hans Zimmer",
+        "James Newton Howard"
+      ],
+      "writing": [
+        "Jonathan Nolan",
+        "Christopher Nolan",
+        "David S. Goyer"
+      ],
+      "cast_top5": [
+        "Christian Bale",
+        "Michael Caine",
+        "Heath Ledger",
+        "Gary Oldman",
+        "Aaron Eckhart"
+      ]
+    },
+    {
+      "slug": "inception",
+      "title": "Inception",
+      "year": 2010,
+      "camera": [
+        "Wally Pfister"
+      ],
+      "cut": [
+        "Lee Smith"
+      ],
+      "score": [
+        "Hans Zimmer"
+      ],
+      "writing": [
+        "Christopher Nolan"
+      ],
+      "cast_top5": [
+        "Leonardo DiCaprio",
+        "Ken Watanabe",
+        "Joseph Gordon-Levitt",
+        "Marion Cotillard",
+        "Elliot Page"
+      ]
+    },
+    {
+      "slug": "the-dark-knight-rises",
+      "title": "The Dark Knight Rises",
+      "year": 2012,
+      "camera": [
+        "Wally Pfister"
+      ],
+      "cut": [
+        "Lee Smith"
+      ],
+      "score": [
+        "Hans Zimmer"
+      ],
+      "writing": [
+        "Jonathan Nolan",
+        "Christopher Nolan",
+        "David S. Goyer"
+      ],
+      "cast_top5": [
+        "Christian Bale",
+        "Michael Caine",
+        "Gary Oldman",
+        "Anne Hathaway",
+        "Tom Hardy"
+      ]
+    },
+    {
+      "slug": "interstellar",
+      "title": "Interstellar",
+      "year": 2014,
+      "camera": [
+        "Hoyte van Hoytema"
+      ],
+      "cut": [
+        "Lee Smith"
+      ],
+      "score": [
+        "Hans Zimmer"
+      ],
+      "writing": [
+        "Jonathan Nolan",
+        "Christopher Nolan"
+      ],
+      "cast_top5": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain",
+        "Bill Irwin",
+        "Ellen Burstyn"
+      ]
+    },
+    {
+      "slug": "dunkirk",
+      "title": "Dunkirk",
+      "year": 2017,
+      "camera": [
+        "Hoyte van Hoytema"
+      ],
+      "cut": [
+        "Lee Smith"
+      ],
+      "score": [
+        "Hans Zimmer"
+      ],
+      "writing": [
+        "Christopher Nolan"
+      ],
+      "cast_top5": [
+        "Fionn Whitehead",
+        "Tom Glynn-Carney",
+        "Jack Lowden",
+        "Harry Styles",
+        "Aneurin Barnard"
+      ]
+    },
+    {
+      "slug": "tenet",
+      "title": "Tenet",
+      "year": 2020,
+      "camera": [
+        "Hoyte van Hoytema"
+      ],
+      "cut": [
+        "Jennifer Lame"
+      ],
+      "score": [
+        "Ludwig Göransson"
+      ],
+      "writing": [
+        "Christopher Nolan"
+      ],
+      "cast_top5": [
+        "John David Washington",
+        "Robert Pattinson",
+        "Elizabeth Debicki",
+        "Dimple Kapadia",
+        "Michael Caine"
+      ]
+    },
+    {
+      "slug": "oppenheimer",
+      "title": "Oppenheimer",
+      "year": 2023,
+      "camera": [
+        "Hoyte van Hoytema"
+      ],
+      "cut": [
+        "Jennifer Lame"
+      ],
+      "score": [
+        "Ludwig Göransson"
+      ],
+      "writing": [
+        "Christopher Nolan"
+      ],
+      "cast_top5": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr.",
+        "Florence Pugh"
+      ]
+    },
+    {
+      "slug": "the-odyssey",
+      "title": "The Odyssey",
+      "year": 2026,
+      "camera": [
+        "Hoyte van Hoytema"
+      ],
+      "cut": [
+        "Jennifer Lame"
+      ],
+      "score": [
+        "Ludwig Göransson"
+      ],
+      "writing": [
+        "Christopher Nolan"
+      ],
+      "cast_top5": [
+        "Matt Damon",
+        "Tom Holland",
+        "Anne Hathaway",
+        "Robert Pattinson",
+        "Lupita Nyong'o"
+      ]
+    }
+  ],
+  "chairs": {
+    "camera": {
+      "people": [
+        {
+          "name": "Christopher Nolan",
+          "films": [
+            "following"
+          ],
+          "count": 1,
+          "longest_run": 1
+        },
+        {
+          "name": "Wally Pfister",
+          "films": [
+            "memento",
+            "insomnia",
+            "batman-begins",
+            "the-prestige",
+            "the-dark-knight",
+            "inception",
+            "the-dark-knight-rises"
+          ],
+          "count": 7,
+          "longest_run": 7
+        },
+        {
+          "name": "Hoyte van Hoytema",
+          "films": [
+            "interstellar",
+            "dunkirk",
+            "tenet",
+            "oppenheimer",
+            "the-odyssey"
+          ],
+          "count": 5,
+          "longest_run": 5
+        }
+      ],
+      "handovers": [
+        "memento",
+        "interstellar"
+      ]
+    },
+    "cut": {
+      "people": [
+        {
+          "name": "Christopher Nolan",
+          "films": [
+            "following"
+          ],
+          "count": 1,
+          "longest_run": 1
+        },
+        {
+          "name": "Gareth Heal",
+          "films": [
+            "following"
+          ],
+          "count": 1,
+          "longest_run": 1
+        },
+        {
+          "name": "Dody Dorn",
+          "films": [
+            "memento",
+            "insomnia"
+          ],
+          "count": 2,
+          "longest_run": 2
+        },
+        {
+          "name": "Lee Smith",
+          "films": [
+            "batman-begins",
+            "the-prestige",
+            "the-dark-knight",
+            "inception",
+            "the-dark-knight-rises",
+            "interstellar",
+            "dunkirk"
+          ],
+          "count": 7,
+          "longest_run": 7
+        },
+        {
+          "name": "Jennifer Lame",
+          "films": [
+            "tenet",
+            "oppenheimer",
+            "the-odyssey"
+          ],
+          "count": 3,
+          "longest_run": 3
+        }
+      ],
+      "handovers": [
+        "memento",
+        "batman-begins",
+        "tenet"
+      ]
+    },
+    "score": {
+      "people": [
+        {
+          "name": "David Julyan",
+          "films": [
+            "following",
+            "memento",
+            "insomnia",
+            "the-prestige"
+          ],
+          "count": 4,
+          "longest_run": 3
+        },
+        {
+          "name": "Hans Zimmer",
+          "films": [
+            "batman-begins",
+            "the-dark-knight",
+            "inception",
+            "the-dark-knight-rises",
+            "interstellar",
+            "dunkirk"
+          ],
+          "count": 6,
+          "longest_run": 5
+        },
+        {
+          "name": "James Newton Howard",
+          "films": [
+            "batman-begins",
+            "the-dark-knight"
+          ],
+          "count": 2,
+          "longest_run": 1
+        },
+        {
+          "name": "Ludwig Göransson",
+          "films": [
+            "tenet",
+            "oppenheimer",
+            "the-odyssey"
+          ],
+          "count": 3,
+          "longest_run": 3
+        }
+      ],
+      "handovers": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "tenet"
+      ]
+    }
+  },
+  "writing": [
+    {
+      "name": "Christopher Nolan",
+      "films": [
+        "following",
+        "memento",
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "inception",
+        "the-dark-knight-rises",
+        "interstellar",
+        "dunkirk",
+        "tenet",
+        "oppenheimer",
+        "the-odyssey"
+      ],
+      "count": 12,
+      "longest_run": 10
+    },
+    {
+      "name": "Jonathan Nolan",
+      "films": [
+        "memento",
+        "the-prestige",
+        "the-dark-knight",
+        "the-dark-knight-rises",
+        "interstellar"
+      ],
+      "count": 5,
+      "longest_run": 2
+    },
+    {
+      "name": "Erik Skjoldbjærg",
+      "films": [
+        "insomnia"
+      ],
+      "count": 1,
+      "longest_run": 1
+    },
+    {
+      "name": "Hillary Seitz",
+      "films": [
+        "insomnia"
+      ],
+      "count": 1,
+      "longest_run": 1
+    },
+    {
+      "name": "Nikolaj Frobenius",
+      "films": [
+        "insomnia"
+      ],
+      "count": 1,
+      "longest_run": 1
+    },
+    {
+      "name": "David S. Goyer",
+      "films": [
+        "batman-begins",
+        "the-dark-knight",
+        "the-dark-knight-rises"
+      ],
+      "count": 3,
+      "longest_run": 1
+    }
+  ],
+  "cast_repeat": [
+    {
+      "name": "Michael Caine",
+      "films": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "the-dark-knight-rises",
+        "tenet"
+      ],
+      "count": 5,
+      "longest_run": 3
+    },
+    {
+      "name": "Christian Bale",
+      "films": [
+        "batman-begins",
+        "the-prestige",
+        "the-dark-knight",
+        "the-dark-knight-rises"
+      ],
+      "count": 4,
+      "longest_run": 3
+    },
+    {
+      "name": "Gary Oldman",
+      "films": [
+        "batman-begins",
+        "the-dark-knight",
+        "the-dark-knight-rises"
+      ],
+      "count": 3,
+      "longest_run": 1
+    },
+    {
+      "name": "Anne Hathaway",
+      "films": [
+        "the-dark-knight-rises",
+        "interstellar",
+        "the-odyssey"
+      ],
+      "count": 3,
+      "longest_run": 2
+    },
+    {
+      "name": "Robert Pattinson",
+      "films": [
+        "tenet",
+        "the-odyssey"
+      ],
+      "count": 2,
+      "longest_run": 1
+    },
+    {
+      "name": "Matt Damon",
+      "films": [
+        "oppenheimer",
+        "the-odyssey"
+      ],
+      "count": 2,
+      "longest_run": 2
+    }
+  ],
+  "cast_distinct": 52,
+  "longest_run": 7,
+  "handover_total": 9
+}
